@@ -54,16 +54,16 @@
    }
   },
   "present.studio": {
-   "text": "You are in Studio. Here you shape the light: material, colour and movement. Make it yours, then save or export it.",
-   "hash": "484564186ffd",
+   "text": "You are in Studio, open to everyone while we build it. Shape the light: material, colour and movement, then save or export it. Tell us what is missing.",
+   "hash": "ac891f6e4a34",
    "files": {
     "samantha": "samantha/present.studio.m4a",
     "daniel": "daniel/present.studio.m4a"
    }
   },
   "already.present.studio": {
-   "text": "We are already here. You are in Studio. Here you shape the light: material, colour and movement. Make it yours, then save or export it.",
-   "hash": "14e9708a95f7",
+   "text": "We are already here. You are in Studio, open to everyone while we build it. Shape the light: material, colour and movement, then save or export it. Tell us what is missing.",
+   "hash": "ce2362d61e4d",
    "files": {
     "samantha": "samantha/already.present.studio.m4a",
     "daniel": "daniel/already.present.studio.m4a"
@@ -86,16 +86,16 @@
    }
   },
   "present.membership": {
-   "text": "This is Membership. Choose how you want to work with the collection: ready-made pieces, Studio, or the full membership with a new drop every two weeks.",
-   "hash": "b8418bb2bfee",
+   "text": "This is Membership. Right now everything is free while we build it. Leave your email and you will hear first when plans open.",
+   "hash": "02af6ed83803",
    "files": {
     "samantha": "samantha/present.membership.m4a",
     "daniel": "daniel/present.membership.m4a"
    }
   },
   "already.present.membership": {
-   "text": "We are already here. This is Membership. Choose how you want to work with the collection: ready-made pieces, Studio, or the full membership with a new drop every two weeks.",
-   "hash": "6c8b61f8c4ac",
+   "text": "We are already here. This is Membership. Right now everything is free while we build it. Leave your email and you will hear first when plans open.",
+   "hash": "153907bd44c5",
    "files": {
     "samantha": "samantha/already.present.membership.m4a",
     "daniel": "daniel/already.present.membership.m4a"
@@ -150,80 +150,80 @@
    }
   },
   "present.product.orb": {
-   "text": "This is The Orb. Interactive object. A 3D sphere for your own work, in twenty versions: glass, metal, porcelain, bloom, and glass with light, sparkle or beads inside. Try its versions, then add it to your cart, save it, or take it to Studio.",
-   "hash": "86ecca450060",
+   "text": "This is The Orb. Interactive object. A 3D sphere for your own work, in twenty versions: glass, metal, porcelain, bloom, and glass with light, sparkle or beads inside. Try its versions; every one is free to take during early access, or shape it in Studio.",
+   "hash": "787dc361bcfa",
    "files": {
     "samantha": "samantha/present.product.orb.m4a",
     "daniel": "daniel/present.product.orb.m4a"
    }
   },
   "already.present.product.orb": {
-   "text": "We are already here. This is The Orb. Interactive object. A 3D sphere for your own work, in twenty versions: glass, metal, porcelain, bloom, and glass with light, sparkle or beads inside. Try its versions, then add it to your cart, save it, or take it to Studio.",
-   "hash": "5679feff448e",
+   "text": "We are already here. This is The Orb. Interactive object. A 3D sphere for your own work, in twenty versions: glass, metal, porcelain, bloom, and glass with light, sparkle or beads inside. Try its versions; every one is free to take during early access, or shape it in Studio.",
+   "hash": "cf344b98dda0",
    "files": {
     "samantha": "samantha/already.present.product.orb.m4a",
     "daniel": "daniel/already.present.product.orb.m4a"
    }
   },
   "present.product.orb-slider": {
-   "text": "This is Orb Slider. Interactive control. A clear glass capsule whose thumb is the Orb itself. Slide it to enter. Try its versions, then add it to your cart, save it, or take it to Studio.",
-   "hash": "ec6d9247bb44",
+   "text": "This is Orb Slider. Interactive control. A clear glass capsule whose thumb is the Orb itself. Slide it to enter. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
+   "hash": "41caa7c65624",
    "files": {
     "samantha": "samantha/present.product.orb-slider.m4a",
     "daniel": "daniel/present.product.orb-slider.m4a"
    }
   },
   "already.present.product.orb-slider": {
-   "text": "We are already here. This is Orb Slider. Interactive control. A clear glass capsule whose thumb is the Orb itself. Slide it to enter. Try its versions, then add it to your cart, save it, or take it to Studio.",
-   "hash": "78a69b64130d",
+   "text": "We are already here. This is Orb Slider. Interactive control. A clear glass capsule whose thumb is the Orb itself. Slide it to enter. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
+   "hash": "8c2a5023b4db",
    "files": {
     "samantha": "samantha/already.present.product.orb-slider.m4a",
     "daniel": "daniel/already.present.product.orb-slider.m4a"
    }
   },
   "present.product.orb-wave": {
-   "text": "This is Orb Wave. Surface effect. The ripple the Orb leaves on the floor when it lands, drawn in light. Try its versions, then add it to your cart, save it, or take it to Studio.",
-   "hash": "6d0ecb0be99a",
+   "text": "This is Orb Wave. Surface effect. The ripple the Orb leaves on the floor when it lands, drawn in light. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
+   "hash": "2fe4d89d023f",
    "files": {
     "samantha": "samantha/present.product.orb-wave.m4a",
     "daniel": "daniel/present.product.orb-wave.m4a"
    }
   },
   "already.present.product.orb-wave": {
-   "text": "We are already here. This is Orb Wave. Surface effect. The ripple the Orb leaves on the floor when it lands, drawn in light. Try its versions, then add it to your cart, save it, or take it to Studio.",
-   "hash": "615a54aa9269",
+   "text": "We are already here. This is Orb Wave. Surface effect. The ripple the Orb leaves on the floor when it lands, drawn in light. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
+   "hash": "8db3e25cf64e",
    "files": {
     "samantha": "samantha/already.present.product.orb-wave.m4a",
     "daniel": "daniel/already.present.product.orb-wave.m4a"
    }
   },
   "present.product.background-pack": {
-   "text": "This is Background Pack. Two environments. A dark world and a light one, and the change between them. Try its versions, then add it to your cart, save it, or take it to Studio.",
-   "hash": "80aa8e9b5054",
+   "text": "This is Background Pack. Two environments. A dark world and a light one, and the change between them. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
+   "hash": "eefc2b43a867",
    "files": {
     "samantha": "samantha/present.product.background-pack.m4a",
     "daniel": "daniel/present.product.background-pack.m4a"
    }
   },
   "already.present.product.background-pack": {
-   "text": "We are already here. This is Background Pack. Two environments. A dark world and a light one, and the change between them. Try its versions, then add it to your cart, save it, or take it to Studio.",
-   "hash": "241515dee8b9",
+   "text": "We are already here. This is Background Pack. Two environments. A dark world and a light one, and the change between them. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
+   "hash": "e2bd15117bbf",
    "files": {
     "samantha": "samantha/already.present.product.background-pack.m4a",
     "daniel": "daniel/already.present.product.background-pack.m4a"
    }
   },
   "present.product.crystal-controls": {
-   "text": "This is Crystal Controls. Interface kit. Buttons, switches, fields and sliders in clear glass, with every state designed. Try its versions, then add it to your cart, save it, or take it to Studio.",
-   "hash": "416124b15271",
+   "text": "This is Crystal Controls. Interface kit. Buttons, switches, fields and sliders in clear glass, with every state designed. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
+   "hash": "5d3b7584da78",
    "files": {
     "samantha": "samantha/present.product.crystal-controls.m4a",
     "daniel": "daniel/present.product.crystal-controls.m4a"
    }
   },
   "already.present.product.crystal-controls": {
-   "text": "We are already here. This is Crystal Controls. Interface kit. Buttons, switches, fields and sliders in clear glass, with every state designed. Try its versions, then add it to your cart, save it, or take it to Studio.",
-   "hash": "63261d014d4c",
+   "text": "We are already here. This is Crystal Controls. Interface kit. Buttons, switches, fields and sliders in clear glass, with every state designed. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
+   "hash": "e3cefd614f59",
    "files": {
     "samantha": "samantha/already.present.product.crystal-controls.m4a",
     "daniel": "daniel/already.present.product.crystal-controls.m4a"
