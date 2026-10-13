@@ -1,0 +1,8 @@
+{
+  "template": "the-light-orb",
+  "source": "dist/intro.html → centred welcome",
+  "viewport": "1440×900",
+  "captured": "2026-10-12",
+  "commit": "d0d610a",
+  "tool": "scripts/capture-assets.mjs"
+}
