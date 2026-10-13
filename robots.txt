@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://carlatres3.github.io/light-orb/sitemap.xml
