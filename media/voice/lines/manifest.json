@@ -2,423 +2,479 @@
  "engine": "Kokoro-82M v1.0 (kokoro-onnx), Apache-2.0",
  "slots": {
   "samantha": "af_heart",
-  "daniel": "am_michael"
+  "daniel": "am_michael",
+  "bella": "af_bella",
+  "emma": "bf_emma"
  },
  "lines": {
   "present.home": {
-   "text": "Welcome to The Light Orb. I will be your guide. Choose Products, Templates, Studio or Sound, and I will show you around.",
-   "hash": "bb45dae25ea9",
+   "text": "Welcome to The Light Orb. I’m your guide: tap me to talk.",
+   "hash": "d83938201559",
    "files": {
     "samantha": "samantha/present.home.m4a",
-    "daniel": "daniel/present.home.m4a"
+    "daniel": "daniel/present.home.m4a",
+    "bella": "bella/present.home.m4a",
+    "emma": "emma/present.home.m4a"
    }
   },
   "already.present.home": {
-   "text": "We are already here. Welcome to The Light Orb. I will be your guide. Choose Products, Templates, Studio or Sound, and I will show you around.",
-   "hash": "829afa81f263",
+   "text": "We are already here. Welcome to The Light Orb. I’m your guide: tap me to talk.",
+   "hash": "abef21ab3523",
    "files": {
     "samantha": "samantha/already.present.home.m4a",
-    "daniel": "daniel/already.present.home.m4a"
+    "daniel": "daniel/already.present.home.m4a",
+    "bella": "bella/already.present.home.m4a",
+    "emma": "emma/already.present.home.m4a"
    }
   },
   "present.products": {
-   "text": "Welcome to Products. 5 objects of light and glass, ready to use: The Orb, Orb Slider, Orb Wave, Background Pack, Crystal Controls. Choose one to see it alive.",
-   "hash": "4fb8426811ec",
+   "text": "Products: 3 objects of light and glass. Choose one to see it alive.",
+   "hash": "dbd30c4d37c5",
    "files": {
     "samantha": "samantha/present.products.m4a",
-    "daniel": "daniel/present.products.m4a"
+    "daniel": "daniel/present.products.m4a",
+    "bella": "bella/present.products.m4a",
+    "emma": "emma/present.products.m4a"
    }
   },
   "already.present.products": {
-   "text": "We are already here. Welcome to Products. 5 objects of light and glass, ready to use: The Orb, Orb Slider, Orb Wave, Background Pack, Crystal Controls. Choose one to see it alive.",
-   "hash": "053c3e6181be",
+   "text": "We are already here. Products: 3 objects of light and glass. Choose one to see it alive.",
+   "hash": "764fd692a16e",
    "files": {
     "samantha": "samantha/already.present.products.m4a",
-    "daniel": "daniel/already.present.products.m4a"
+    "daniel": "daniel/already.present.products.m4a",
+    "bella": "bella/already.present.products.m4a",
+    "emma": "emma/already.present.products.m4a"
    }
   },
   "present.templates": {
-   "text": "These are the Templates. Complete compositions to start from: The Light Orb.",
-   "hash": "016f5668bda2",
+   "text": "Templates: complete compositions to start from.",
+   "hash": "4558904872b9",
    "files": {
     "samantha": "samantha/present.templates.m4a",
-    "daniel": "daniel/present.templates.m4a"
+    "daniel": "daniel/present.templates.m4a",
+    "bella": "bella/present.templates.m4a",
+    "emma": "emma/present.templates.m4a"
    }
   },
   "already.present.templates": {
-   "text": "We are already here. These are the Templates. Complete compositions to start from: The Light Orb.",
-   "hash": "f1c515c87cf7",
+   "text": "We are already here. Templates: complete compositions to start from.",
+   "hash": "1a22e88549ec",
    "files": {
     "samantha": "samantha/already.present.templates.m4a",
-    "daniel": "daniel/already.present.templates.m4a"
+    "daniel": "daniel/already.present.templates.m4a",
+    "bella": "bella/already.present.templates.m4a",
+    "emma": "emma/already.present.templates.m4a"
    }
   },
   "present.studio": {
-   "text": "You are in Studio, open to everyone while we build it. Shape the light: material, colour and movement, then save or export it. Tell us what is missing.",
-   "hash": "ac891f6e4a34",
+   "text": "This is Studio, free while we build it. Shape the light, then save your design.",
+   "hash": "829825a1e08a",
    "files": {
     "samantha": "samantha/present.studio.m4a",
-    "daniel": "daniel/present.studio.m4a"
+    "daniel": "daniel/present.studio.m4a",
+    "bella": "bella/present.studio.m4a",
+    "emma": "emma/present.studio.m4a"
    }
   },
   "already.present.studio": {
-   "text": "We are already here. You are in Studio, open to everyone while we build it. Shape the light: material, colour and movement, then save or export it. Tell us what is missing.",
-   "hash": "ce2362d61e4d",
+   "text": "We are already here. This is Studio, free while we build it. Shape the light, then save your design.",
+   "hash": "e3331bf9eecf",
    "files": {
     "samantha": "samantha/already.present.studio.m4a",
-    "daniel": "daniel/already.present.studio.m4a"
+    "daniel": "daniel/already.present.studio.m4a",
+    "bella": "bella/already.present.studio.m4a",
+    "emma": "emma/already.present.studio.m4a"
    }
   },
   "present.sound": {
-   "text": "This is Sound. Listen to the voices and the quiet sounds of glass that live across the site.",
-   "hash": "a979058109df",
+   "text": "This is Sound: the voices and quiet sounds of glass.",
+   "hash": "27c65eb07428",
    "files": {
     "samantha": "samantha/present.sound.m4a",
-    "daniel": "daniel/present.sound.m4a"
+    "daniel": "daniel/present.sound.m4a",
+    "bella": "bella/present.sound.m4a",
+    "emma": "emma/present.sound.m4a"
    }
   },
   "already.present.sound": {
-   "text": "We are already here. This is Sound. Listen to the voices and the quiet sounds of glass that live across the site.",
-   "hash": "0230ef4590fb",
+   "text": "We are already here. This is Sound: the voices and quiet sounds of glass.",
+   "hash": "5afec36721e4",
    "files": {
     "samantha": "samantha/already.present.sound.m4a",
-    "daniel": "daniel/already.present.sound.m4a"
+    "daniel": "daniel/already.present.sound.m4a",
+    "bella": "bella/already.present.sound.m4a",
+    "emma": "emma/already.present.sound.m4a"
    }
   },
   "present.membership": {
-   "text": "This is Membership. Right now everything is free while we build it. Leave your email and you will hear first when plans open.",
-   "hash": "02af6ed83803",
+   "text": "This is Membership. Everything is free for now; leave your email to hear first when plans open.",
+   "hash": "4e040c80ef6e",
    "files": {
     "samantha": "samantha/present.membership.m4a",
-    "daniel": "daniel/present.membership.m4a"
+    "daniel": "daniel/present.membership.m4a",
+    "bella": "bella/present.membership.m4a",
+    "emma": "emma/present.membership.m4a"
    }
   },
   "already.present.membership": {
-   "text": "We are already here. This is Membership. Right now everything is free while we build it. Leave your email and you will hear first when plans open.",
-   "hash": "153907bd44c5",
+   "text": "We are already here. This is Membership. Everything is free for now; leave your email to hear first when plans open.",
+   "hash": "a54cfed83e6d",
    "files": {
     "samantha": "samantha/already.present.membership.m4a",
-    "daniel": "daniel/already.present.membership.m4a"
+    "daniel": "daniel/already.present.membership.m4a",
+    "bella": "bella/already.present.membership.m4a",
+    "emma": "emma/already.present.membership.m4a"
    }
   },
   "present.account": {
    "text": "This is your account.",
-   "hash": "a92c9ec1dc2b",
+   "hash": "059e0e67311c",
    "files": {
     "samantha": "samantha/present.account.m4a",
-    "daniel": "daniel/present.account.m4a"
+    "daniel": "daniel/present.account.m4a",
+    "bella": "bella/present.account.m4a",
+    "emma": "emma/present.account.m4a"
    }
   },
   "already.present.account": {
    "text": "We are already here. This is your account.",
-   "hash": "d7972dc93466",
+   "hash": "88516b80f72f",
    "files": {
     "samantha": "samantha/already.present.account.m4a",
-    "daniel": "daniel/already.present.account.m4a"
+    "daniel": "daniel/already.present.account.m4a",
+    "bella": "bella/already.present.account.m4a",
+    "emma": "emma/already.present.account.m4a"
    }
   },
   "present.signin": {
-   "text": "Sign in to find your saved pieces and designs.",
-   "hash": "c1f51e0aa5f9",
+   "text": "Use the email you joined with to link this device to your early access.",
+   "hash": "7affb24b82e7",
    "files": {
     "samantha": "samantha/present.signin.m4a",
-    "daniel": "daniel/present.signin.m4a"
+    "daniel": "daniel/present.signin.m4a",
+    "bella": "bella/present.signin.m4a",
+    "emma": "emma/present.signin.m4a"
    }
   },
   "already.present.signin": {
-   "text": "We are already here. Sign in to find your saved pieces and designs.",
-   "hash": "7dd8f5909798",
+   "text": "We are already here. Use the email you joined with to link this device to your early access.",
+   "hash": "bec104e246e3",
    "files": {
     "samantha": "samantha/already.present.signin.m4a",
-    "daniel": "daniel/already.present.signin.m4a"
+    "daniel": "daniel/already.present.signin.m4a",
+    "bella": "bella/already.present.signin.m4a",
+    "emma": "emma/already.present.signin.m4a"
    }
   },
   "present.signup": {
-   "text": "Create an account to save pieces and keep your designs.",
-   "hash": "502e9a244ec5",
+   "text": "Join early access with your email. Everything is free while we build it, and you will hear first when new pieces open.",
+   "hash": "9e3c86c68838",
    "files": {
     "samantha": "samantha/present.signup.m4a",
-    "daniel": "daniel/present.signup.m4a"
+    "daniel": "daniel/present.signup.m4a",
+    "bella": "bella/present.signup.m4a",
+    "emma": "emma/present.signup.m4a"
    }
   },
   "already.present.signup": {
-   "text": "We are already here. Create an account to save pieces and keep your designs.",
-   "hash": "3aa7ccdac1e9",
+   "text": "We are already here. Join early access with your email. Everything is free while we build it, and you will hear first when new pieces open.",
+   "hash": "d395b64c9ecd",
    "files": {
     "samantha": "samantha/already.present.signup.m4a",
-    "daniel": "daniel/already.present.signup.m4a"
+    "daniel": "daniel/already.present.signup.m4a",
+    "bella": "bella/already.present.signup.m4a",
+    "emma": "emma/already.present.signup.m4a"
    }
   },
   "present.product.orb": {
-   "text": "This is The Orb. Interactive object. A 3D sphere for your own work, in twenty versions: glass, metal, porcelain, bloom, and glass with light, sparkle or beads inside. Try its versions; every one is free to take during early access, or shape it in Studio.",
-   "hash": "787dc361bcfa",
+   "text": "This is The Orb. Try its versions; each one is free, with its code.",
+   "hash": "294fdd5d03fe",
    "files": {
     "samantha": "samantha/present.product.orb.m4a",
-    "daniel": "daniel/present.product.orb.m4a"
+    "daniel": "daniel/present.product.orb.m4a",
+    "bella": "bella/present.product.orb.m4a",
+    "emma": "emma/present.product.orb.m4a"
    }
   },
   "already.present.product.orb": {
-   "text": "We are already here. This is The Orb. Interactive object. A 3D sphere for your own work, in twenty versions: glass, metal, porcelain, bloom, and glass with light, sparkle or beads inside. Try its versions; every one is free to take during early access, or shape it in Studio.",
-   "hash": "cf344b98dda0",
+   "text": "We are already here. This is The Orb. Try its versions; each one is free, with its code.",
+   "hash": "10ae8b419b6f",
    "files": {
     "samantha": "samantha/already.present.product.orb.m4a",
-    "daniel": "daniel/already.present.product.orb.m4a"
+    "daniel": "daniel/already.present.product.orb.m4a",
+    "bella": "bella/already.present.product.orb.m4a",
+    "emma": "emma/already.present.product.orb.m4a"
    }
   },
   "present.product.orb-slider": {
-   "text": "This is Orb Slider. Interactive control. A clear glass capsule whose thumb is the Orb itself. Slide it to enter. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
-   "hash": "41caa7c65624",
+   "text": "This is Orb Slider. Try its versions; each one is free, with its code.",
+   "hash": "6cfc096c410e",
    "files": {
     "samantha": "samantha/present.product.orb-slider.m4a",
-    "daniel": "daniel/present.product.orb-slider.m4a"
+    "daniel": "daniel/present.product.orb-slider.m4a",
+    "bella": "bella/present.product.orb-slider.m4a",
+    "emma": "emma/present.product.orb-slider.m4a"
    }
   },
   "already.present.product.orb-slider": {
-   "text": "We are already here. This is Orb Slider. Interactive control. A clear glass capsule whose thumb is the Orb itself. Slide it to enter. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
-   "hash": "8c2a5023b4db",
+   "text": "We are already here. This is Orb Slider. Try its versions; each one is free, with its code.",
+   "hash": "a0f2f5d11fd0",
    "files": {
     "samantha": "samantha/already.present.product.orb-slider.m4a",
-    "daniel": "daniel/already.present.product.orb-slider.m4a"
-   }
-  },
-  "present.product.orb-wave": {
-   "text": "This is Orb Wave. Surface effect. The ripple the Orb leaves on the floor when it lands, drawn in light. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
-   "hash": "2fe4d89d023f",
-   "files": {
-    "samantha": "samantha/present.product.orb-wave.m4a",
-    "daniel": "daniel/present.product.orb-wave.m4a"
-   }
-  },
-  "already.present.product.orb-wave": {
-   "text": "We are already here. This is Orb Wave. Surface effect. The ripple the Orb leaves on the floor when it lands, drawn in light. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
-   "hash": "8db3e25cf64e",
-   "files": {
-    "samantha": "samantha/already.present.product.orb-wave.m4a",
-    "daniel": "daniel/already.present.product.orb-wave.m4a"
-   }
-  },
-  "present.product.background-pack": {
-   "text": "This is Background Pack. Two environments. A dark world and a light one, and the change between them. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
-   "hash": "eefc2b43a867",
-   "files": {
-    "samantha": "samantha/present.product.background-pack.m4a",
-    "daniel": "daniel/present.product.background-pack.m4a"
-   }
-  },
-  "already.present.product.background-pack": {
-   "text": "We are already here. This is Background Pack. Two environments. A dark world and a light one, and the change between them. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
-   "hash": "e2bd15117bbf",
-   "files": {
-    "samantha": "samantha/already.present.product.background-pack.m4a",
-    "daniel": "daniel/already.present.product.background-pack.m4a"
+    "daniel": "daniel/already.present.product.orb-slider.m4a",
+    "bella": "bella/already.present.product.orb-slider.m4a",
+    "emma": "emma/already.present.product.orb-slider.m4a"
    }
   },
   "present.product.crystal-controls": {
-   "text": "This is Crystal Controls. Interface kit. Buttons, switches, fields and sliders in clear glass, with every state designed. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
-   "hash": "5d3b7584da78",
+   "text": "This is Crystal Controls. Try its versions; each one is free, with its code.",
+   "hash": "2023a2ffd089",
    "files": {
     "samantha": "samantha/present.product.crystal-controls.m4a",
-    "daniel": "daniel/present.product.crystal-controls.m4a"
+    "daniel": "daniel/present.product.crystal-controls.m4a",
+    "bella": "bella/present.product.crystal-controls.m4a",
+    "emma": "emma/present.product.crystal-controls.m4a"
    }
   },
   "already.present.product.crystal-controls": {
-   "text": "We are already here. This is Crystal Controls. Interface kit. Buttons, switches, fields and sliders in clear glass, with every state designed. Try its versions, save it, or shape it in Studio. It comes to early access soon.",
-   "hash": "e3cefd614f59",
+   "text": "We are already here. This is Crystal Controls. Try its versions; each one is free, with its code.",
+   "hash": "bf2030367316",
    "files": {
     "samantha": "samantha/already.present.product.crystal-controls.m4a",
-    "daniel": "daniel/already.present.product.crystal-controls.m4a"
+    "daniel": "daniel/already.present.product.crystal-controls.m4a",
+    "bella": "bella/already.present.product.crystal-controls.m4a",
+    "emma": "emma/already.present.product.crystal-controls.m4a"
    }
   },
   "present.template.the-light-orb": {
    "text": "You are looking at the template The Light Orb. This website’s own beginning: the Orb as host, a quiet greeting, the quotation and the four destinations.",
-   "hash": "eeb62575cbff",
+   "hash": "bfceea875172",
    "files": {
     "samantha": "samantha/present.template.the-light-orb.m4a",
-    "daniel": "daniel/present.template.the-light-orb.m4a"
+    "daniel": "daniel/present.template.the-light-orb.m4a",
+    "bella": "bella/present.template.the-light-orb.m4a",
+    "emma": "emma/present.template.the-light-orb.m4a"
    }
   },
   "already.present.template.the-light-orb": {
    "text": "We are already here. You are looking at the template The Light Orb. This website’s own beginning: the Orb as host, a quiet greeting, the quotation and the four destinations.",
-   "hash": "8cf8912f4bd4",
+   "hash": "a32b205b73ab",
    "files": {
     "samantha": "samantha/already.present.template.the-light-orb.m4a",
-    "daniel": "daniel/already.present.template.the-light-orb.m4a"
+    "daniel": "daniel/already.present.template.the-light-orb.m4a",
+    "bella": "bella/already.present.template.the-light-orb.m4a",
+    "emma": "emma/already.present.template.the-light-orb.m4a"
    }
   },
   "present.account.profile": {
    "text": "This is your account, showing your profile.",
-   "hash": "17e4236e77b3",
+   "hash": "057d49298df7",
    "files": {
     "samantha": "samantha/present.account.profile.m4a",
-    "daniel": "daniel/present.account.profile.m4a"
+    "daniel": "daniel/present.account.profile.m4a",
+    "bella": "bella/present.account.profile.m4a",
+    "emma": "emma/present.account.profile.m4a"
    }
   },
   "already.present.account.profile": {
    "text": "We are already here. This is your account, showing your profile.",
-   "hash": "1aee50e92429",
+   "hash": "d744dc937f5d",
    "files": {
     "samantha": "samantha/already.present.account.profile.m4a",
-    "daniel": "daniel/already.present.account.profile.m4a"
+    "daniel": "daniel/already.present.account.profile.m4a",
+    "bella": "bella/already.present.account.profile.m4a",
+    "emma": "emma/already.present.account.profile.m4a"
    }
   },
   "present.account.downloads": {
    "text": "This is your account, showing your downloads.",
-   "hash": "cedef668edf6",
+   "hash": "105c330f226f",
    "files": {
     "samantha": "samantha/present.account.downloads.m4a",
-    "daniel": "daniel/present.account.downloads.m4a"
+    "daniel": "daniel/present.account.downloads.m4a",
+    "bella": "bella/present.account.downloads.m4a",
+    "emma": "emma/present.account.downloads.m4a"
    }
   },
   "already.present.account.downloads": {
    "text": "We are already here. This is your account, showing your downloads.",
-   "hash": "49beb2a32bb2",
+   "hash": "133db9d7058f",
    "files": {
     "samantha": "samantha/already.present.account.downloads.m4a",
-    "daniel": "daniel/already.present.account.downloads.m4a"
+    "daniel": "daniel/already.present.account.downloads.m4a",
+    "bella": "bella/already.present.account.downloads.m4a",
+    "emma": "emma/already.present.account.downloads.m4a"
    }
   },
   "present.account.saved": {
    "text": "This is your account, showing what you have saved.",
-   "hash": "a36bc2acdd93",
+   "hash": "4f219085cf20",
    "files": {
     "samantha": "samantha/present.account.saved.m4a",
-    "daniel": "daniel/present.account.saved.m4a"
+    "daniel": "daniel/present.account.saved.m4a",
+    "bella": "bella/present.account.saved.m4a",
+    "emma": "emma/present.account.saved.m4a"
    }
   },
   "already.present.account.saved": {
    "text": "We are already here. This is your account, showing what you have saved.",
-   "hash": "9d46ed597eeb",
+   "hash": "94a36b592e60",
    "files": {
     "samantha": "samantha/already.present.account.saved.m4a",
-    "daniel": "daniel/already.present.account.saved.m4a"
+    "daniel": "daniel/already.present.account.saved.m4a",
+    "bella": "bella/already.present.account.saved.m4a",
+    "emma": "emma/already.present.account.saved.m4a"
    }
   },
   "present.account.designs": {
    "text": "This is your account, showing the designs you made in Studio.",
-   "hash": "5d5dbddd1ee9",
+   "hash": "dfaf9507183b",
    "files": {
     "samantha": "samantha/present.account.designs.m4a",
-    "daniel": "daniel/present.account.designs.m4a"
+    "daniel": "daniel/present.account.designs.m4a",
+    "bella": "bella/present.account.designs.m4a",
+    "emma": "emma/present.account.designs.m4a"
    }
   },
   "already.present.account.designs": {
    "text": "We are already here. This is your account, showing the designs you made in Studio.",
-   "hash": "561ffd1c6147",
+   "hash": "668b142aca14",
    "files": {
     "samantha": "samantha/already.present.account.designs.m4a",
-    "daniel": "daniel/already.present.account.designs.m4a"
+    "daniel": "daniel/already.present.account.designs.m4a",
+    "bella": "bella/already.present.account.designs.m4a",
+    "emma": "emma/already.present.account.designs.m4a"
    }
   },
   "reply.missed": {
-   "text": "I didn’t catch that. Tap me and try again.",
-   "hash": "e44326d3c491",
+   "text": "I didn’t catch that. Tap me and try again, or type.",
+   "hash": "388c569ca279",
    "files": {
     "samantha": "samantha/reply.missed.m4a",
-    "daniel": "daniel/reply.missed.m4a"
+    "daniel": "daniel/reply.missed.m4a",
+    "bella": "bella/reply.missed.m4a",
+    "emma": "emma/reply.missed.m4a"
+   }
+  },
+  "reply.intro": {
+   "text": "Hello, I’m the Light Orb, your guide here. Tap me and speak, or type: ask me for recommendations, materials and textures, or say Products, Templates, Studio or Sound and I’ll take you there. Everything is free during early access, and Studio is open to try.",
+   "hash": "e144d99ec28b",
+   "files": {
+    "samantha": "samantha/reply.intro.m4a",
+    "daniel": "daniel/reply.intro.m4a",
+    "bella": "bella/reply.intro.m4a",
+    "emma": "emma/reply.intro.m4a"
+   }
+  },
+  "reply.greet": {
+   "text": "Hi, I’m the Light Orb. Tap me whenever you want to talk.",
+   "hash": "285e936262d7",
+   "files": {
+    "samantha": "samantha/reply.greet.m4a",
+    "daniel": "daniel/reply.greet.m4a",
+    "bella": "bella/reply.greet.m4a",
+    "emma": "emma/reply.greet.m4a"
    }
   },
   "reply.help": {
-   "text": "I can take you anywhere here. Say Products, Templates, Studio, Sound or Membership, or name a piece, like the Slider or the Wave. You can also ask me where you are.",
-   "hash": "bad265847c00",
+   "text": "Ask me which Orb suits your project, about its materials and textures, or how to get the free code. Or say Products, Templates, Studio or Sound and I’ll take you there.",
+   "hash": "124f5db49ae6",
    "files": {
     "samantha": "samantha/reply.help.m4a",
-    "daniel": "daniel/reply.help.m4a"
+    "daniel": "daniel/reply.help.m4a",
+    "bella": "bella/reply.help.m4a",
+    "emma": "emma/reply.help.m4a"
    }
   },
   "reply.thanks": {
    "text": "With pleasure. I’m right here when you need me.",
-   "hash": "3e8090011637",
+   "hash": "5b02b76ba3a2",
    "files": {
     "samantha": "samantha/reply.thanks.m4a",
-    "daniel": "daniel/reply.thanks.m4a"
+    "daniel": "daniel/reply.thanks.m4a",
+    "bella": "bella/reply.thanks.m4a",
+    "emma": "emma/reply.thanks.m4a"
    }
   },
   "reply.who": {
-   "text": "I’m the Light Orb, the guide of this place. A little light made of glass. I show you around and I answer when you call.",
-   "hash": "b403d1f7fd8d",
+   "text": "I’m the Light Orb, the guide of this place. I can recommend a piece or a texture, answer your questions, and take you anywhere on the site.",
+   "hash": "53e9cf088fea",
    "files": {
     "samantha": "samantha/reply.who.m4a",
-    "daniel": "daniel/reply.who.m4a"
+    "daniel": "daniel/reply.who.m4a",
+    "bella": "bella/reply.who.m4a",
+    "emma": "emma/reply.who.m4a"
    }
   },
   "reply.back": {
    "text": "Going back.",
-   "hash": "8312e86103df",
+   "hash": "8e3406ab716f",
    "files": {
     "samantha": "samantha/reply.back.m4a",
-    "daniel": "daniel/reply.back.m4a"
-   }
-  },
-  "reply.hello": {
-   "text": "Hello. It’s lovely to hear you. Where would you like to go? Products, Templates, Studio or Sound?",
-   "hash": "e893b0f3ae31",
-   "files": {
-    "samantha": "samantha/reply.hello.m4a",
-    "daniel": "daniel/reply.hello.m4a"
+    "daniel": "daniel/reply.back.m4a",
+    "bella": "bella/reply.back.m4a",
+    "emma": "emma/reply.back.m4a"
    }
   },
   "reply.unknown": {
-   "text": "I’m still learning words. Try Products, Templates, Studio, Sound, or ask me where you are.",
-   "hash": "38840b620619",
+   "text": "I’m still learning words. Ask me for a recommendation, or say Products, Templates, Studio or Sound.",
+   "hash": "22d2021bb8ef",
    "files": {
     "samantha": "samantha/reply.unknown.m4a",
-    "daniel": "daniel/reply.unknown.m4a"
+    "daniel": "daniel/reply.unknown.m4a",
+    "bella": "bella/reply.unknown.m4a",
+    "emma": "emma/reply.unknown.m4a"
    }
   },
   "reply.mic": {
-   "text": "Allow the microphone to talk with me.",
-   "hash": "c7e39961517a",
+   "text": "The microphone is off. You can type to me instead.",
+   "hash": "271cf71af1d1",
    "files": {
     "samantha": "samantha/reply.mic.m4a",
-    "daniel": "daniel/reply.mic.m4a"
+    "daniel": "daniel/reply.mic.m4a",
+    "bella": "bella/reply.mic.m4a",
+    "emma": "emma/reply.mic.m4a"
    }
   },
   "piece.orb": {
    "text": "Here is the Orb. A 3D sphere for your own work, in twenty versions: glass, metal, porcelain, bloom, and glass with light, sparkle or beads inside.",
-   "hash": "0569cb297c66",
+   "hash": "7c5ee8e5da93",
    "files": {
     "samantha": "samantha/piece.orb.m4a",
-    "daniel": "daniel/piece.orb.m4a"
+    "daniel": "daniel/piece.orb.m4a",
+    "bella": "bella/piece.orb.m4a",
+    "emma": "emma/piece.orb.m4a"
    }
   },
   "piece.orb-slider": {
-   "text": "Here is Orb Slider. A clear glass capsule whose thumb is the Orb itself. Slide it to enter.",
-   "hash": "77acfc113f39",
+   "text": "Here is Orb Slider. A glass capsule whose thumb is a small orb. Slide it to enter; a spring brings it home.",
+   "hash": "7a2febafc5f8",
    "files": {
     "samantha": "samantha/piece.orb-slider.m4a",
-    "daniel": "daniel/piece.orb-slider.m4a"
-   }
-  },
-  "piece.orb-wave": {
-   "text": "Here is Orb Wave. The ripple the Orb leaves on the floor when it lands, drawn in light.",
-   "hash": "eabead39159c",
-   "files": {
-    "samantha": "samantha/piece.orb-wave.m4a",
-    "daniel": "daniel/piece.orb-wave.m4a"
-   }
-  },
-  "piece.background-pack": {
-   "text": "Here is Background Pack. A dark world and a light one, and the change between them.",
-   "hash": "d11126ec56f8",
-   "files": {
-    "samantha": "samantha/piece.background-pack.m4a",
-    "daniel": "daniel/piece.background-pack.m4a"
+    "daniel": "daniel/piece.orb-slider.m4a",
+    "bella": "bella/piece.orb-slider.m4a",
+    "emma": "emma/piece.orb-slider.m4a"
    }
   },
   "piece.crystal-controls": {
-   "text": "Here is Crystal Controls. Buttons, switches, fields and sliders in clear glass, with every state designed.",
-   "hash": "af6b3a08abf4",
+   "text": "Here is Crystal Controls. Buttons, switches, fields and sliders in six glass materials, with light that follows the pointer.",
+   "hash": "fa0fa0fd5021",
    "files": {
     "samantha": "samantha/piece.crystal-controls.m4a",
-    "daniel": "daniel/piece.crystal-controls.m4a"
+    "daniel": "daniel/piece.crystal-controls.m4a",
+    "bella": "bella/piece.crystal-controls.m4a",
+    "emma": "emma/piece.crystal-controls.m4a"
    }
   },
   "open.the-light-orb": {
    "text": "Opening The Light Orb.",
-   "hash": "48ce465d37e4",
+   "hash": "8f13ff1394f7",
    "files": {
     "samantha": "samantha/open.the-light-orb.m4a",
-    "daniel": "daniel/open.the-light-orb.m4a"
+    "daniel": "daniel/open.the-light-orb.m4a",
+    "bella": "bella/open.the-light-orb.m4a",
+    "emma": "emma/open.the-light-orb.m4a"
    }
   }
  }
