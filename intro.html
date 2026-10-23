@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Light Orb</title>
-  <link rel="modulepreload" href="./assets/intro-PEUZHF5U.js">
-  <link rel="modulepreload" href="./assets/site-16E88DF7.js">
-  <link rel="modulepreload" href="./assets/chunk-MONRGDUC.js">
+  <link rel="modulepreload" href="./assets/intro-MAURVTEJ.js">
+  <link rel="modulepreload" href="./assets/site-I4L6CFWZ.js">
+  <link rel="modulepreload" href="./assets/chunk-4LDEINT7.js">
   <meta name="description" content="A space for creative possibilities. Objects, components and templates, made to be turned in the hand.">
   <link rel="canonical" href="https://thelightorb.com/">
   <meta name="theme-color" content="#F3F3F1">
@@ -26,6 +26,8 @@
   <meta name="twitter:title" content="The Light Orb">
   <meta name="twitter:description" content="A space for creative possibilities. Objects, components and templates, made to be turned in the hand.">
   <meta name="twitter:image" content="https://thelightorb.com/icons/share.jpg">
+  <!-- Theme before first paint (mirror of app/theme.js resolveTheme): light unless the visitor chose dark -->
+  <script>(function(){var t=new URLSearchParams(location.search).get('theme');if(t!=='light'&&t!=='dark')try{t=localStorage.getItem('lightorb:theme')}catch(e){}if(t!=='dark')t='light';document.documentElement.dataset.theme=t;document.querySelector('meta[name="theme-color"]').setAttribute('content',t==='dark'?'#141515':'#F3F3F1');})();</script>
   <script>if(/[?&]warm\b/.test(location.search))document.documentElement.classList.add('warm');</script>
   <style>
     :root { --night: #080808; --ink: #141414; }
@@ -93,15 +95,9 @@
       color: rgba(184, 184, 182, .2); cursor: pointer; transition: opacity 1s ease, color .4s ease; }
     .skip:hover, .skip:focus-visible { color: rgba(214, 214, 212, .5); outline: none; }
     .complete .skip { opacity: 0; pointer-events: none; }
-    /* Sound (optional layer): appears once the visitor's Space has started
-       it; the same quiet voice as Skip, in the opposite corner. */
-    .sound { position: fixed; z-index: 7; left: 20px; bottom: 16px; background: none; border: 0; padding: 6px;
-      font: 300 9px/1 "Helvetica Neue", Arial, sans-serif; letter-spacing: .32em; text-transform: uppercase;
-      color: rgba(184, 184, 182, .2); cursor: pointer; transition: color .4s ease; }
-    .sound:hover, .sound:focus-visible { color: rgba(214, 214, 212, .5); outline: none; }
-    .complete .sound { color: rgba(18, 18, 18, .22); }
-    .complete .sound:hover, .complete .sound:focus-visible { color: rgba(18, 18, 18, .5); }
-    .sound[hidden] { display: none; }
+    /* Sound: the glass speaker (Voice / Sounds), from the first frame, in the
+       corner opposite Skip, so a first-time visitor can silence it. */
+    .sound { position: fixed; z-index: 7; left: 16px; bottom: 12px; font: 300 13px/1 "Helvetica Neue", Arial, sans-serif; }
 
     /* Before the intro's JavaScript arrives (slow networks): the loader's own
        dark circle and a fine ring, in place, after 1.2 s, so the page is never
@@ -116,11 +112,12 @@
     body[data-ready] .boot { display: none; }
 
     /* Without WebGL 2: the destination only, over the light world's colour. */
-    .static { background: #F3F3F1; }   /* pearl, as the site: never cream */
+    .static { background: #F3F3F1; }
+    html[data-theme=dark] .static { background: #141515; }   /* pearl, as the site: never cream */
     .static canvas, .static .cue, .static .skip, .static .sound { display: none; }
   </style>
-  <script type="module" src="./assets/intro-PEUZHF5U.js"></script>
-  <script type="module" src="./assets/site-16E88DF7.js"></script>
+  <script type="module" src="./assets/intro-MAURVTEJ.js"></script>
+  <script type="module" src="./assets/site-I4L6CFWZ.js"></script>
 </head>
 <body>
   <main class="intro" aria-label="Light Orb">
@@ -138,6 +135,6 @@
     </div>
   </main>
   <button class="skip" type="button">Skip</button>
-  <button class="sound" type="button" hidden aria-label="Sound" aria-pressed="true">Sound on</button>
+  <div class="sound"></div>
 </body>
 </html>

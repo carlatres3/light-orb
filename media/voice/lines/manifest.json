@@ -8,8 +8,8 @@
  },
  "lines": {
   "present.home": {
-   "text": "Welcome to The Light Orb. I’m your guide: tap me to talk.",
-   "hash": "d83938201559",
+   "text": "This is The Light Orb: objects of light and glass. Below, choose where to begin: Products, Templates, Studio or Sound. Tap me again to stop, or ask me anything.",
+   "hash": "ff90a299cd8b",
    "files": {
     "samantha": "samantha/present.home.m4a",
     "daniel": "daniel/present.home.m4a",
@@ -18,8 +18,8 @@
    }
   },
   "already.present.home": {
-   "text": "We are already here. Welcome to The Light Orb. I’m your guide: tap me to talk.",
-   "hash": "abef21ab3523",
+   "text": "We are already here. This is The Light Orb: objects of light and glass. Below, choose where to begin: Products, Templates, Studio or Sound. Tap me again to stop, or ask me anything.",
+   "hash": "0bd0df411bd9",
    "files": {
     "samantha": "samantha/already.present.home.m4a",
     "daniel": "daniel/already.present.home.m4a",
@@ -28,8 +28,8 @@
    }
   },
   "present.products": {
-   "text": "Products: 3 objects of light and glass. Choose one to see it alive.",
-   "hash": "dbd30c4d37c5",
+   "text": "Products: 3 pieces, ready to use. Choose one to see it alive.",
+   "hash": "229a5a42dfea",
    "files": {
     "samantha": "samantha/present.products.m4a",
     "daniel": "daniel/present.products.m4a",
@@ -38,8 +38,8 @@
    }
   },
   "already.present.products": {
-   "text": "We are already here. Products: 3 objects of light and glass. Choose one to see it alive.",
-   "hash": "764fd692a16e",
+   "text": "We are already here. Products: 3 pieces, ready to use. Choose one to see it alive.",
+   "hash": "6202227dcbdb",
    "files": {
     "samantha": "samantha/already.present.products.m4a",
     "daniel": "daniel/already.present.products.m4a",
@@ -48,8 +48,8 @@
    }
   },
   "present.templates": {
-   "text": "Templates: complete compositions to start from.",
-   "hash": "4558904872b9",
+   "text": "Templates: a complete composition of light and glass to start from. Open it to see it move.",
+   "hash": "b322cc1cffea",
    "files": {
     "samantha": "samantha/present.templates.m4a",
     "daniel": "daniel/present.templates.m4a",
@@ -58,8 +58,8 @@
    }
   },
   "already.present.templates": {
-   "text": "We are already here. Templates: complete compositions to start from.",
-   "hash": "1a22e88549ec",
+   "text": "We are already here. Templates: a complete composition of light and glass to start from. Open it to see it move.",
+   "hash": "13d681e880b9",
    "files": {
     "samantha": "samantha/already.present.templates.m4a",
     "daniel": "daniel/already.present.templates.m4a",
@@ -68,8 +68,8 @@
    }
   },
   "present.studio": {
-   "text": "This is Studio, free while we build it. Shape the light, then save your design.",
-   "hash": "829825a1e08a",
+   "text": "This is Studio, free while we build it. Drag me to turn me, move my light with the light tool, and shape my glass with the controls. Save your design when it feels right.",
+   "hash": "5b23076fa300",
    "files": {
     "samantha": "samantha/present.studio.m4a",
     "daniel": "daniel/present.studio.m4a",
@@ -78,8 +78,8 @@
    }
   },
   "already.present.studio": {
-   "text": "We are already here. This is Studio, free while we build it. Shape the light, then save your design.",
-   "hash": "e3331bf9eecf",
+   "text": "We are already here. This is Studio, free while we build it. Drag me to turn me, move my light with the light tool, and shape my glass with the controls. Save your design when it feels right.",
+   "hash": "6a75491c5d7f",
    "files": {
     "samantha": "samantha/already.present.studio.m4a",
     "daniel": "daniel/already.present.studio.m4a",
@@ -88,8 +88,8 @@
    }
   },
   "present.sound": {
-   "text": "This is Sound: the voices and quiet sounds of glass.",
-   "hash": "27c65eb07428",
+   "text": "This is Sound: choose the voice I speak with, and listen to the small sounds of the glass.",
+   "hash": "758810fc2639",
    "files": {
     "samantha": "samantha/present.sound.m4a",
     "daniel": "daniel/present.sound.m4a",
@@ -98,8 +98,8 @@
    }
   },
   "already.present.sound": {
-   "text": "We are already here. This is Sound: the voices and quiet sounds of glass.",
-   "hash": "5afec36721e4",
+   "text": "We are already here. This is Sound: choose the voice I speak with, and listen to the small sounds of the glass.",
+   "hash": "ea5b71b2ec5d",
    "files": {
     "samantha": "samantha/already.present.sound.m4a",
     "daniel": "daniel/already.present.sound.m4a",
@@ -475,6 +475,3156 @@
     "daniel": "daniel/open.the-light-orb.m4a",
     "bella": "bella/open.the-light-orb.m4a",
     "emma": "emma/open.the-light-orb.m4a"
+   }
+  },
+  "text.19tgf7j": {
+   "text": "Hello.",
+   "hash": "9dddf453889b",
+   "files": {
+    "samantha": "samantha/text.19tgf7j.m4a",
+    "daniel": "daniel/text.19tgf7j.m4a",
+    "bella": "bella/text.19tgf7j.m4a",
+    "emma": "emma/text.19tgf7j.m4a"
+   }
+  },
+  "text.vm2xol": {
+   "text": "A space for creative possibilities.",
+   "hash": "7af6d055e322",
+   "files": {
+    "samantha": "samantha/text.vm2xol.m4a",
+    "daniel": "daniel/text.vm2xol.m4a",
+    "bella": "bella/text.vm2xol.m4a",
+    "emma": "emma/text.vm2xol.m4a"
+   }
+  },
+  "text.18ydnhd": {
+   "text": "I don’t know why people expect art to make sense when they accept the fact that life doesn’t make sense.",
+   "hash": "2469ae149858",
+   "files": {
+    "samantha": "samantha/text.18ydnhd.m4a",
+    "daniel": "daniel/text.18ydnhd.m4a",
+    "bella": "bella/text.18ydnhd.m4a",
+    "emma": "emma/text.18ydnhd.m4a"
+   }
+  },
+  "text.3u6cpg": {
+   "text": "David Lynch · interview with Kristine McKenna, Los Angeles Times, 20 August 1989",
+   "hash": "03e42c6f6140",
+   "files": {
+    "samantha": "samantha/text.3u6cpg.m4a",
+    "daniel": "daniel/text.3u6cpg.m4a",
+    "bella": "bella/text.3u6cpg.m4a",
+    "emma": "emma/text.3u6cpg.m4a"
+   }
+  },
+  "text.up4pv0": {
+   "text": "Where would you like to begin?",
+   "hash": "f611a6d81883",
+   "files": {
+    "samantha": "samantha/text.up4pv0.m4a",
+    "daniel": "daniel/text.up4pv0.m4a",
+    "bella": "bella/text.up4pv0.m4a",
+    "emma": "emma/text.up4pv0.m4a"
+   }
+  },
+  "text.rzacew": {
+   "text": "Let’s go",
+   "hash": "dc19a3a17c6e",
+   "files": {
+    "samantha": "samantha/text.rzacew.m4a",
+    "daniel": "daniel/text.rzacew.m4a",
+    "bella": "bella/text.rzacew.m4a",
+    "emma": "emma/text.rzacew.m4a"
+   }
+  },
+  "text.13r3gbl": {
+   "text": "Enable sound",
+   "hash": "e5f7d6f3d889",
+   "files": {
+    "samantha": "samantha/text.13r3gbl.m4a",
+    "daniel": "daniel/text.13r3gbl.m4a",
+    "bella": "bella/text.13r3gbl.m4a",
+    "emma": "emma/text.13r3gbl.m4a"
+   }
+  },
+  "text.1ea5p3k": {
+   "text": "Replay intro",
+   "hash": "f8914455ed8d",
+   "files": {
+    "samantha": "samantha/text.1ea5p3k.m4a",
+    "daniel": "daniel/text.1ea5p3k.m4a",
+    "bella": "bella/text.1ea5p3k.m4a",
+    "emma": "emma/text.1ea5p3k.m4a"
+   }
+  },
+  "text.x3pzgl": {
+   "text": "interview with Kristine McKenna, Los Angeles Times, 20 August 1989",
+   "hash": "8ab8a8babe9c",
+   "files": {
+    "samantha": "samantha/text.x3pzgl.m4a",
+    "daniel": "daniel/text.x3pzgl.m4a",
+    "bella": "bella/text.x3pzgl.m4a",
+    "emma": "emma/text.x3pzgl.m4a"
+   }
+  },
+  "text.e76k3h": {
+   "text": "Products: Objects, buttons and pieces, ready to use.",
+   "hash": "232d35b10a60",
+   "files": {
+    "samantha": "samantha/text.e76k3h.m4a",
+    "daniel": "daniel/text.e76k3h.m4a",
+    "bella": "bella/text.e76k3h.m4a",
+    "emma": "emma/text.e76k3h.m4a"
+   }
+  },
+  "text.okroz7": {
+   "text": "Templates: Complete compositions to start from.",
+   "hash": "14f05c7a4ace",
+   "files": {
+    "samantha": "samantha/text.okroz7.m4a",
+    "daniel": "daniel/text.okroz7.m4a",
+    "bella": "bella/text.okroz7.m4a",
+    "emma": "emma/text.okroz7.m4a"
+   }
+  },
+  "text.1ibzdw8": {
+   "text": "Studio: Shape the light. Make it yours.",
+   "hash": "dfea6788218e",
+   "files": {
+    "samantha": "samantha/text.1ibzdw8.m4a",
+    "daniel": "daniel/text.1ibzdw8.m4a",
+    "bella": "bella/text.1ibzdw8.m4a",
+    "emma": "emma/text.1ibzdw8.m4a"
+   }
+  },
+  "text.15cehjo": {
+   "text": "Sound: Voices and the quiet sounds of glass.",
+   "hash": "33b6f6de3637",
+   "files": {
+    "samantha": "samantha/text.15cehjo.m4a",
+    "daniel": "daniel/text.15cehjo.m4a",
+    "bella": "bella/text.15cehjo.m4a",
+    "emma": "emma/text.15cehjo.m4a"
+   }
+  },
+  "text.1t5jxvs": {
+   "text": "Previous",
+   "hash": "72bfe78373f9",
+   "files": {
+    "samantha": "samantha/text.1t5jxvs.m4a",
+    "daniel": "daniel/text.1t5jxvs.m4a",
+    "bella": "bella/text.1t5jxvs.m4a",
+    "emma": "emma/text.1t5jxvs.m4a"
+   }
+  },
+  "text.1kdfstp": {
+   "text": "Products",
+   "hash": "d8a040eec1c4",
+   "files": {
+    "samantha": "samantha/text.1kdfstp.m4a",
+    "daniel": "daniel/text.1kdfstp.m4a",
+    "bella": "bella/text.1kdfstp.m4a",
+    "emma": "emma/text.1kdfstp.m4a"
+   }
+  },
+  "text.it5x1k": {
+   "text": "Templates",
+   "hash": "91301f73e4c6",
+   "files": {
+    "samantha": "samantha/text.it5x1k.m4a",
+    "daniel": "daniel/text.it5x1k.m4a",
+    "bella": "bella/text.it5x1k.m4a",
+    "emma": "emma/text.it5x1k.m4a"
+   }
+  },
+  "text.27712b": {
+   "text": "Studio",
+   "hash": "775f5ef2989e",
+   "files": {
+    "samantha": "samantha/text.27712b.m4a",
+    "daniel": "daniel/text.27712b.m4a",
+    "bella": "bella/text.27712b.m4a",
+    "emma": "emma/text.27712b.m4a"
+   }
+  },
+  "text.1dvvwok": {
+   "text": "Sound",
+   "hash": "5372803b3f07",
+   "files": {
+    "samantha": "samantha/text.1dvvwok.m4a",
+    "daniel": "daniel/text.1dvvwok.m4a",
+    "bella": "bella/text.1dvvwok.m4a",
+    "emma": "emma/text.1dvvwok.m4a"
+   }
+  },
+  "text.1padbm0": {
+   "text": "Next",
+   "hash": "077af782eea1",
+   "files": {
+    "samantha": "samantha/text.1padbm0.m4a",
+    "daniel": "daniel/text.1padbm0.m4a",
+    "bella": "bella/text.1padbm0.m4a",
+    "emma": "emma/text.1padbm0.m4a"
+   }
+  },
+  "text.x44kn4": {
+   "text": "The Light Orb — Home",
+   "hash": "a26739386aeb",
+   "files": {
+    "samantha": "samantha/text.x44kn4.m4a",
+    "daniel": "daniel/text.x44kn4.m4a",
+    "bella": "bella/text.x44kn4.m4a",
+    "emma": "emma/text.x44kn4.m4a"
+   }
+  },
+  "text.1xonaih": {
+   "text": "Membership",
+   "hash": "368593d0debd",
+   "files": {
+    "samantha": "samantha/text.1xonaih.m4a",
+    "daniel": "daniel/text.1xonaih.m4a",
+    "bella": "bella/text.1xonaih.m4a",
+    "emma": "emma/text.1xonaih.m4a"
+   }
+  },
+  "text.oyp43g": {
+   "text": "Account",
+   "hash": "70e11b891be0",
+   "files": {
+    "samantha": "samantha/text.oyp43g.m4a",
+    "daniel": "daniel/text.oyp43g.m4a",
+    "bella": "bella/text.oyp43g.m4a",
+    "emma": "emma/text.oyp43g.m4a"
+   }
+  },
+  "text.170qmfk": {
+   "text": "Join early access",
+   "hash": "d5ea65e2a819",
+   "files": {
+    "samantha": "samantha/text.170qmfk.m4a",
+    "daniel": "daniel/text.170qmfk.m4a",
+    "bella": "bella/text.170qmfk.m4a",
+    "emma": "emma/text.170qmfk.m4a"
+   }
+  },
+  "text.w3fq2r": {
+   "text": "Contact",
+   "hash": "eabe88a7e9cf",
+   "files": {
+    "samantha": "samantha/text.w3fq2r.m4a",
+    "daniel": "daniel/text.w3fq2r.m4a",
+    "bella": "bella/text.w3fq2r.m4a",
+    "emma": "emma/text.w3fq2r.m4a"
+   }
+  },
+  "text.1th4hrb": {
+   "text": "Privacy",
+   "hash": "68bdf36f70b0",
+   "files": {
+    "samantha": "samantha/text.1th4hrb.m4a",
+    "daniel": "daniel/text.1th4hrb.m4a",
+    "bella": "bella/text.1th4hrb.m4a",
+    "emma": "emma/text.1th4hrb.m4a"
+   }
+  },
+  "text.154fb2k": {
+   "text": "Terms",
+   "hash": "8a3f7a35e060",
+   "files": {
+    "samantha": "samantha/text.154fb2k.m4a",
+    "daniel": "daniel/text.154fb2k.m4a",
+    "bella": "bella/text.154fb2k.m4a",
+    "emma": "emma/text.154fb2k.m4a"
+   }
+  },
+  "text.omi8k4": {
+   "text": "Licence",
+   "hash": "f4c472be9a69",
+   "files": {
+    "samantha": "samantha/text.omi8k4.m4a",
+    "daniel": "daniel/text.omi8k4.m4a",
+    "bella": "bella/text.omi8k4.m4a",
+    "emma": "emma/text.omi8k4.m4a"
+   }
+  },
+  "text.dbjs0p": {
+   "text": "Join",
+   "hash": "58cce9da86be",
+   "files": {
+    "samantha": "samantha/text.dbjs0p.m4a",
+    "daniel": "daniel/text.dbjs0p.m4a",
+    "bella": "bella/text.dbjs0p.m4a",
+    "emma": "emma/text.dbjs0p.m4a"
+   }
+  },
+  "text.z52l3b": {
+   "text": "privacy",
+   "hash": "3695fe9b6480",
+   "files": {
+    "samantha": "samantha/text.z52l3b.m4a",
+    "daniel": "daniel/text.z52l3b.m4a",
+    "bella": "bella/text.z52l3b.m4a",
+    "emma": "emma/text.z52l3b.m4a"
+   }
+  },
+  "text.d8gwxd": {
+   "text": "Grid",
+   "hash": "422ebdc62dd8",
+   "files": {
+    "samantha": "samantha/text.d8gwxd.m4a",
+    "daniel": "daniel/text.d8gwxd.m4a",
+    "bella": "bella/text.d8gwxd.m4a",
+    "emma": "emma/text.d8gwxd.m4a"
+   }
+  },
+  "text.1v0q9n8": {
+   "text": "Large",
+   "hash": "6f946b4903dc",
+   "files": {
+    "samantha": "samantha/text.1v0q9n8.m4a",
+    "daniel": "daniel/text.1v0q9n8.m4a",
+    "bella": "bella/text.1v0q9n8.m4a",
+    "emma": "emma/text.1v0q9n8.m4a"
+   }
+  },
+  "text.eeeo7c": {
+   "text": ".orb The Orb Thick clear glass, nothing inside but its own depth. Free · Early access Get it free Save Go to Studio",
+   "hash": "75a9c9435191",
+   "files": {
+    "samantha": "samantha/text.eeeo7c.m4a",
+    "daniel": "daniel/text.eeeo7c.m4a",
+    "bella": "bella/text.eeeo7c.m4a",
+    "emma": "emma/text.eeeo7c.m4a"
+   }
+  },
+  "text.1q50d9t": {
+   "text": "The Orb",
+   "hash": "c1ad1c3ef14c",
+   "files": {
+    "samantha": "samantha/text.1q50d9t.m4a",
+    "daniel": "daniel/text.1q50d9t.m4a",
+    "bella": "bella/text.1q50d9t.m4a",
+    "emma": "emma/text.1q50d9t.m4a"
+   }
+  },
+  "text.u3quby": {
+   "text": "Get it free",
+   "hash": "45fbacfdae0d",
+   "files": {
+    "samantha": "samantha/text.u3quby.m4a",
+    "daniel": "daniel/text.u3quby.m4a",
+    "bella": "bella/text.u3quby.m4a",
+    "emma": "emma/text.u3quby.m4a"
+   }
+  },
+  "text.lewgh4": {
+   "text": "Save",
+   "hash": "346f9bc54cec",
+   "files": {
+    "samantha": "samantha/text.lewgh4.m4a",
+    "daniel": "daniel/text.lewgh4.m4a",
+    "bella": "bella/text.lewgh4.m4a",
+    "emma": "emma/text.lewgh4.m4a"
+   }
+  },
+  "text.cxbaae": {
+   "text": "Go to Studio",
+   "hash": "5c45d4bb7ca0",
+   "files": {
+    "samantha": "samantha/text.cxbaae.m4a",
+    "daniel": "daniel/text.cxbaae.m4a",
+    "bella": "bella/text.cxbaae.m4a",
+    "emma": "emma/text.cxbaae.m4a"
+   }
+  },
+  "text.13wn0ai": {
+   "text": ".orb The Orb · Smoke Smoked glass, a grey depth that darkens to the rim. Free · Early access Get it free Save Go to Studio",
+   "hash": "f6dac4d7d617",
+   "files": {
+    "samantha": "samantha/text.13wn0ai.m4a",
+    "daniel": "daniel/text.13wn0ai.m4a",
+    "bella": "bella/text.13wn0ai.m4a",
+    "emma": "emma/text.13wn0ai.m4a"
+   }
+  },
+  "text.8xsu3x": {
+   "text": "The Orb · Smoke",
+   "hash": "2d5f6478ce56",
+   "files": {
+    "samantha": "samantha/text.8xsu3x.m4a",
+    "daniel": "daniel/text.8xsu3x.m4a",
+    "bella": "bella/text.8xsu3x.m4a",
+    "emma": "emma/text.8xsu3x.m4a"
+   }
+  },
+  "text.mwkh1q": {
+   "text": ".orb The Orb · Amber Warm amber glass, like light through honey. Free · Early access Get it free Save Go to Studio",
+   "hash": "f2afdd8da234",
+   "files": {
+    "samantha": "samantha/text.mwkh1q.m4a",
+    "daniel": "daniel/text.mwkh1q.m4a",
+    "bella": "bella/text.mwkh1q.m4a",
+    "emma": "emma/text.mwkh1q.m4a"
+   }
+  },
+  "text.1if7tx7": {
+   "text": "The Orb · Amber",
+   "hash": "60f799b1d0d3",
+   "files": {
+    "samantha": "samantha/text.1if7tx7.m4a",
+    "daniel": "daniel/text.1if7tx7.m4a",
+    "bella": "bella/text.1if7tx7.m4a",
+    "emma": "emma/text.1if7tx7.m4a"
+   }
+  },
+  "text.1kf0vw7": {
+   "text": ".orb The Orb · Chrome Liquid chrome that keeps folding the room it reflects. Free · Early access Get it free Save Go to Studio",
+   "hash": "1cef9b26e967",
+   "files": {
+    "samantha": "samantha/text.1kf0vw7.m4a",
+    "daniel": "daniel/text.1kf0vw7.m4a",
+    "bella": "bella/text.1kf0vw7.m4a",
+    "emma": "emma/text.1kf0vw7.m4a"
+   }
+  },
+  "text.1lvcnsm": {
+   "text": "The Orb · Chrome",
+   "hash": "e7392d57f1e0",
+   "files": {
+    "samantha": "samantha/text.1lvcnsm.m4a",
+    "daniel": "daniel/text.1lvcnsm.m4a",
+    "bella": "bella/text.1lvcnsm.m4a",
+    "emma": "emma/text.1lvcnsm.m4a"
+   }
+  },
+  "text.1w7dn8p": {
+   "text": ".orb The Orb · Liquid Gold Molten gold folding over itself. Free · Early access Get it free Save Go to Studio",
+   "hash": "a1af8892b544",
+   "files": {
+    "samantha": "samantha/text.1w7dn8p.m4a",
+    "daniel": "daniel/text.1w7dn8p.m4a",
+    "bella": "bella/text.1w7dn8p.m4a",
+    "emma": "emma/text.1w7dn8p.m4a"
+   }
+  },
+  "text.wpaene": {
+   "text": "The Orb · Liquid Gold",
+   "hash": "226863733153",
+   "files": {
+    "samantha": "samantha/text.wpaene.m4a",
+    "daniel": "daniel/text.wpaene.m4a",
+    "bella": "bella/text.wpaene.m4a",
+    "emma": "emma/text.wpaene.m4a"
+   }
+  },
+  "text.19ud1wd": {
+   "text": ".orb The Orb · Gunmetal Dark liquid metal with cold highlights. Free · Early access Get it free Save Go to Studio",
+   "hash": "cca6af89d3ce",
+   "files": {
+    "samantha": "samantha/text.19ud1wd.m4a",
+    "daniel": "daniel/text.19ud1wd.m4a",
+    "bella": "bella/text.19ud1wd.m4a",
+    "emma": "emma/text.19ud1wd.m4a"
+   }
+  },
+  "text.x2ujcd": {
+   "text": "The Orb · Gunmetal",
+   "hash": "3fddff9937d4",
+   "files": {
+    "samantha": "samantha/text.x2ujcd.m4a",
+    "daniel": "daniel/text.x2ujcd.m4a",
+    "bella": "bella/text.x2ujcd.m4a",
+    "emma": "emma/text.x2ujcd.m4a"
+   }
+  },
+  "text.k4rk88": {
+   "text": ".orb The Orb · Porcelain Raised porcelain bands with gold edges over dark glass. Free · Early access Get it free Save Go to Studio",
+   "hash": "e74a44ac1697",
+   "files": {
+    "samantha": "samantha/text.k4rk88.m4a",
+    "daniel": "daniel/text.k4rk88.m4a",
+    "bella": "bella/text.k4rk88.m4a",
+    "emma": "emma/text.k4rk88.m4a"
+   }
+  },
+  "text.ggydph": {
+   "text": "The Orb · Porcelain",
+   "hash": "1a39a72b07ba",
+   "files": {
+    "samantha": "samantha/text.ggydph.m4a",
+    "daniel": "daniel/text.ggydph.m4a",
+    "bella": "bella/text.ggydph.m4a",
+    "emma": "emma/text.ggydph.m4a"
+   }
+  },
+  "text.hzfi4x": {
+   "text": ".orb The Orb · Silverline Porcelain bands edged in silver over dark glass. Free · Early access Get it free Save Go to Studio",
+   "hash": "0c9287540f22",
+   "files": {
+    "samantha": "samantha/text.hzfi4x.m4a",
+    "daniel": "daniel/text.hzfi4x.m4a",
+    "bella": "bella/text.hzfi4x.m4a",
+    "emma": "emma/text.hzfi4x.m4a"
+   }
+  },
+  "text.1h6lcrz": {
+   "text": "The Orb · Silverline",
+   "hash": "35dad976ce94",
+   "files": {
+    "samantha": "samantha/text.1h6lcrz.m4a",
+    "daniel": "daniel/text.1h6lcrz.m4a",
+    "bella": "bella/text.1h6lcrz.m4a",
+    "emma": "emma/text.1h6lcrz.m4a"
+   }
+  },
+  "text.w6to02": {
+   "text": ".orb The Orb · Celadon Porcelain bands over green celadon glass. Free · Early access Get it free Save Go to Studio",
+   "hash": "54e429fd666c",
+   "files": {
+    "samantha": "samantha/text.w6to02.m4a",
+    "daniel": "daniel/text.w6to02.m4a",
+    "bella": "bella/text.w6to02.m4a",
+    "emma": "emma/text.w6to02.m4a"
+   }
+  },
+  "text.11q45ks": {
+   "text": "The Orb · Celadon",
+   "hash": "2cf945e43895",
+   "files": {
+    "samantha": "samantha/text.11q45ks.m4a",
+    "daniel": "daniel/text.11q45ks.m4a",
+    "bella": "bella/text.11q45ks.m4a",
+    "emma": "emma/text.11q45ks.m4a"
+   }
+  },
+  "text.l8t80r": {
+   "text": ".orb The Orb · Bloom Milky glass holding a slow pink cloud. Free · Early access Get it free Save Go to Studio",
+   "hash": "ba739d8c42ff",
+   "files": {
+    "samantha": "samantha/text.l8t80r.m4a",
+    "daniel": "daniel/text.l8t80r.m4a",
+    "bella": "bella/text.l8t80r.m4a",
+    "emma": "emma/text.l8t80r.m4a"
+   }
+  },
+  "text.xzfxmv": {
+   "text": "The Orb · Bloom",
+   "hash": "2400636458e6",
+   "files": {
+    "samantha": "samantha/text.xzfxmv.m4a",
+    "daniel": "daniel/text.xzfxmv.m4a",
+    "bella": "bella/text.xzfxmv.m4a",
+    "emma": "emma/text.xzfxmv.m4a"
+   }
+  },
+  "text.n3dmwo": {
+   "text": ".orb The Orb · Lilac Milky glass holding a slow violet cloud. Free · Early access Get it free Save Go to Studio",
+   "hash": "ac27833a0c68",
+   "files": {
+    "samantha": "samantha/text.n3dmwo.m4a",
+    "daniel": "daniel/text.n3dmwo.m4a",
+    "bella": "bella/text.n3dmwo.m4a",
+    "emma": "emma/text.n3dmwo.m4a"
+   }
+  },
+  "text.jl9gp1": {
+   "text": "The Orb · Lilac",
+   "hash": "878680916979",
+   "files": {
+    "samantha": "samantha/text.jl9gp1.m4a",
+    "daniel": "daniel/text.jl9gp1.m4a",
+    "bella": "bella/text.jl9gp1.m4a",
+    "emma": "emma/text.jl9gp1.m4a"
+   }
+  },
+  "text.1n5553q": {
+   "text": ".orb The Orb · Lagoon Milky glass holding a slow sea-blue cloud. Free · Early access Get it free Save Go to Studio",
+   "hash": "e8ae315109e1",
+   "files": {
+    "samantha": "samantha/text.1n5553q.m4a",
+    "daniel": "daniel/text.1n5553q.m4a",
+    "bella": "bella/text.1n5553q.m4a",
+    "emma": "emma/text.1n5553q.m4a"
+   }
+  },
+  "text.ymhuak": {
+   "text": "The Orb · Lagoon",
+   "hash": "9bdbe2126b28",
+   "files": {
+    "samantha": "samantha/text.ymhuak.m4a",
+    "daniel": "daniel/text.ymhuak.m4a",
+    "bella": "bella/text.ymhuak.m4a",
+    "emma": "emma/text.ymhuak.m4a"
+   }
+  },
+  "text.1u6nmy": {
+   "text": ".orb The Orb · Core Clear glass holding one soft white light at its centre. Free · Early access Get it free Save Go to Studio",
+   "hash": "25b54e228409",
+   "files": {
+    "samantha": "samantha/text.1u6nmy.m4a",
+    "daniel": "daniel/text.1u6nmy.m4a",
+    "bella": "bella/text.1u6nmy.m4a",
+    "emma": "emma/text.1u6nmy.m4a"
+   }
+  },
+  "text.11uxl6r": {
+   "text": "The Orb · Core",
+   "hash": "add11b29312a",
+   "files": {
+    "samantha": "samantha/text.11uxl6r.m4a",
+    "daniel": "daniel/text.11uxl6r.m4a",
+    "bella": "bella/text.11uxl6r.m4a",
+    "emma": "emma/text.11uxl6r.m4a"
+   }
+  },
+  "text.1xwxx0a": {
+   "text": ".orb The Orb · Dawn Clear glass holding a warm, low light. Free · Early access Get it free Save Go to Studio",
+   "hash": "e92cec3a800b",
+   "files": {
+    "samantha": "samantha/text.1xwxx0a.m4a",
+    "daniel": "daniel/text.1xwxx0a.m4a",
+    "bella": "bella/text.1xwxx0a.m4a",
+    "emma": "emma/text.1xwxx0a.m4a"
+   }
+  },
+  "text.1ils0ye": {
+   "text": "The Orb · Dawn",
+   "hash": "9f5d61e7b1a3",
+   "files": {
+    "samantha": "samantha/text.1ils0ye.m4a",
+    "daniel": "daniel/text.1ils0ye.m4a",
+    "bella": "bella/text.1ils0ye.m4a",
+    "emma": "emma/text.1ils0ye.m4a"
+   }
+  },
+  "text.gxogvh": {
+   "text": ".orb The Orb · Starlight Clear glass full of small points of light that drift and twinkle. Free · Early access Get it free Save Go to Studio",
+   "hash": "e2ea0fd997f6",
+   "files": {
+    "samantha": "samantha/text.gxogvh.m4a",
+    "daniel": "daniel/text.gxogvh.m4a",
+    "bella": "bella/text.gxogvh.m4a",
+    "emma": "emma/text.gxogvh.m4a"
+   }
+  },
+  "text.dut4ow": {
+   "text": "The Orb · Starlight",
+   "hash": "88b960553de6",
+   "files": {
+    "samantha": "samantha/text.dut4ow.m4a",
+    "daniel": "daniel/text.dut4ow.m4a",
+    "bella": "bella/text.dut4ow.m4a",
+    "emma": "emma/text.dut4ow.m4a"
+   }
+  },
+  "text.1rfs7y4": {
+   "text": ".orb The Orb · Firefly Warm points of light drifting slowly inside the glass. Free · Early access Get it free Save Go to Studio",
+   "hash": "3d92bcea21cb",
+   "files": {
+    "samantha": "samantha/text.1rfs7y4.m4a",
+    "daniel": "daniel/text.1rfs7y4.m4a",
+    "bella": "bella/text.1rfs7y4.m4a",
+    "emma": "emma/text.1rfs7y4.m4a"
+   }
+  },
+  "text.9klv6p": {
+   "text": "The Orb · Firefly",
+   "hash": "8e2f9df3495d",
+   "files": {
+    "samantha": "samantha/text.9klv6p.m4a",
+    "daniel": "daniel/text.9klv6p.m4a",
+    "bella": "bella/text.9klv6p.m4a",
+    "emma": "emma/text.9klv6p.m4a"
+   }
+  },
+  "text.1ach9i5": {
+   "text": ".orb The Orb · Glitter Fine silver flecks that catch the light as the sphere turns. Free · Early access Get it free Save Go to Studio",
+   "hash": "e67afe7c1ed4",
+   "files": {
+    "samantha": "samantha/text.1ach9i5.m4a",
+    "daniel": "daniel/text.1ach9i5.m4a",
+    "bella": "bella/text.1ach9i5.m4a",
+    "emma": "emma/text.1ach9i5.m4a"
+   }
+  },
+  "text.1c2gtat": {
+   "text": "The Orb · Glitter",
+   "hash": "f803fa7a8dc4",
+   "files": {
+    "samantha": "samantha/text.1c2gtat.m4a",
+    "daniel": "daniel/text.1c2gtat.m4a",
+    "bella": "bella/text.1c2gtat.m4a",
+    "emma": "emma/text.1c2gtat.m4a"
+   }
+  },
+  "text.56ux28": {
+   "text": ".orb The Orb · Gold Leaf Flakes of gold suspended in clear glass. Free · Early access Get it free Save Go to Studio",
+   "hash": "e76b4dba1a7f",
+   "files": {
+    "samantha": "samantha/text.56ux28.m4a",
+    "daniel": "daniel/text.56ux28.m4a",
+    "bella": "bella/text.56ux28.m4a",
+    "emma": "emma/text.56ux28.m4a"
+   }
+  },
+  "text.aoun1m": {
+   "text": "The Orb · Gold Leaf",
+   "hash": "1417dff1bac7",
+   "files": {
+    "samantha": "samantha/text.aoun1m.m4a",
+    "daniel": "daniel/text.aoun1m.m4a",
+    "bella": "bella/text.aoun1m.m4a",
+    "emma": "emma/text.aoun1m.m4a"
+   }
+  },
+  "text.z8dsto": {
+   "text": ".orb The Orb · Beads Small milky glass beads floating inside the shell. Free · Early access Get it free Save Go to Studio",
+   "hash": "ca6c94caa03f",
+   "files": {
+    "samantha": "samantha/text.z8dsto.m4a",
+    "daniel": "daniel/text.z8dsto.m4a",
+    "bella": "bella/text.z8dsto.m4a",
+    "emma": "emma/text.z8dsto.m4a"
+   }
+  },
+  "text.3lp72p": {
+   "text": "The Orb · Beads",
+   "hash": "0c3d3af57dfb",
+   "files": {
+    "samantha": "samantha/text.3lp72p.m4a",
+    "daniel": "daniel/text.3lp72p.m4a",
+    "bella": "bella/text.3lp72p.m4a",
+    "emma": "emma/text.3lp72p.m4a"
+   }
+  },
+  "text.1w0mtv8": {
+   "text": ".orb The Orb · Pearls Soft pearls with a faint rainbow sheen, floating inside. Free · Early access Get it free Save Go to Studio",
+   "hash": "2fc455d9c264",
+   "files": {
+    "samantha": "samantha/text.1w0mtv8.m4a",
+    "daniel": "daniel/text.1w0mtv8.m4a",
+    "bella": "bella/text.1w0mtv8.m4a",
+    "emma": "emma/text.1w0mtv8.m4a"
+   }
+  },
+  "text.1ybsca9": {
+   "text": "The Orb · Pearls",
+   "hash": "34089064e25a",
+   "files": {
+    "samantha": "samantha/text.1ybsca9.m4a",
+    "daniel": "daniel/text.1ybsca9.m4a",
+    "bella": "bella/text.1ybsca9.m4a",
+    "emma": "emma/text.1ybsca9.m4a"
+   }
+  },
+  "text.sy7oi6": {
+   "text": ".html Orb Slider · Clear Thick clear glass with a bright lower rim, for light pages. Free · Early access Get it free Save Go to Studio",
+   "hash": "1a0f5a4294ab",
+   "files": {
+    "samantha": "samantha/text.sy7oi6.m4a",
+    "daniel": "daniel/text.sy7oi6.m4a",
+    "bella": "bella/text.sy7oi6.m4a",
+    "emma": "emma/text.sy7oi6.m4a"
+   }
+  },
+  "text.cjihx3": {
+   "text": "Orb Slider · Clear",
+   "hash": "57cfd103f81a",
+   "files": {
+    "samantha": "samantha/text.cjihx3.m4a",
+    "daniel": "daniel/text.cjihx3.m4a",
+    "bella": "bella/text.cjihx3.m4a",
+    "emma": "emma/text.cjihx3.m4a"
+   }
+  },
+  "text.1s2xuue": {
+   "text": ".html Orb Slider · Smoke Smoked glass that darkens to the rim, for dark pages. Free · Early access Get it free Save Go to Studio",
+   "hash": "70f5328b00e4",
+   "files": {
+    "samantha": "samantha/text.1s2xuue.m4a",
+    "daniel": "daniel/text.1s2xuue.m4a",
+    "bella": "bella/text.1s2xuue.m4a",
+    "emma": "emma/text.1s2xuue.m4a"
+   }
+  },
+  "text.1c7cotb": {
+   "text": "Orb Slider · Smoke",
+   "hash": "2135b0ef4ff0",
+   "files": {
+    "samantha": "samantha/text.1c7cotb.m4a",
+    "daniel": "daniel/text.1c7cotb.m4a",
+    "bella": "bella/text.1c7cotb.m4a",
+    "emma": "emma/text.1c7cotb.m4a"
+   }
+  },
+  "text.lvsdym": {
+   "text": ".html Orb Slider · Chrome Liquid chrome that folds the room it reflects. Free · Early access Get it free Save Go to Studio",
+   "hash": "ec51f29a3dad",
+   "files": {
+    "samantha": "samantha/text.lvsdym.m4a",
+    "daniel": "daniel/text.lvsdym.m4a",
+    "bella": "bella/text.lvsdym.m4a",
+    "emma": "emma/text.lvsdym.m4a"
+   }
+  },
+  "text.17yslic": {
+   "text": "Orb Slider · Chrome",
+   "hash": "b0ea60f2fd13",
+   "files": {
+    "samantha": "samantha/text.17yslic.m4a",
+    "daniel": "daniel/text.17yslic.m4a",
+    "bella": "bella/text.17yslic.m4a",
+    "emma": "emma/text.17yslic.m4a"
+   }
+  },
+  "text.xoa2kx": {
+   "text": ".html Orb Slider · Porcelain Opaque glazed porcelain with a warm greige accent. Free · Early access Get it free Save Go to Studio",
+   "hash": "33b33076089e",
+   "files": {
+    "samantha": "samantha/text.xoa2kx.m4a",
+    "daniel": "daniel/text.xoa2kx.m4a",
+    "bella": "bella/text.xoa2kx.m4a",
+    "emma": "emma/text.xoa2kx.m4a"
+   }
+  },
+  "text.1r6pf0r": {
+   "text": "Orb Slider · Porcelain",
+   "hash": "00e6b1235bb2",
+   "files": {
+    "samantha": "samantha/text.1r6pf0r.m4a",
+    "daniel": "daniel/text.1r6pf0r.m4a",
+    "bella": "bella/text.1r6pf0r.m4a",
+    "emma": "emma/text.1r6pf0r.m4a"
+   }
+  },
+  "text.jil9gb": {
+   "text": ".html Orb Slider · Gel Soft sea-glass gel that gives a little when you press it. Free · Early access Get it free Save Go to Studio",
+   "hash": "342f13e00b96",
+   "files": {
+    "samantha": "samantha/text.jil9gb.m4a",
+    "daniel": "daniel/text.jil9gb.m4a",
+    "bella": "bella/text.jil9gb.m4a",
+    "emma": "emma/text.jil9gb.m4a"
+   }
+  },
+  "text.rfcesq": {
+   "text": "Orb Slider · Gel",
+   "hash": "b7e93ed2697e",
+   "files": {
+    "samantha": "samantha/text.rfcesq.m4a",
+    "daniel": "daniel/text.rfcesq.m4a",
+    "bella": "bella/text.rfcesq.m4a",
+    "emma": "emma/text.rfcesq.m4a"
+   }
+  },
+  "text.1x2mg6d": {
+   "text": ".html Orb Slider · Bloom Milky glass holding a slow pink cloud. Free · Early access Get it free Save Go to Studio",
+   "hash": "bf91e45d306b",
+   "files": {
+    "samantha": "samantha/text.1x2mg6d.m4a",
+    "daniel": "daniel/text.1x2mg6d.m4a",
+    "bella": "bella/text.1x2mg6d.m4a",
+    "emma": "emma/text.1x2mg6d.m4a"
+   }
+  },
+  "text.1ujdmdd": {
+   "text": "Orb Slider · Bloom",
+   "hash": "6845ed4b0dba",
+   "files": {
+    "samantha": "samantha/text.1ujdmdd.m4a",
+    "daniel": "daniel/text.1ujdmdd.m4a",
+    "bella": "bella/text.1ujdmdd.m4a",
+    "emma": "emma/text.1ujdmdd.m4a"
+   }
+  },
+  "text.1eabzic": {
+   "text": ".html Crystal Controls · Clear Thick clear glass with a bright lower rim, for light pages. Free · Early access Get it free Save Go to Studio",
+   "hash": "3734366aeea4",
+   "files": {
+    "samantha": "samantha/text.1eabzic.m4a",
+    "daniel": "daniel/text.1eabzic.m4a",
+    "bella": "bella/text.1eabzic.m4a",
+    "emma": "emma/text.1eabzic.m4a"
+   }
+  },
+  "text.1b46we5": {
+   "text": "Crystal Controls · Clear",
+   "hash": "e5def251676b",
+   "files": {
+    "samantha": "samantha/text.1b46we5.m4a",
+    "daniel": "daniel/text.1b46we5.m4a",
+    "bella": "bella/text.1b46we5.m4a",
+    "emma": "emma/text.1b46we5.m4a"
+   }
+  },
+  "text.1czd39s": {
+   "text": ".html Crystal Controls · Smoke Smoked glass that darkens to the rim, for dark pages. Free · Early access Get it free Save Go to Studio",
+   "hash": "9eaab2a622f6",
+   "files": {
+    "samantha": "samantha/text.1czd39s.m4a",
+    "daniel": "daniel/text.1czd39s.m4a",
+    "bella": "bella/text.1czd39s.m4a",
+    "emma": "emma/text.1czd39s.m4a"
+   }
+  },
+  "text.8ku7bt": {
+   "text": "Crystal Controls · Smoke",
+   "hash": "24b81016676d",
+   "files": {
+    "samantha": "samantha/text.8ku7bt.m4a",
+    "daniel": "daniel/text.8ku7bt.m4a",
+    "bella": "bella/text.8ku7bt.m4a",
+    "emma": "emma/text.8ku7bt.m4a"
+   }
+  },
+  "text.omvsow": {
+   "text": ".html Crystal Controls · Chrome Liquid chrome that folds the room it reflects. Free · Early access Get it free Save Go to Studio",
+   "hash": "b07be817319d",
+   "files": {
+    "samantha": "samantha/text.omvsow.m4a",
+    "daniel": "daniel/text.omvsow.m4a",
+    "bella": "bella/text.omvsow.m4a",
+    "emma": "emma/text.omvsow.m4a"
+   }
+  },
+  "text.1v9f23e": {
+   "text": "Crystal Controls · Chrome",
+   "hash": "7c374c4424b1",
+   "files": {
+    "samantha": "samantha/text.1v9f23e.m4a",
+    "daniel": "daniel/text.1v9f23e.m4a",
+    "bella": "bella/text.1v9f23e.m4a",
+    "emma": "emma/text.1v9f23e.m4a"
+   }
+  },
+  "text.14rlkjz": {
+   "text": ".html Crystal Controls · Porcelain Opaque glazed porcelain with a warm greige accent. Free · Early access Get it free Save Go to Studio",
+   "hash": "da6b35eb6363",
+   "files": {
+    "samantha": "samantha/text.14rlkjz.m4a",
+    "daniel": "daniel/text.14rlkjz.m4a",
+    "bella": "bella/text.14rlkjz.m4a",
+    "emma": "emma/text.14rlkjz.m4a"
+   }
+  },
+  "text.2uoh6h": {
+   "text": "Crystal Controls · Porcelain",
+   "hash": "6ec62c1608d0",
+   "files": {
+    "samantha": "samantha/text.2uoh6h.m4a",
+    "daniel": "daniel/text.2uoh6h.m4a",
+    "bella": "bella/text.2uoh6h.m4a",
+    "emma": "emma/text.2uoh6h.m4a"
+   }
+  },
+  "text.lgqfv9": {
+   "text": ".html Crystal Controls · Gel Soft sea-glass gel that gives a little when you press it. Free · Early access Get it free Save Go to Studio",
+   "hash": "092b87d71f50",
+   "files": {
+    "samantha": "samantha/text.lgqfv9.m4a",
+    "daniel": "daniel/text.lgqfv9.m4a",
+    "bella": "bella/text.lgqfv9.m4a",
+    "emma": "emma/text.lgqfv9.m4a"
+   }
+  },
+  "text.17vyc50": {
+   "text": "Crystal Controls · Gel",
+   "hash": "2d3b418290ee",
+   "files": {
+    "samantha": "samantha/text.17vyc50.m4a",
+    "daniel": "daniel/text.17vyc50.m4a",
+    "bella": "bella/text.17vyc50.m4a",
+    "emma": "emma/text.17vyc50.m4a"
+   }
+  },
+  "text.lscjjj": {
+   "text": ".html Crystal Controls · Bloom Milky glass holding a slow pink cloud. Free · Early access Get it free Save Go to Studio",
+   "hash": "41bfcc902d20",
+   "files": {
+    "samantha": "samantha/text.lscjjj.m4a",
+    "daniel": "daniel/text.lscjjj.m4a",
+    "bella": "bella/text.lscjjj.m4a",
+    "emma": "emma/text.lscjjj.m4a"
+   }
+  },
+  "text.y33qzf": {
+   "text": "Crystal Controls · Bloom",
+   "hash": "bfe26957aa34",
+   "files": {
+    "samantha": "samantha/text.y33qzf.m4a",
+    "daniel": "daniel/text.y33qzf.m4a",
+    "bella": "bella/text.y33qzf.m4a",
+    "emma": "emma/text.y33qzf.m4a"
+   }
+  },
+  "text.9heat4": {
+   "text": "Sphere",
+   "hash": "27ea07ae70ae",
+   "files": {
+    "samantha": "samantha/text.9heat4.m4a",
+    "daniel": "daniel/text.9heat4.m4a",
+    "bella": "bella/text.9heat4.m4a",
+    "emma": "emma/text.9heat4.m4a"
+   }
+  },
+  "text.8kt04g": {
+   "text": "A 3D sphere you can place in your own work. Choose the material and what it holds inside.",
+   "hash": "09f952f13c8d",
+   "files": {
+    "samantha": "samantha/text.8kt04g.m4a",
+    "daniel": "daniel/text.8kt04g.m4a",
+    "bella": "bella/text.8kt04g.m4a",
+    "emma": "emma/text.8kt04g.m4a"
+   }
+  },
+  "text.q0zd4n": {
+   "text": "Version",
+   "hash": "2f51cf78343f",
+   "files": {
+    "samantha": "samantha/text.q0zd4n.m4a",
+    "daniel": "daniel/text.q0zd4n.m4a",
+    "bella": "bella/text.q0zd4n.m4a",
+    "emma": "emma/text.q0zd4n.m4a"
+   }
+  },
+  "text.376rf6": {
+   "text": "Thick clear glass, nothing inside but its own depth.",
+   "hash": "b9127777ee47",
+   "files": {
+    "samantha": "samantha/text.376rf6.m4a",
+    "daniel": "daniel/text.376rf6.m4a",
+    "bella": "bella/text.376rf6.m4a",
+    "emma": "emma/text.376rf6.m4a"
+   }
+  },
+  "text.jm10f9": {
+   "text": "Free · Early access",
+   "hash": "98e661e2901d",
+   "files": {
+    "samantha": "samantha/text.jm10f9.m4a",
+    "daniel": "daniel/text.jm10f9.m4a",
+    "bella": "bella/text.jm10f9.m4a",
+    "emma": "emma/text.jm10f9.m4a"
+   }
+  },
+  "text.1ryburm": {
+   "text": "Paste this where the Orb should appear. It fills the box you give it; drag to turn it, tap to stir it.",
+   "hash": "93295d844e83",
+   "files": {
+    "samantha": "samantha/text.1ryburm.m4a",
+    "daniel": "daniel/text.1ryburm.m4a",
+    "bella": "bella/text.1ryburm.m4a",
+    "emma": "emma/text.1ryburm.m4a"
+   }
+  },
+  "text.1vyu1if": {
+   "text": "Free for personal and commercial use. Attribution appreciated. No resale of the code itself. Licence",
+   "hash": "ebce75e11caf",
+   "files": {
+    "samantha": "samantha/text.1vyu1if.m4a",
+    "daniel": "daniel/text.1vyu1if.m4a",
+    "bella": "bella/text.1vyu1if.m4a",
+    "emma": "emma/text.1vyu1if.m4a"
+   }
+  },
+  "text.klwxkt": {
+   "text": "What it does",
+   "hash": "d35da61411a5",
+   "files": {
+    "samantha": "samantha/text.klwxkt.m4a",
+    "daniel": "daniel/text.klwxkt.m4a",
+    "bella": "bella/text.klwxkt.m4a",
+    "emma": "emma/text.klwxkt.m4a"
+   }
+  },
+  "text.o2qx8y": {
+   "text": "Drag to turn it; it keeps turning slowly on its own. A tap makes whatever is in it move a little faster. Twenty versions: clear glass, liquid metal, porcelain, bloom, and glass holding a light, points of light, glitter or beads.",
+   "hash": "91dab227db92",
+   "files": {
+    "samantha": "samantha/text.o2qx8y.m4a",
+    "daniel": "daniel/text.o2qx8y.m4a",
+    "bella": "bella/text.o2qx8y.m4a",
+    "emma": "emma/text.o2qx8y.m4a"
+   }
+  },
+  "text.va18uh": {
+   "text": "You receive",
+   "hash": "a72716b4b433",
+   "files": {
+    "samantha": "samantha/text.va18uh.m4a",
+    "daniel": "daniel/text.va18uh.m4a",
+    "bella": "bella/text.va18uh.m4a",
+    "emma": "emma/text.va18uh.m4a"
+   }
+  },
+  "text.1aiehma": {
+   "text": "ES module (Three.js r186) with the sphere and its material · The version you choose · Integration notes and dependency list",
+   "hash": "820456b9c0f5",
+   "files": {
+    "samantha": "samantha/text.1aiehma.m4a",
+    "daniel": "daniel/text.1aiehma.m4a",
+    "bella": "bella/text.1aiehma.m4a",
+    "emma": "emma/text.1aiehma.m4a"
+   }
+  },
+  "text.c8cv78": {
+   "text": "An ES module built on Three.js r186 (WebGL 2). Works in current Chrome, Safari, Edge and Firefox. The integration notes explain how to place it in a page and choose a version.",
+   "hash": "66e309ad827d",
+   "files": {
+    "samantha": "samantha/text.c8cv78.m4a",
+    "daniel": "daniel/text.c8cv78.m4a",
+    "bella": "bella/text.c8cv78.m4a",
+    "emma": "emma/text.c8cv78.m4a"
+   }
+  },
+  "text.1aeugy": {
+   "text": "Clear",
+   "hash": "a12944f39e2d",
+   "files": {
+    "samantha": "samantha/text.1aeugy.m4a",
+    "daniel": "daniel/text.1aeugy.m4a",
+    "bella": "bella/text.1aeugy.m4a",
+    "emma": "emma/text.1aeugy.m4a"
+   }
+  },
+  "text.1lhyna": {
+   "text": "Smoke",
+   "hash": "4022b4004b4d",
+   "files": {
+    "samantha": "samantha/text.1lhyna.m4a",
+    "daniel": "daniel/text.1lhyna.m4a",
+    "bella": "bella/text.1lhyna.m4a",
+    "emma": "emma/text.1lhyna.m4a"
+   }
+  },
+  "text.5ze0dc": {
+   "text": "Amber",
+   "hash": "d0857aba9b64",
+   "files": {
+    "samantha": "samantha/text.5ze0dc.m4a",
+    "daniel": "daniel/text.5ze0dc.m4a",
+    "bella": "bella/text.5ze0dc.m4a",
+    "emma": "emma/text.5ze0dc.m4a"
+   }
+  },
+  "text.gw1ljn": {
+   "text": "Chrome",
+   "hash": "0bcca435b881",
+   "files": {
+    "samantha": "samantha/text.gw1ljn.m4a",
+    "daniel": "daniel/text.gw1ljn.m4a",
+    "bella": "bella/text.gw1ljn.m4a",
+    "emma": "emma/text.gw1ljn.m4a"
+   }
+  },
+  "text.m0agud": {
+   "text": "Liquid Gold",
+   "hash": "7f99dc067660",
+   "files": {
+    "samantha": "samantha/text.m0agud.m4a",
+    "daniel": "daniel/text.m0agud.m4a",
+    "bella": "bella/text.m0agud.m4a",
+    "emma": "emma/text.m0agud.m4a"
+   }
+  },
+  "text.1effy70": {
+   "text": "Gunmetal",
+   "hash": "d8517aab7ffe",
+   "files": {
+    "samantha": "samantha/text.1effy70.m4a",
+    "daniel": "daniel/text.1effy70.m4a",
+    "bella": "bella/text.1effy70.m4a",
+    "emma": "emma/text.1effy70.m4a"
+   }
+  },
+  "text.srlo6m": {
+   "text": "Porcelain",
+   "hash": "ca682531857a",
+   "files": {
+    "samantha": "samantha/text.srlo6m.m4a",
+    "daniel": "daniel/text.srlo6m.m4a",
+    "bella": "bella/text.srlo6m.m4a",
+    "emma": "emma/text.srlo6m.m4a"
+   }
+  },
+  "text.paxssa": {
+   "text": "Silverline",
+   "hash": "fe76b72970e2",
+   "files": {
+    "samantha": "samantha/text.paxssa.m4a",
+    "daniel": "daniel/text.paxssa.m4a",
+    "bella": "bella/text.paxssa.m4a",
+    "emma": "emma/text.paxssa.m4a"
+   }
+  },
+  "text.xksnxz": {
+   "text": "Celadon",
+   "hash": "d71259d09eb0",
+   "files": {
+    "samantha": "samantha/text.xksnxz.m4a",
+    "daniel": "daniel/text.xksnxz.m4a",
+    "bella": "bella/text.xksnxz.m4a",
+    "emma": "emma/text.xksnxz.m4a"
+   }
+  },
+  "text.1er1kl8": {
+   "text": "Bloom",
+   "hash": "872129f30581",
+   "files": {
+    "samantha": "samantha/text.1er1kl8.m4a",
+    "daniel": "daniel/text.1er1kl8.m4a",
+    "bella": "bella/text.1er1kl8.m4a",
+    "emma": "emma/text.1er1kl8.m4a"
+   }
+  },
+  "text.rjd54a": {
+   "text": "Lilac",
+   "hash": "7a53fb1c7f58",
+   "files": {
+    "samantha": "samantha/text.rjd54a.m4a",
+    "daniel": "daniel/text.rjd54a.m4a",
+    "bella": "bella/text.rjd54a.m4a",
+    "emma": "emma/text.rjd54a.m4a"
+   }
+  },
+  "text.y0d2sl": {
+   "text": "Lagoon",
+   "hash": "8c4f58f5cca8",
+   "files": {
+    "samantha": "samantha/text.y0d2sl.m4a",
+    "daniel": "daniel/text.y0d2sl.m4a",
+    "bella": "bella/text.y0d2sl.m4a",
+    "emma": "emma/text.y0d2sl.m4a"
+   }
+  },
+  "text.pyd126": {
+   "text": "Core",
+   "hash": "696091823920",
+   "files": {
+    "samantha": "samantha/text.pyd126.m4a",
+    "daniel": "daniel/text.pyd126.m4a",
+    "bella": "bella/text.pyd126.m4a",
+    "emma": "emma/text.pyd126.m4a"
+   }
+  },
+  "text.ra17if": {
+   "text": "Dawn",
+   "hash": "1bdfdaf3b62f",
+   "files": {
+    "samantha": "samantha/text.ra17if.m4a",
+    "daniel": "daniel/text.ra17if.m4a",
+    "bella": "bella/text.ra17if.m4a",
+    "emma": "emma/text.ra17if.m4a"
+   }
+  },
+  "text.1v808cb": {
+   "text": "Starlight",
+   "hash": "ebdf74f518ff",
+   "files": {
+    "samantha": "samantha/text.1v808cb.m4a",
+    "daniel": "daniel/text.1v808cb.m4a",
+    "bella": "bella/text.1v808cb.m4a",
+    "emma": "emma/text.1v808cb.m4a"
+   }
+  },
+  "text.8gh4qm": {
+   "text": "Firefly",
+   "hash": "4e1319f8b624",
+   "files": {
+    "samantha": "samantha/text.8gh4qm.m4a",
+    "daniel": "daniel/text.8gh4qm.m4a",
+    "bella": "bella/text.8gh4qm.m4a",
+    "emma": "emma/text.8gh4qm.m4a"
+   }
+  },
+  "text.28he5y": {
+   "text": "Glitter",
+   "hash": "8d792babacc4",
+   "files": {
+    "samantha": "samantha/text.28he5y.m4a",
+    "daniel": "daniel/text.28he5y.m4a",
+    "bella": "bella/text.28he5y.m4a",
+    "emma": "emma/text.28he5y.m4a"
+   }
+  },
+  "text.p613dt": {
+   "text": "Gold Leaf",
+   "hash": "4ea54bae94b8",
+   "files": {
+    "samantha": "samantha/text.p613dt.m4a",
+    "daniel": "daniel/text.p613dt.m4a",
+    "bella": "bella/text.p613dt.m4a",
+    "emma": "emma/text.p613dt.m4a"
+   }
+  },
+  "text.1fjeoia": {
+   "text": "Beads",
+   "hash": "3ab230775ca3",
+   "files": {
+    "samantha": "samantha/text.1fjeoia.m4a",
+    "daniel": "daniel/text.1fjeoia.m4a",
+    "bella": "bella/text.1fjeoia.m4a",
+    "emma": "emma/text.1fjeoia.m4a"
+   }
+  },
+  "text.se3etc": {
+   "text": "Pearls",
+   "hash": "8efe9fad5ee3",
+   "files": {
+    "samantha": "samantha/text.se3etc.m4a",
+    "daniel": "daniel/text.se3etc.m4a",
+    "bella": "bella/text.se3etc.m4a",
+    "emma": "emma/text.se3etc.m4a"
+   }
+  },
+  "text.gss4h9": {
+   "text": "Get the code — free",
+   "hash": "cdae634826a5",
+   "files": {
+    "samantha": "samantha/text.gss4h9.m4a",
+    "daniel": "daniel/text.gss4h9.m4a",
+    "bella": "bella/text.gss4h9.m4a",
+    "emma": "emma/text.gss4h9.m4a"
+   }
+  },
+  "text.106qgkp": {
+   "text": "Copy code",
+   "hash": "1b92f071ef28",
+   "files": {
+    "samantha": "samantha/text.106qgkp.m4a",
+    "daniel": "daniel/text.106qgkp.m4a",
+    "bella": "bella/text.106qgkp.m4a",
+    "emma": "emma/text.106qgkp.m4a"
+   }
+  },
+  "text.r82b3h": {
+   "text": "Customise in Studio Open to everyone · Beta",
+   "hash": "f40015cd5c64",
+   "files": {
+    "samantha": "samantha/text.r82b3h.m4a",
+    "daniel": "daniel/text.r82b3h.m4a",
+    "bella": "bella/text.r82b3h.m4a",
+    "emma": "emma/text.r82b3h.m4a"
+   }
+  },
+  "text.1u680oq": {
+   "text": "Interactive control",
+   "hash": "972778efda31",
+   "files": {
+    "samantha": "samantha/text.1u680oq.m4a",
+    "daniel": "daniel/text.1u680oq.m4a",
+    "bella": "bella/text.1u680oq.m4a",
+    "emma": "emma/text.1u680oq.m4a"
+   }
+  },
+  "text.nkq48r": {
+   "text": "Orb Slider",
+   "hash": "4f968fa21742",
+   "files": {
+    "samantha": "samantha/text.nkq48r.m4a",
+    "daniel": "daniel/text.nkq48r.m4a",
+    "bella": "bella/text.nkq48r.m4a",
+    "emma": "emma/text.nkq48r.m4a"
+   }
+  },
+  "text.dku0bk": {
+   "text": "A glass capsule whose thumb is a small orb with its own slow inner light. Slide it to enter.",
+   "hash": "61fc87e332ae",
+   "files": {
+    "samantha": "samantha/text.dku0bk.m4a",
+    "daniel": "daniel/text.dku0bk.m4a",
+    "bella": "bella/text.dku0bk.m4a",
+    "emma": "emma/text.dku0bk.m4a"
+   }
+  },
+  "text.m3h88o": {
+   "text": "Thick clear glass with a bright lower rim, for light pages.",
+   "hash": "1f452e6d7903",
+   "files": {
+    "samantha": "samantha/text.m3h88o.m4a",
+    "daniel": "daniel/text.m3h88o.m4a",
+    "bella": "bella/text.m3h88o.m4a",
+    "emma": "emma/text.m3h88o.m4a"
+   }
+  },
+  "text.b4dng1": {
+   "text": "One self-contained file: open it in a browser, or paste its style, markup and script into your page. Change the material with the --cc-* variables at the top.",
+   "hash": "72f093bf5e35",
+   "files": {
+    "samantha": "samantha/text.b4dng1.m4a",
+    "daniel": "daniel/text.b4dng1.m4a",
+    "bella": "bella/text.b4dng1.m4a",
+    "emma": "emma/text.b4dng1.m4a"
+   }
+  },
+  "text.3dbasq": {
+   "text": "A slide-to-confirm control. Drag the orb; let go and a spring carries it home, or to the end to confirm (it then sends a confirm event). Arrow keys, Enter, Home and End work too.",
+   "hash": "aca352a46930",
+   "files": {
+    "samantha": "samantha/text.3dbasq.m4a",
+    "daniel": "daniel/text.3dbasq.m4a",
+    "bella": "bella/text.3dbasq.m4a",
+    "emma": "emma/text.3dbasq.m4a"
+   }
+  },
+  "text.1wudifr": {
+   "text": "One self-contained HTML file per material (HTML, CSS variables, plain JS) · Keyboard and pointer support · Six materials",
+   "hash": "aa650baf639c",
+   "files": {
+    "samantha": "samantha/text.1wudifr.m4a",
+    "daniel": "daniel/text.1wudifr.m4a",
+    "bella": "bella/text.1wudifr.m4a",
+    "emma": "emma/text.1wudifr.m4a"
+   }
+  },
+  "text.1p9e30p": {
+   "text": "One HTML file: CSS variables for the material and a few lines of plain JavaScript. No framework, no WebGL. Current Chrome, Safari, Edge and Firefox.",
+   "hash": "1dd6cb71c218",
+   "files": {
+    "samantha": "samantha/text.1p9e30p.m4a",
+    "daniel": "daniel/text.1p9e30p.m4a",
+    "bella": "bella/text.1p9e30p.m4a",
+    "emma": "emma/text.1p9e30p.m4a"
+   }
+  },
+  "text.1gvrde7": {
+   "text": "Gel",
+   "hash": "a7f64a63dd72",
+   "files": {
+    "samantha": "samantha/text.1gvrde7.m4a",
+    "daniel": "daniel/text.1gvrde7.m4a",
+    "bella": "bella/text.1gvrde7.m4a",
+    "emma": "emma/text.1gvrde7.m4a"
+   }
+  },
+  "text.1onn036": {
+   "text": "Download .html",
+   "hash": "8d242a37286f",
+   "files": {
+    "samantha": "samantha/text.1onn036.m4a",
+    "daniel": "daniel/text.1onn036.m4a",
+    "bella": "bella/text.1onn036.m4a",
+    "emma": "emma/text.1onn036.m4a"
+   }
+  },
+  "text.1b52sg4": {
+   "text": "Interface kit",
+   "hash": "c8e7be720479",
+   "files": {
+    "samantha": "samantha/text.1b52sg4.m4a",
+    "daniel": "daniel/text.1b52sg4.m4a",
+    "bella": "bella/text.1b52sg4.m4a",
+    "emma": "emma/text.1b52sg4.m4a"
+   }
+  },
+  "text.17wtj3x": {
+   "text": "Crystal Controls",
+   "hash": "a9f363ae5c3f",
+   "files": {
+    "samantha": "samantha/text.17wtj3x.m4a",
+    "daniel": "daniel/text.17wtj3x.m4a",
+    "bella": "bella/text.17wtj3x.m4a",
+    "emma": "emma/text.17wtj3x.m4a"
+   }
+  },
+  "text.ty2a7r": {
+   "text": "Buttons, switches, fields and sliders in six glass materials. A highlight follows the pointer; presses give like glass on a spring.",
+   "hash": "f7832217e6d0",
+   "files": {
+    "samantha": "samantha/text.ty2a7r.m4a",
+    "daniel": "daniel/text.ty2a7r.m4a",
+    "bella": "bella/text.ty2a7r.m4a",
+    "emma": "emma/text.ty2a7r.m4a"
+   }
+  },
+  "text.1yurf9c": {
+   "text": "Every control has default, hover, focus, pressed, selected, disabled and loading states. Choose Clear, Smoke, Chrome, Porcelain, Gel or Bloom; each is a set of CSS variables.",
+   "hash": "7d598c2d0597",
+   "files": {
+    "samantha": "samantha/text.1yurf9c.m4a",
+    "daniel": "daniel/text.1yurf9c.m4a",
+    "bella": "bella/text.1yurf9c.m4a",
+    "emma": "emma/text.1yurf9c.m4a"
+   }
+  },
+  "text.1c6q4iq": {
+   "text": "One self-contained HTML file per material (HTML, CSS variables, plain JS) · Every state: hover, focus, pressed, selected, disabled, loading · Six materials",
+   "hash": "734f224e7381",
+   "files": {
+    "samantha": "samantha/text.1c6q4iq.m4a",
+    "daniel": "daniel/text.1c6q4iq.m4a",
+    "bella": "bella/text.1c6q4iq.m4a",
+    "emma": "emma/text.1c6q4iq.m4a"
+   }
+  },
+  "text.1eq0774": {
+   "text": "One HTML file: plain CSS and a few lines of JavaScript for the pointer light and the slider spring. No framework. Current Chrome, Safari, Edge and Firefox.",
+   "hash": "aa6a9f111337",
+   "files": {
+    "samantha": "samantha/text.1eq0774.m4a",
+    "daniel": "daniel/text.1eq0774.m4a",
+    "bella": "bella/text.1eq0774.m4a",
+    "emma": "emma/text.1eq0774.m4a"
+   }
+  },
+  "text.186jndx": {
+   "text": "Complete compositions",
+   "hash": "cf1d2c076624",
+   "files": {
+    "samantha": "samantha/text.186jndx.m4a",
+    "daniel": "daniel/text.186jndx.m4a",
+    "bella": "bella/text.186jndx.m4a",
+    "emma": "emma/text.186jndx.m4a"
+   }
+  },
+  "text.zn9l67": {
+   "text": "Open The Light Orb",
+   "hash": "5f4f067cdb47",
+   "files": {
+    "samantha": "samantha/text.zn9l67.m4a",
+    "daniel": "daniel/text.zn9l67.m4a",
+    "bella": "bella/text.zn9l67.m4a",
+    "emma": "emma/text.zn9l67.m4a"
+   }
+  },
+  "text.s6qa0b": {
+   "text": "Template",
+   "hash": "6cd1bcf39457",
+   "files": {
+    "samantha": "samantha/text.s6qa0b.m4a",
+    "daniel": "daniel/text.s6qa0b.m4a",
+    "bella": "bella/text.s6qa0b.m4a",
+    "emma": "emma/text.s6qa0b.m4a"
+   }
+  },
+  "text.1ttg4xh": {
+   "text": "The Light Orb",
+   "hash": "33d79100a6be",
+   "files": {
+    "samantha": "samantha/text.1ttg4xh.m4a",
+    "daniel": "daniel/text.1ttg4xh.m4a",
+    "bella": "bella/text.1ttg4xh.m4a",
+    "emma": "emma/text.1ttg4xh.m4a"
+   }
+  },
+  "text.1pi5j4x": {
+   "text": "This website’s own beginning: the Orb as host, a quiet greeting, the quotation and the four destinations.",
+   "hash": "da7d8666d328",
+   "files": {
+    "samantha": "samantha/text.1pi5j4x.m4a",
+    "daniel": "daniel/text.1pi5j4x.m4a",
+    "bella": "bella/text.1pi5j4x.m4a",
+    "emma": "emma/text.1pi5j4x.m4a"
+   }
+  },
+  "text.qmqesy": {
+   "text": "A single .html file: the Orb (hosted embed), a greeting, a quotation slot and four destinations, ready to edit. Licence",
+   "hash": "46d3feed7ce6",
+   "files": {
+    "samantha": "samantha/text.qmqesy.m4a",
+    "daniel": "daniel/text.qmqesy.m4a",
+    "bella": "bella/text.qmqesy.m4a",
+    "emma": "emma/text.qmqesy.m4a"
+   }
+  },
+  "text.1jyixlo": {
+   "text": "Includes",
+   "hash": "8f670266b498",
+   "files": {
+    "samantha": "samantha/text.1jyixlo.m4a",
+    "daniel": "daniel/text.1jyixlo.m4a",
+    "bella": "bella/text.1jyixlo.m4a",
+    "emma": "emma/text.1jyixlo.m4a"
+   }
+  },
+  "text.1e0zayt": {
+   "text": "Centred welcome with the hosting Orb · Quotation scene · Destination selector",
+   "hash": "e2ecf2fe9616",
+   "files": {
+    "samantha": "samantha/text.1e0zayt.m4a",
+    "daniel": "daniel/text.1e0zayt.m4a",
+    "bella": "bella/text.1e0zayt.m4a",
+    "emma": "emma/text.1e0zayt.m4a"
+   }
+  },
+  "text.1xezc12": {
+   "text": "Preview: a capture of this website, 2026-10-12.",
+   "hash": "fe3e29a6972a",
+   "files": {
+    "samantha": "samantha/text.1xezc12.m4a",
+    "daniel": "daniel/text.1xezc12.m4a",
+    "bella": "bella/text.1xezc12.m4a",
+    "emma": "emma/text.1xezc12.m4a"
+   }
+  },
+  "text.ndcwp1": {
+   "text": "View it live",
+   "hash": "386aee0fafe5",
+   "files": {
+    "samantha": "samantha/text.ndcwp1.m4a",
+    "daniel": "daniel/text.ndcwp1.m4a",
+    "bella": "bella/text.ndcwp1.m4a",
+    "emma": "emma/text.ndcwp1.m4a"
+   }
+  },
+  "text.xe7aso": {
+   "text": "Download starter — free",
+   "hash": "c556b9621572",
+   "files": {
+    "samantha": "samantha/text.xe7aso.m4a",
+    "daniel": "daniel/text.xe7aso.m4a",
+    "bella": "bella/text.xe7aso.m4a",
+    "emma": "emma/text.xe7aso.m4a"
+   }
+  },
+  "text.1ovz1n5": {
+   "text": "Voices and sounds",
+   "hash": "5e8d7c0517fe",
+   "files": {
+    "samantha": "samantha/text.1ovz1n5.m4a",
+    "daniel": "daniel/text.1ovz1n5.m4a",
+    "bella": "bella/text.1ovz1n5.m4a",
+    "emma": "emma/text.1ovz1n5.m4a"
+   }
+  },
+  "text.nwq1tx": {
+   "text": "Twelve neural voices, each reading the same line. Choose one and the guide speaks with it across the site. Current guide voice: Heart.",
+   "hash": "e3ed5a8e673b",
+   "files": {
+    "samantha": "samantha/text.nwq1tx.m4a",
+    "daniel": "daniel/text.nwq1tx.m4a",
+    "bella": "bella/text.nwq1tx.m4a",
+    "emma": "emma/text.nwq1tx.m4a"
+   }
+  },
+  "text.1i2vfck": {
+   "text": "HeartAmerican · female",
+   "hash": "6fc6c58ccb5b",
+   "files": {
+    "samantha": "samantha/text.1i2vfck.m4a",
+    "daniel": "daniel/text.1i2vfck.m4a",
+    "bella": "bella/text.1i2vfck.m4a",
+    "emma": "emma/text.1i2vfck.m4a"
+   }
+  },
+  "text.1srnadr": {
+   "text": "Warm and clear. The guide’s own voice.",
+   "hash": "797c1af659b6",
+   "files": {
+    "samantha": "samantha/text.1srnadr.m4a",
+    "daniel": "daniel/text.1srnadr.m4a",
+    "bella": "bella/text.1srnadr.m4a",
+    "emma": "emma/text.1srnadr.m4a"
+   }
+  },
+  "text.1iwpzyk": {
+   "text": "BellaAmerican · female",
+   "hash": "13832b40e945",
+   "files": {
+    "samantha": "samantha/text.1iwpzyk.m4a",
+    "daniel": "daniel/text.1iwpzyk.m4a",
+    "bella": "bella/text.1iwpzyk.m4a",
+    "emma": "emma/text.1iwpzyk.m4a"
+   }
+  },
+  "text.bwtfk9": {
+   "text": "Bright and expressive, with a smile in it.",
+   "hash": "a96d454d7664",
+   "files": {
+    "samantha": "samantha/text.bwtfk9.m4a",
+    "daniel": "daniel/text.bwtfk9.m4a",
+    "bella": "bella/text.bwtfk9.m4a",
+    "emma": "emma/text.bwtfk9.m4a"
+   }
+  },
+  "text.ox2wef": {
+   "text": "EmmaBritish · female",
+   "hash": "deb04c916e7a",
+   "files": {
+    "samantha": "samantha/text.ox2wef.m4a",
+    "daniel": "daniel/text.ox2wef.m4a",
+    "bella": "bella/text.ox2wef.m4a",
+    "emma": "emma/text.ox2wef.m4a"
+   }
+  },
+  "text.oyuvrs": {
+   "text": "Composed and precise. A gallery voice.",
+   "hash": "eddb2cf99cd8",
+   "files": {
+    "samantha": "samantha/text.oyuvrs.m4a",
+    "daniel": "daniel/text.oyuvrs.m4a",
+    "bella": "bella/text.oyuvrs.m4a",
+    "emma": "emma/text.oyuvrs.m4a"
+   }
+  },
+  "text.9lt78e": {
+   "text": "MichaelAmerican · male",
+   "hash": "737a5a00504b",
+   "files": {
+    "samantha": "samantha/text.9lt78e.m4a",
+    "daniel": "daniel/text.9lt78e.m4a",
+    "bella": "bella/text.9lt78e.m4a",
+    "emma": "emma/text.9lt78e.m4a"
+   }
+  },
+  "text.1cpkkqh": {
+   "text": "Calm and grounded. Steady narration.",
+   "hash": "19c19878f4f8",
+   "files": {
+    "samantha": "samantha/text.1cpkkqh.m4a",
+    "daniel": "daniel/text.1cpkkqh.m4a",
+    "bella": "bella/text.1cpkkqh.m4a",
+    "emma": "emma/text.1cpkkqh.m4a"
+   }
+  },
+  "text.amxiqe": {
+   "text": "NicoleAmerican · female",
+   "hash": "dcd84e65ed5d",
+   "files": {
+    "samantha": "samantha/text.amxiqe.m4a",
+    "daniel": "daniel/text.amxiqe.m4a",
+    "bella": "bella/text.amxiqe.m4a",
+    "emma": "emma/text.amxiqe.m4a"
+   }
+  },
+  "text.1u33b2q": {
+   "text": "Close and hushed, almost a whisper.",
+   "hash": "c63438b9846b",
+   "files": {
+    "samantha": "samantha/text.1u33b2q.m4a",
+    "daniel": "daniel/text.1u33b2q.m4a",
+    "bella": "bella/text.1u33b2q.m4a",
+    "emma": "emma/text.1u33b2q.m4a"
+   }
+  },
+  "text.16qmwm4": {
+   "text": "Page narration in Nicole; other guide lines in Heart.",
+   "hash": "25e6269b20e4",
+   "files": {
+    "samantha": "samantha/text.16qmwm4.m4a",
+    "daniel": "daniel/text.16qmwm4.m4a",
+    "bella": "bella/text.16qmwm4.m4a",
+    "emma": "emma/text.16qmwm4.m4a"
+   }
+  },
+  "text.15eekao": {
+   "text": "AoedeAmerican · female",
+   "hash": "70ff58d9c284",
+   "files": {
+    "samantha": "samantha/text.15eekao.m4a",
+    "daniel": "daniel/text.15eekao.m4a",
+    "bella": "bella/text.15eekao.m4a",
+    "emma": "emma/text.15eekao.m4a"
+   }
+  },
+  "text.5eby2w": {
+   "text": "Soft and lyrical.",
+   "hash": "63bc44a0b7fc",
+   "files": {
+    "samantha": "samantha/text.5eby2w.m4a",
+    "daniel": "daniel/text.5eby2w.m4a",
+    "bella": "bella/text.5eby2w.m4a",
+    "emma": "emma/text.5eby2w.m4a"
+   }
+  },
+  "text.b0amvq": {
+   "text": "Page narration in Aoede; other guide lines in Heart.",
+   "hash": "b233f632dd43",
+   "files": {
+    "samantha": "samantha/text.b0amvq.m4a",
+    "daniel": "daniel/text.b0amvq.m4a",
+    "bella": "bella/text.b0amvq.m4a",
+    "emma": "emma/text.b0amvq.m4a"
+   }
+  },
+  "text.xn9rrr": {
+   "text": "KoreAmerican · female",
+   "hash": "b66de82c98e6",
+   "files": {
+    "samantha": "samantha/text.xn9rrr.m4a",
+    "daniel": "daniel/text.xn9rrr.m4a",
+    "bella": "bella/text.xn9rrr.m4a",
+    "emma": "emma/text.xn9rrr.m4a"
+   }
+  },
+  "text.181qh8u": {
+   "text": "Even and confident.",
+   "hash": "fa15cbf591c9",
+   "files": {
+    "samantha": "samantha/text.181qh8u.m4a",
+    "daniel": "daniel/text.181qh8u.m4a",
+    "bella": "bella/text.181qh8u.m4a",
+    "emma": "emma/text.181qh8u.m4a"
+   }
+  },
+  "text.a6j6k1": {
+   "text": "Page narration in Kore; other guide lines in Bella.",
+   "hash": "8904ffcc78f4",
+   "files": {
+    "samantha": "samantha/text.a6j6k1.m4a",
+    "daniel": "daniel/text.a6j6k1.m4a",
+    "bella": "bella/text.a6j6k1.m4a",
+    "emma": "emma/text.a6j6k1.m4a"
+   }
+  },
+  "text.v5uygm": {
+   "text": "IsabellaBritish · female",
+   "hash": "9540f56e3ba4",
+   "files": {
+    "samantha": "samantha/text.v5uygm.m4a",
+    "daniel": "daniel/text.v5uygm.m4a",
+    "bella": "bella/text.v5uygm.m4a",
+    "emma": "emma/text.v5uygm.m4a"
+   }
+  },
+  "text.zfl7zl": {
+   "text": "Light and friendly.",
+   "hash": "5841bcaf889e",
+   "files": {
+    "samantha": "samantha/text.zfl7zl.m4a",
+    "daniel": "daniel/text.zfl7zl.m4a",
+    "bella": "bella/text.zfl7zl.m4a",
+    "emma": "emma/text.zfl7zl.m4a"
+   }
+  },
+  "text.1jhekf5": {
+   "text": "Page narration in Isabella; other guide lines in Emma.",
+   "hash": "aee61ad99437",
+   "files": {
+    "samantha": "samantha/text.1jhekf5.m4a",
+    "daniel": "daniel/text.1jhekf5.m4a",
+    "bella": "bella/text.1jhekf5.m4a",
+    "emma": "emma/text.1jhekf5.m4a"
+   }
+  },
+  "text.1efp9tp": {
+   "text": "FenrirAmerican · male",
+   "hash": "d5c0a1721b0c",
+   "files": {
+    "samantha": "samantha/text.1efp9tp.m4a",
+    "daniel": "daniel/text.1efp9tp.m4a",
+    "bella": "bella/text.1efp9tp.m4a",
+    "emma": "emma/text.1efp9tp.m4a"
+   }
+  },
+  "text.du8qy0": {
+   "text": "Deep and resonant.",
+   "hash": "e8a71e7f7604",
+   "files": {
+    "samantha": "samantha/text.du8qy0.m4a",
+    "daniel": "daniel/text.du8qy0.m4a",
+    "bella": "bella/text.du8qy0.m4a",
+    "emma": "emma/text.du8qy0.m4a"
+   }
+  },
+  "text.1s17f7x": {
+   "text": "Page narration in Fenrir; other guide lines in Michael.",
+   "hash": "f67ed851edf0",
+   "files": {
+    "samantha": "samantha/text.1s17f7x.m4a",
+    "daniel": "daniel/text.1s17f7x.m4a",
+    "bella": "bella/text.1s17f7x.m4a",
+    "emma": "emma/text.1s17f7x.m4a"
+   }
+  },
+  "text.1d94pk4": {
+   "text": "PuckAmerican · male",
+   "hash": "8ebbec110469",
+   "files": {
+    "samantha": "samantha/text.1d94pk4.m4a",
+    "daniel": "daniel/text.1d94pk4.m4a",
+    "bella": "bella/text.1d94pk4.m4a",
+    "emma": "emma/text.1d94pk4.m4a"
+   }
+  },
+  "text.1023fuo": {
+   "text": "Lively and quick.",
+   "hash": "cc68e19a7dc6",
+   "files": {
+    "samantha": "samantha/text.1023fuo.m4a",
+    "daniel": "daniel/text.1023fuo.m4a",
+    "bella": "bella/text.1023fuo.m4a",
+    "emma": "emma/text.1023fuo.m4a"
+   }
+  },
+  "text.1bpnyak": {
+   "text": "Page narration in Puck; other guide lines in Michael.",
+   "hash": "424cb01556aa",
+   "files": {
+    "samantha": "samantha/text.1bpnyak.m4a",
+    "daniel": "daniel/text.1bpnyak.m4a",
+    "bella": "bella/text.1bpnyak.m4a",
+    "emma": "emma/text.1bpnyak.m4a"
+   }
+  },
+  "text.snezcj": {
+   "text": "GeorgeBritish · male",
+   "hash": "758f288bc70c",
+   "files": {
+    "samantha": "samantha/text.snezcj.m4a",
+    "daniel": "daniel/text.snezcj.m4a",
+    "bella": "bella/text.snezcj.m4a",
+    "emma": "emma/text.snezcj.m4a"
+   }
+  },
+  "text.3lgndy": {
+   "text": "Measured and classic.",
+   "hash": "866c5dfcda20",
+   "files": {
+    "samantha": "samantha/text.3lgndy.m4a",
+    "daniel": "daniel/text.3lgndy.m4a",
+    "bella": "bella/text.3lgndy.m4a",
+    "emma": "emma/text.3lgndy.m4a"
+   }
+  },
+  "text.th0j9k": {
+   "text": "Page narration in George; other guide lines in Michael.",
+   "hash": "50a5cda34bce",
+   "files": {
+    "samantha": "samantha/text.th0j9k.m4a",
+    "daniel": "daniel/text.th0j9k.m4a",
+    "bella": "bella/text.th0j9k.m4a",
+    "emma": "emma/text.th0j9k.m4a"
+   }
+  },
+  "text.19iy3bq": {
+   "text": "FableBritish · male",
+   "hash": "9d70c2801c07",
+   "files": {
+    "samantha": "samantha/text.19iy3bq.m4a",
+    "daniel": "daniel/text.19iy3bq.m4a",
+    "bella": "bella/text.19iy3bq.m4a",
+    "emma": "emma/text.19iy3bq.m4a"
+   }
+  },
+  "text.1jgzldg": {
+   "text": "A storyteller’s warmth.",
+   "hash": "7b0ac5bdd123",
+   "files": {
+    "samantha": "samantha/text.1jgzldg.m4a",
+    "daniel": "daniel/text.1jgzldg.m4a",
+    "bella": "bella/text.1jgzldg.m4a",
+    "emma": "emma/text.1jgzldg.m4a"
+   }
+  },
+  "text.ezxwpz": {
+   "text": "Page narration in Fable; other guide lines in Michael.",
+   "hash": "1c8e0dd40a66",
+   "files": {
+    "samantha": "samantha/text.ezxwpz.m4a",
+    "daniel": "daniel/text.ezxwpz.m4a",
+    "bella": "bella/text.ezxwpz.m4a",
+    "emma": "emma/text.ezxwpz.m4a"
+   }
+  },
+  "text.1k9guke": {
+   "text": "Welcome to The Light Orb. A space for creative possibilities. Let’s explore.",
+   "hash": "75057f6cd4e0",
+   "files": {
+    "samantha": "samantha/text.1k9guke.m4a",
+    "daniel": "daniel/text.1k9guke.m4a",
+    "bella": "bella/text.1k9guke.m4a",
+    "emma": "emma/text.1k9guke.m4a"
+   }
+  },
+  "text.mw5y94": {
+   "text": "Explore the pieces. Each one is designed to become part of something of your own.",
+   "hash": "3e62d50eb422",
+   "files": {
+    "samantha": "samantha/text.mw5y94.m4a",
+    "daniel": "daniel/text.mw5y94.m4a",
+    "bella": "bella/text.mw5y94.m4a",
+    "emma": "emma/text.mw5y94.m4a"
+   }
+  },
+  "text.1cpadgk": {
+   "text": "Start with a complete composition. Select a cassette to preview the design.",
+   "hash": "628194c1249e",
+   "files": {
+    "samantha": "samantha/text.1cpadgk.m4a",
+    "daniel": "daniel/text.1cpadgk.m4a",
+    "bella": "bella/text.1cpadgk.m4a",
+    "emma": "emma/text.1cpadgk.m4a"
+   }
+  },
+  "text.1vaodhc": {
+   "text": "Choose a piece, then shape its light, material and movement.",
+   "hash": "b3093e1df896",
+   "files": {
+    "samantha": "samantha/text.1vaodhc.m4a",
+    "daniel": "daniel/text.1vaodhc.m4a",
+    "bella": "bella/text.1vaodhc.m4a",
+    "emma": "emma/text.1vaodhc.m4a"
+   }
+  },
+  "text.17p69aa": {
+   "text": "Listen before you choose. Find the voice and sounds that fit your work.",
+   "hash": "f886db7d0783",
+   "files": {
+    "samantha": "samantha/text.17p69aa.m4a",
+    "daniel": "daniel/text.17p69aa.m4a",
+    "bella": "bella/text.17p69aa.m4a",
+    "emma": "emma/text.17p69aa.m4a"
+   }
+  },
+  "text.1phfw1o": {
+   "text": "A soft glass touch for choosing.",
+   "hash": "3b6786e17d22",
+   "files": {
+    "samantha": "samantha/text.1phfw1o.m4a",
+    "daniel": "daniel/text.1phfw1o.m4a",
+    "bella": "bella/text.1phfw1o.m4a",
+    "emma": "emma/text.1phfw1o.m4a"
+   }
+  },
+  "text.1dtsxj1": {
+   "text": "A breath of air as a panel opens.",
+   "hash": "3be3de835ee2",
+   "files": {
+    "samantha": "samantha/text.1dtsxj1.m4a",
+    "daniel": "daniel/text.1dtsxj1.m4a",
+    "bella": "bella/text.1dtsxj1.m4a",
+    "emma": "emma/text.1dtsxj1.m4a"
+   }
+  },
+  "text.duetd0": {
+   "text": "The same air, settling.",
+   "hash": "64c1fbb72506",
+   "files": {
+    "samantha": "samantha/text.duetd0.m4a",
+    "daniel": "daniel/text.duetd0.m4a",
+    "bella": "bella/text.duetd0.m4a",
+    "emma": "emma/text.duetd0.m4a"
+   }
+  },
+  "text.1wvcloy": {
+   "text": "Two quiet touches: done.",
+   "hash": "ec0f4c375a60",
+   "files": {
+    "samantha": "samantha/text.1wvcloy.m4a",
+    "daniel": "daniel/text.1wvcloy.m4a",
+    "bella": "bella/text.1wvcloy.m4a",
+    "emma": "emma/text.1wvcloy.m4a"
+   }
+  },
+  "text.1e7unz1": {
+   "text": "A precise tick for wheels and steps.",
+   "hash": "315ce08eb036",
+   "files": {
+    "samantha": "samantha/text.1e7unz1.m4a",
+    "daniel": "daniel/text.1e7unz1.m4a",
+    "bella": "bella/text.1e7unz1.m4a",
+    "emma": "emma/text.1e7unz1.m4a"
+   }
+  },
+  "text.1l4g2ls": {
+   "text": "A dry, very quiet key.",
+   "hash": "54c955837db8",
+   "files": {
+    "samantha": "samantha/text.1l4g2ls.m4a",
+    "daniel": "daniel/text.1l4g2ls.m4a",
+    "bella": "bella/text.1l4g2ls.m4a",
+    "emma": "emma/text.1l4g2ls.m4a"
+   }
+  },
+  "text.1h1vdr7": {
+   "text": "A small touch as a level moves.",
+   "hash": "cfbac71a5783",
+   "files": {
+    "samantha": "samantha/text.1h1vdr7.m4a",
+    "daniel": "daniel/text.1h1vdr7.m4a",
+    "bella": "bella/text.1h1vdr7.m4a",
+    "emma": "emma/text.1h1vdr7.m4a"
+   }
+  },
+  "text.1qnhl8v": {
+   "text": "Play Heart",
+   "hash": "0f20f04ddc84",
+   "files": {
+    "samantha": "samantha/text.1qnhl8v.m4a",
+    "daniel": "daniel/text.1qnhl8v.m4a",
+    "bella": "bella/text.1qnhl8v.m4a",
+    "emma": "emma/text.1qnhl8v.m4a"
+   }
+  },
+  "text.jtpxy5": {
+   "text": "In use",
+   "hash": "bcbda5b7233c",
+   "files": {
+    "samantha": "samantha/text.jtpxy5.m4a",
+    "daniel": "daniel/text.jtpxy5.m4a",
+    "bella": "bella/text.jtpxy5.m4a",
+    "emma": "emma/text.jtpxy5.m4a"
+   }
+  },
+  "text.tk1u4f": {
+   "text": "Play Bella",
+   "hash": "6240f4ce2ed1",
+   "files": {
+    "samantha": "samantha/text.tk1u4f.m4a",
+    "daniel": "daniel/text.tk1u4f.m4a",
+    "bella": "bella/text.tk1u4f.m4a",
+    "emma": "emma/text.tk1u4f.m4a"
+   }
+  },
+  "text.1r52asm": {
+   "text": "Use voice",
+   "hash": "561d6268bbf5",
+   "files": {
+    "samantha": "samantha/text.1r52asm.m4a",
+    "daniel": "daniel/text.1r52asm.m4a",
+    "bella": "bella/text.1r52asm.m4a",
+    "emma": "emma/text.1r52asm.m4a"
+   }
+  },
+  "text.1bjxv09": {
+   "text": "Play Emma",
+   "hash": "a81bc350b500",
+   "files": {
+    "samantha": "samantha/text.1bjxv09.m4a",
+    "daniel": "daniel/text.1bjxv09.m4a",
+    "bella": "bella/text.1bjxv09.m4a",
+    "emma": "emma/text.1bjxv09.m4a"
+   }
+  },
+  "text.zp6zqe": {
+   "text": "Play Michael",
+   "hash": "b5df65795e39",
+   "files": {
+    "samantha": "samantha/text.zp6zqe.m4a",
+    "daniel": "daniel/text.zp6zqe.m4a",
+    "bella": "bella/text.zp6zqe.m4a",
+    "emma": "emma/text.zp6zqe.m4a"
+   }
+  },
+  "text.rucml5": {
+   "text": "Play Nicole",
+   "hash": "78524e018fde",
+   "files": {
+    "samantha": "samantha/text.rucml5.m4a",
+    "daniel": "daniel/text.rucml5.m4a",
+    "bella": "bella/text.rucml5.m4a",
+    "emma": "emma/text.rucml5.m4a"
+   }
+  },
+  "text.ddqui3": {
+   "text": "Play Aoede",
+   "hash": "e8717fe3f437",
+   "files": {
+    "samantha": "samantha/text.ddqui3.m4a",
+    "daniel": "daniel/text.ddqui3.m4a",
+    "bella": "bella/text.ddqui3.m4a",
+    "emma": "emma/text.ddqui3.m4a"
+   }
+  },
+  "text.4y8ymi": {
+   "text": "Play Kore",
+   "hash": "3e78ee04021b",
+   "files": {
+    "samantha": "samantha/text.4y8ymi.m4a",
+    "daniel": "daniel/text.4y8ymi.m4a",
+    "bella": "bella/text.4y8ymi.m4a",
+    "emma": "emma/text.4y8ymi.m4a"
+   }
+  },
+  "text.2erk4g": {
+   "text": "Play Isabella",
+   "hash": "b6beed831a90",
+   "files": {
+    "samantha": "samantha/text.2erk4g.m4a",
+    "daniel": "daniel/text.2erk4g.m4a",
+    "bella": "bella/text.2erk4g.m4a",
+    "emma": "emma/text.2erk4g.m4a"
+   }
+  },
+  "text.s0pxaj": {
+   "text": "Play Fenrir",
+   "hash": "34d433d80975",
+   "files": {
+    "samantha": "samantha/text.s0pxaj.m4a",
+    "daniel": "daniel/text.s0pxaj.m4a",
+    "bella": "bella/text.s0pxaj.m4a",
+    "emma": "emma/text.s0pxaj.m4a"
+   }
+  },
+  "text.1fwrnm8": {
+   "text": "Play Puck",
+   "hash": "e7dea9b81548",
+   "files": {
+    "samantha": "samantha/text.1fwrnm8.m4a",
+    "daniel": "daniel/text.1fwrnm8.m4a",
+    "bella": "bella/text.1fwrnm8.m4a",
+    "emma": "emma/text.1fwrnm8.m4a"
+   }
+  },
+  "text.objvv0": {
+   "text": "Play George",
+   "hash": "44b3ae6e19a2",
+   "files": {
+    "samantha": "samantha/text.objvv0.m4a",
+    "daniel": "daniel/text.objvv0.m4a",
+    "bella": "bella/text.objvv0.m4a",
+    "emma": "emma/text.objvv0.m4a"
+   }
+  },
+  "text.12bgh4d": {
+   "text": "Play Fable",
+   "hash": "ba03a7991f3a",
+   "files": {
+    "samantha": "samantha/text.12bgh4d.m4a",
+    "daniel": "daniel/text.12bgh4d.m4a",
+    "bella": "bella/text.12bgh4d.m4a",
+    "emma": "emma/text.12bgh4d.m4a"
+   }
+  },
+  "text.jg0w6n": {
+   "text": "Play Welcome",
+   "hash": "2d31f4c5d3f6",
+   "files": {
+    "samantha": "samantha/text.jg0w6n.m4a",
+    "daniel": "daniel/text.jg0w6n.m4a",
+    "bella": "bella/text.jg0w6n.m4a",
+    "emma": "emma/text.jg0w6n.m4a"
+   }
+  },
+  "text.t8a7cx": {
+   "text": "Play Products",
+   "hash": "10889d70acbf",
+   "files": {
+    "samantha": "samantha/text.t8a7cx.m4a",
+    "daniel": "daniel/text.t8a7cx.m4a",
+    "bella": "bella/text.t8a7cx.m4a",
+    "emma": "emma/text.t8a7cx.m4a"
+   }
+  },
+  "text.2ns5l0": {
+   "text": "Play Templates",
+   "hash": "cd9621765a3b",
+   "files": {
+    "samantha": "samantha/text.2ns5l0.m4a",
+    "daniel": "daniel/text.2ns5l0.m4a",
+    "bella": "bella/text.2ns5l0.m4a",
+    "emma": "emma/text.2ns5l0.m4a"
+   }
+  },
+  "text.apabtz": {
+   "text": "Play Studio",
+   "hash": "a05742595a8c",
+   "files": {
+    "samantha": "samantha/text.apabtz.m4a",
+    "daniel": "daniel/text.apabtz.m4a",
+    "bella": "bella/text.apabtz.m4a",
+    "emma": "emma/text.apabtz.m4a"
+   }
+  },
+  "text.1hakkdc": {
+   "text": "Play Sound",
+   "hash": "1e436a99039b",
+   "files": {
+    "samantha": "samantha/text.1hakkdc.m4a",
+    "daniel": "daniel/text.1hakkdc.m4a",
+    "bella": "bella/text.1hakkdc.m4a",
+    "emma": "emma/text.1hakkdc.m4a"
+   }
+  },
+  "text.1m7xfz5": {
+   "text": "Play Select",
+   "hash": "3d9451fd0b53",
+   "files": {
+    "samantha": "samantha/text.1m7xfz5.m4a",
+    "daniel": "daniel/text.1m7xfz5.m4a",
+    "bella": "bella/text.1m7xfz5.m4a",
+    "emma": "emma/text.1m7xfz5.m4a"
+   }
+  },
+  "text.1kvkyqt": {
+   "text": "Play Open",
+   "hash": "22ce225706eb",
+   "files": {
+    "samantha": "samantha/text.1kvkyqt.m4a",
+    "daniel": "daniel/text.1kvkyqt.m4a",
+    "bella": "bella/text.1kvkyqt.m4a",
+    "emma": "emma/text.1kvkyqt.m4a"
+   }
+  },
+  "text.1r0uemv": {
+   "text": "Play Close",
+   "hash": "d87835aa05ad",
+   "files": {
+    "samantha": "samantha/text.1r0uemv.m4a",
+    "daniel": "daniel/text.1r0uemv.m4a",
+    "bella": "bella/text.1r0uemv.m4a",
+    "emma": "emma/text.1r0uemv.m4a"
+   }
+  },
+  "text.1uwexq3": {
+   "text": "Play Confirm",
+   "hash": "396361aa18c1",
+   "files": {
+    "samantha": "samantha/text.1uwexq3.m4a",
+    "daniel": "daniel/text.1uwexq3.m4a",
+    "bella": "bella/text.1uwexq3.m4a",
+    "emma": "emma/text.1uwexq3.m4a"
+   }
+  },
+  "text.139bfgj": {
+   "text": "Play Detent",
+   "hash": "f7c678d1d023",
+   "files": {
+    "samantha": "samantha/text.139bfgj.m4a",
+    "daniel": "daniel/text.139bfgj.m4a",
+    "bella": "bella/text.139bfgj.m4a",
+    "emma": "emma/text.139bfgj.m4a"
+   }
+  },
+  "text.7m2rw1": {
+   "text": "Play Type",
+   "hash": "b13f8e288b42",
+   "files": {
+    "samantha": "samantha/text.7m2rw1.m4a",
+    "daniel": "daniel/text.7m2rw1.m4a",
+    "bella": "bella/text.7m2rw1.m4a",
+    "emma": "emma/text.7m2rw1.m4a"
+   }
+  },
+  "text.1h472z5": {
+   "text": "Play Level",
+   "hash": "d46e5b0eee53",
+   "files": {
+    "samantha": "samantha/text.1h472z5.m4a",
+    "daniel": "daniel/text.1h472z5.m4a",
+    "bella": "bella/text.1h472z5.m4a",
+    "emma": "emma/text.1h472z5.m4a"
+   }
+  },
+  "text.1hz20a8": {
+   "text": "Early access is free",
+   "hash": "baef85be2d96",
+   "files": {
+    "samantha": "samantha/text.1hz20a8.m4a",
+    "daniel": "daniel/text.1hz20a8.m4a",
+    "bella": "bella/text.1hz20a8.m4a",
+    "emma": "emma/text.1hz20a8.m4a"
+   }
+  },
+  "text.13rctb2": {
+   "text": "Everything is open while we build it: Studio, The Orb with its embed code, and each piece as it arrives. What you take now stays free to use. Paid plans come later, and early users get a launch discount.",
+   "hash": "45bbf948c2f3",
+   "files": {
+    "samantha": "samantha/text.13rctb2.m4a",
+    "daniel": "daniel/text.13rctb2.m4a",
+    "bella": "bella/text.13rctb2.m4a",
+    "emma": "emma/text.13rctb2.m4a"
+   }
+  },
+  "text.1rdh4mt": {
+   "text": "Current plan",
+   "hash": "6ac768da0efe",
+   "files": {
+    "samantha": "samantha/text.1rdh4mt.m4a",
+    "daniel": "daniel/text.1rdh4mt.m4a",
+    "bella": "bella/text.1rdh4mt.m4a",
+    "emma": "emma/text.1rdh4mt.m4a"
+   }
+  },
+  "text.1f15pu4": {
+   "text": "Early access — free",
+   "hash": "0f3b20bb9303",
+   "files": {
+    "samantha": "samantha/text.1f15pu4.m4a",
+    "daniel": "daniel/text.1f15pu4.m4a",
+    "bella": "bella/text.1f15pu4.m4a",
+    "emma": "emma/text.1f15pu4.m4a"
+   }
+  },
+  "text.agp2dh": {
+   "text": "Everything on the site, for everyone.",
+   "hash": "1e8a1add7682",
+   "files": {
+    "samantha": "samantha/text.agp2dh.m4a",
+    "daniel": "daniel/text.agp2dh.m4a",
+    "bella": "bella/text.agp2dh.m4a",
+    "emma": "emma/text.agp2dh.m4a"
+   }
+  },
+  "text.1cy01a": {
+   "text": "Studio: shape light, material and movement; save and export your designs",
+   "hash": "38cf4ffb50ca",
+   "files": {
+    "samantha": "samantha/text.1cy01a.m4a",
+    "daniel": "daniel/text.1cy01a.m4a",
+    "bella": "bella/text.1cy01a.m4a",
+    "emma": "emma/text.1cy01a.m4a"
+   }
+  },
+  "text.141ut36": {
+   "text": "The Orb in twenty versions, with its embed code",
+   "hash": "daccfb1c6e1c",
+   "files": {
+    "samantha": "samantha/text.141ut36.m4a",
+    "daniel": "daniel/text.141ut36.m4a",
+    "bella": "bella/text.141ut36.m4a",
+    "emma": "emma/text.141ut36.m4a"
+   }
+  },
+  "text.z9t4v7": {
+   "text": "New pieces as they open, free while in early access",
+   "hash": "3dbb4f06d275",
+   "files": {
+    "samantha": "samantha/text.z9t4v7.m4a",
+    "daniel": "daniel/text.z9t4v7.m4a",
+    "bella": "bella/text.z9t4v7.m4a",
+    "emma": "emma/text.z9t4v7.m4a"
+   }
+  },
+  "text.h9ddw7": {
+   "text": "A launch discount on paid plans",
+   "hash": "0f2d634cc0b2",
+   "files": {
+    "samantha": "samantha/text.h9ddw7.m4a",
+    "daniel": "daniel/text.h9ddw7.m4a",
+    "bella": "bella/text.h9ddw7.m4a",
+    "emma": "emma/text.h9ddw7.m4a"
+   }
+  },
+  "text.1xtkfeg": {
+   "text": "Plans after launch",
+   "hash": "cd36142f8714",
+   "files": {
+    "samantha": "samantha/text.1xtkfeg.m4a",
+    "daniel": "daniel/text.1xtkfeg.m4a",
+    "bella": "bella/text.1xtkfeg.m4a",
+    "emma": "emma/text.1xtkfeg.m4a"
+   }
+  },
+  "text.4jy7kv": {
+   "text": "A preview of how The Light Orb will work after early access. Prices are not set yet; early users get a launch discount.",
+   "hash": "0286fc259410",
+   "files": {
+    "samantha": "samantha/text.4jy7kv.m4a",
+    "daniel": "daniel/text.4jy7kv.m4a",
+    "bella": "bella/text.4jy7kv.m4a",
+    "emma": "emma/text.4jy7kv.m4a"
+   }
+  },
+  "text.1aasdol": {
+   "text": "After launch · preview",
+   "hash": "6061daf00c0e",
+   "files": {
+    "samantha": "samantha/text.1aasdol.m4a",
+    "daniel": "daniel/text.1aasdol.m4a",
+    "bella": "bella/text.1aasdol.m4a",
+    "emma": "emma/text.1aasdol.m4a"
+   }
+  },
+  "text.1knehly": {
+   "text": "Ready-made",
+   "hash": "8fe0827e0aa1",
+   "files": {
+    "samantha": "samantha/text.1knehly.m4a",
+    "daniel": "daniel/text.1knehly.m4a",
+    "bella": "bella/text.1knehly.m4a",
+    "emma": "emma/text.1knehly.m4a"
+   }
+  },
+  "text.1cbutt9": {
+   "text": "Choose a curated piece and use it as it is.",
+   "hash": "38612288c074",
+   "files": {
+    "samantha": "samantha/text.1cbutt9.m4a",
+    "daniel": "daniel/text.1cbutt9.m4a",
+    "bella": "bella/text.1cbutt9.m4a",
+    "emma": "emma/text.1cbutt9.m4a"
+   }
+  },
+  "text.1o1zsnt": {
+   "text": "One finished piece",
+   "hash": "16b984b8c935",
+   "files": {
+    "samantha": "samantha/text.1o1zsnt.m4a",
+    "daniel": "daniel/text.1o1zsnt.m4a",
+    "bella": "bella/text.1o1zsnt.m4a",
+    "emma": "emma/text.1o1zsnt.m4a"
+   }
+  },
+  "text.1vxnt9k": {
+   "text": "Its source and integration notes",
+   "hash": "2a9cbfeaf01e",
+   "files": {
+    "samantha": "samantha/text.1vxnt9k.m4a",
+    "daniel": "daniel/text.1vxnt9k.m4a",
+    "bella": "bella/text.1vxnt9k.m4a",
+    "emma": "emma/text.1vxnt9k.m4a"
+   }
+  },
+  "text.140pi52": {
+   "text": "Customise a piece and export your own version.",
+   "hash": "29c5e3a08e9d",
+   "files": {
+    "samantha": "samantha/text.140pi52.m4a",
+    "daniel": "daniel/text.140pi52.m4a",
+    "bella": "bella/text.140pi52.m4a",
+    "emma": "emma/text.140pi52.m4a"
+   }
+  },
+  "text.5ezceq": {
+   "text": "Light, material and movement controls",
+   "hash": "22db60d70cf6",
+   "files": {
+    "samantha": "samantha/text.5ezceq.m4a",
+    "daniel": "daniel/text.5ezceq.m4a",
+    "bella": "bella/text.5ezceq.m4a",
+    "emma": "emma/text.5ezceq.m4a"
+   }
+  },
+  "text.vis5kz": {
+   "text": "Saved designs",
+   "hash": "9d29f33bbaca",
+   "files": {
+    "samantha": "samantha/text.vis5kz.m4a",
+    "daniel": "daniel/text.vis5kz.m4a",
+    "bella": "bella/text.vis5kz.m4a",
+    "emma": "emma/text.vis5kz.m4a"
+   }
+  },
+  "text.107ec1q": {
+   "text": "Follow the collection as it grows.",
+   "hash": "a9c19e6a8587",
+   "files": {
+    "samantha": "samantha/text.107ec1q.m4a",
+    "daniel": "daniel/text.107ec1q.m4a",
+    "bella": "bella/text.107ec1q.m4a",
+    "emma": "emma/text.107ec1q.m4a"
+   }
+  },
+  "text.pezpkj": {
+   "text": "A new drop every two weeks",
+   "hash": "d508489d16e6",
+   "files": {
+    "samantha": "samantha/text.pezpkj.m4a",
+    "daniel": "daniel/text.pezpkj.m4a",
+    "bella": "bella/text.pezpkj.m4a",
+    "emma": "emma/text.pezpkj.m4a"
+   }
+  },
+  "text.6yc275": {
+   "text": "Questions? trescarla@gmail.com",
+   "hash": "2f0123cc7e23",
+   "files": {
+    "samantha": "samantha/text.6yc275.m4a",
+    "daniel": "daniel/text.6yc275.m4a",
+    "bella": "bella/text.6yc275.m4a",
+    "emma": "emma/text.6yc275.m4a"
+   }
+  },
+  "text.ykuwrl": {
+   "text": "Open Studio",
+   "hash": "ecec93858ad0",
+   "files": {
+    "samantha": "samantha/text.ykuwrl.m4a",
+    "daniel": "daniel/text.ykuwrl.m4a",
+    "bella": "bella/text.ykuwrl.m4a",
+    "emma": "emma/text.ykuwrl.m4a"
+   }
+  },
+  "text.7edkdd": {
+   "text": "trescarla@gmail.com",
+   "hash": "24a6073de2b2",
+   "files": {
+    "samantha": "samantha/text.7edkdd.m4a",
+    "daniel": "daniel/text.7edkdd.m4a",
+    "bella": "bella/text.7edkdd.m4a",
+    "emma": "emma/text.7edkdd.m4a"
+   }
+  },
+  "text.1am3lx7": {
+   "text": "Early access · free",
+   "hash": "e3b13e7b6372",
+   "files": {
+    "samantha": "samantha/text.1am3lx7.m4a",
+    "daniel": "daniel/text.1am3lx7.m4a",
+    "bella": "bella/text.1am3lx7.m4a",
+    "emma": "emma/text.1am3lx7.m4a"
+   }
+  },
+  "text.1cmrbfa": {
+   "text": "Everything is free while we build it. Leave your email and we write when new pieces and Studio updates open. Your designs are saved on this device.",
+   "hash": "ce14db30a51a",
+   "files": {
+    "samantha": "samantha/text.1cmrbfa.m4a",
+    "daniel": "daniel/text.1cmrbfa.m4a",
+    "bella": "bella/text.1cmrbfa.m4a",
+    "emma": "emma/text.1cmrbfa.m4a"
+   }
+  },
+  "text.l6lcxt": {
+   "text": "Open Studio without joining",
+   "hash": "aac4f5511a06",
+   "files": {
+    "samantha": "samantha/text.l6lcxt.m4a",
+    "daniel": "daniel/text.l6lcxt.m4a",
+    "bella": "bella/text.l6lcxt.m4a",
+    "emma": "emma/text.l6lcxt.m4a"
+   }
+  },
+  "text.wchsuz": {
+   "text": "Use your email here",
+   "hash": "3c7e01958957",
+   "files": {
+    "samantha": "samantha/text.wchsuz.m4a",
+    "daniel": "daniel/text.wchsuz.m4a",
+    "bella": "bella/text.wchsuz.m4a",
+    "emma": "emma/text.wchsuz.m4a"
+   }
+  },
+  "text.k7z2ue": {
+   "text": "Welcome back",
+   "hash": "7776966c2f48",
+   "files": {
+    "samantha": "samantha/text.k7z2ue.m4a",
+    "daniel": "daniel/text.k7z2ue.m4a",
+    "bella": "bella/text.k7z2ue.m4a",
+    "emma": "emma/text.k7z2ue.m4a"
+   }
+  },
+  "text.1g80r7f": {
+   "text": "There are no passwords yet. Enter the email you joined with to use it on this device; your designs from another browser stay there until accounts sync.",
+   "hash": "7cbf95641830",
+   "files": {
+    "samantha": "samantha/text.1g80r7f.m4a",
+    "daniel": "daniel/text.1g80r7f.m4a",
+    "bella": "bella/text.1g80r7f.m4a",
+    "emma": "emma/text.1g80r7f.m4a"
+   }
+  },
+  "text.1bipuuc": {
+   "text": "Continue",
+   "hash": "d65ed8a3910a",
+   "files": {
+    "samantha": "samantha/text.1bipuuc.m4a",
+    "daniel": "daniel/text.1bipuuc.m4a",
+    "bella": "bella/text.1bipuuc.m4a",
+    "emma": "emma/text.1bipuuc.m4a"
+   }
+  },
+  "text.16zisnr": {
+   "text": "What this site collects, why, and what you can ask for. Short version: very little, and nothing is sold.",
+   "hash": "e12ac04f7d47",
+   "files": {
+    "samantha": "samantha/text.16zisnr.m4a",
+    "daniel": "daniel/text.16zisnr.m4a",
+    "bella": "bella/text.16zisnr.m4a",
+    "emma": "emma/text.16zisnr.m4a"
+   }
+  },
+  "text.1d8hcoh": {
+   "text": "Who is responsible",
+   "hash": "c6182c426951",
+   "files": {
+    "samantha": "samantha/text.1d8hcoh.m4a",
+    "daniel": "daniel/text.1d8hcoh.m4a",
+    "bella": "bella/text.1d8hcoh.m4a",
+    "emma": "emma/text.1d8hcoh.m4a"
+   }
+  },
+  "text.17m0y7": {
+   "text": "The Light Orb is run by Carla Tres García (NIF 39934017Z), a sole trader (the data controller). Address: Avenida Duque de Loulé 91, Lisboa, Portugal. Contact: trescarla@gmail.com.",
+   "hash": "0447b7af8adf",
+   "files": {
+    "samantha": "samantha/text.17m0y7.m4a",
+    "daniel": "daniel/text.17m0y7.m4a",
+    "bella": "bella/text.17m0y7.m4a",
+    "emma": "emma/text.17m0y7.m4a"
+   }
+  },
+  "text.9h8a6": {
+   "text": "Visiting the site",
+   "hash": "fe1c73a454e3",
+   "files": {
+    "samantha": "samantha/text.9h8a6.m4a",
+    "daniel": "daniel/text.9h8a6.m4a",
+    "bella": "bella/text.9h8a6.m4a",
+    "emma": "emma/text.9h8a6.m4a"
+   }
+  },
+  "text.jzyvmm": {
+   "text": "We count visits with GoatCounter, a privacy-friendly analytics service that sets no cookies and does not track you across sites. It records the page address, referrer, browser type, screen size and an approximate country, without storing your IP address. If your browser sends Do Not Track or Global Privacy Control, nothing is counted at all. Legal basis: our legitimate interest in knowing which pages are used.",
+   "hash": "ce4bea431073",
+   "files": {
+    "samantha": "samantha/text.jzyvmm.m4a",
+    "daniel": "daniel/text.jzyvmm.m4a",
+    "bella": "bella/text.jzyvmm.m4a",
+    "emma": "emma/text.jzyvmm.m4a"
+   }
+  },
+  "text.16xf471": {
+   "text": "Early access and the waitlist",
+   "hash": "5f5e0e258e18",
+   "files": {
+    "samantha": "samantha/text.16xf471.m4a",
+    "daniel": "daniel/text.16xf471.m4a",
+    "bella": "bella/text.16xf471.m4a",
+    "emma": "emma/text.16xf471.m4a"
+   }
+  },
+  "text.1lsgia1": {
+   "text": "If you join early access (or the waitlist) we keep your email address, the name you give if any, the date, where you signed up (for example \"footer\") and your browser language — nothing else. It is stored in Cloudflare Workers KV, the owner receives one notification email about each new sign-up (sent through Resend), and it is used only to tell you when pieces and Studio updates open. Your display name, designs and saved items stay in your browser. Legal basis: your consent, which you can withdraw at any time by writing to trescarla@gmail.com; we then delete your address.",
+   "hash": "29171fec8fd5",
+   "files": {
+    "samantha": "samantha/text.1lsgia1.m4a",
+    "daniel": "daniel/text.1lsgia1.m4a",
+    "bella": "bella/text.1lsgia1.m4a",
+    "emma": "emma/text.1lsgia1.m4a"
+   }
+  },
+  "text.1imnjut": {
+   "text": "Talking with the Orb",
+   "hash": "b147c21fe1da",
+   "files": {
+    "samantha": "samantha/text.1imnjut.m4a",
+    "daniel": "daniel/text.1imnjut.m4a",
+    "bella": "bella/text.1imnjut.m4a",
+    "emma": "emma/text.1imnjut.m4a"
+   }
+  },
+  "text.1g6zrok": {
+   "text": "When you ask the guide Orb a question, the text of the conversation and the page you are on are sent through our Cloudflare Worker to Anthropic, which generates the reply. We do not store or log these conversations. Anthropic processes them as our service provider under its own commercial terms. Please do not share personal information in the conversation.",
+   "hash": "1bc645d9a5f0",
+   "files": {
+    "samantha": "samantha/text.1g6zrok.m4a",
+    "daniel": "daniel/text.1g6zrok.m4a",
+    "bella": "bella/text.1g6zrok.m4a",
+    "emma": "emma/text.1g6zrok.m4a"
+   }
+  },
+  "text.b1qn4p": {
+   "text": "Voice",
+   "hash": "53bad3e0f2d6",
+   "files": {
+    "samantha": "samantha/text.b1qn4p.m4a",
+    "daniel": "daniel/text.b1qn4p.m4a",
+    "bella": "bella/text.b1qn4p.m4a",
+    "emma": "emma/text.b1qn4p.m4a"
+   }
+  },
+  "text.1ynsa5e": {
+   "text": "Speech recognition and speech synthesis are done by your browser. Depending on your browser, the recognised audio may be processed by its maker (for example Google or Apple). We never receive or keep your voice.",
+   "hash": "2a7b89d7acb6",
+   "files": {
+    "samantha": "samantha/text.1ynsa5e.m4a",
+    "daniel": "daniel/text.1ynsa5e.m4a",
+    "bella": "bella/text.1ynsa5e.m4a",
+    "emma": "emma/text.1ynsa5e.m4a"
+   }
+  },
+  "text.btag64": {
+   "text": "Stored on your device",
+   "hash": "0314af602b7d",
+   "files": {
+    "samantha": "samantha/text.btag64.m4a",
+    "daniel": "daniel/text.btag64.m4a",
+    "bella": "bella/text.btag64.m4a",
+    "emma": "emma/text.btag64.m4a"
+   }
+  },
+  "text.buykzp": {
+   "text": "The site uses your browser's local storage to remember your preferences (sound, voice), saved items, your display name and your designs, plus short-lived session storage for scroll position. This stays on your device; we cannot see it. You can clear it from your browser settings.",
+   "hash": "a5f8a2385c51",
+   "files": {
+    "samantha": "samantha/text.buykzp.m4a",
+    "daniel": "daniel/text.buykzp.m4a",
+    "bella": "bella/text.buykzp.m4a",
+    "emma": "emma/text.buykzp.m4a"
+   }
+  },
+  "text.yf5gv4": {
+   "text": "Providers and transfers",
+   "hash": "a60638b266b7",
+   "files": {
+    "samantha": "samantha/text.yf5gv4.m4a",
+    "daniel": "daniel/text.yf5gv4.m4a",
+    "bella": "bella/text.yf5gv4.m4a",
+    "emma": "emma/text.yf5gv4.m4a"
+   }
+  },
+  "text.yf1sxy": {
+   "text": "GitHub (site hosting), Cloudflare (Worker and waitlist storage), Resend (sign-up notification emails to the owner), GoatCounter (visit counts) and Anthropic (Orb replies). Some of them are based in the United States; transfers rely on the EU–US Data Privacy Framework or standard contractual clauses.",
+   "hash": "47bc6ad0cfa6",
+   "files": {
+    "samantha": "samantha/text.yf1sxy.m4a",
+    "daniel": "daniel/text.yf1sxy.m4a",
+    "bella": "bella/text.yf1sxy.m4a",
+    "emma": "emma/text.yf1sxy.m4a"
+   }
+  },
+  "text.igrg1d": {
+   "text": "How long",
+   "hash": "bfdfa043c05f",
+   "files": {
+    "samantha": "samantha/text.igrg1d.m4a",
+    "daniel": "daniel/text.igrg1d.m4a",
+    "bella": "bella/text.igrg1d.m4a",
+    "emma": "emma/text.igrg1d.m4a"
+   }
+  },
+  "text.25w4ty": {
+   "text": "Waitlist emails are kept until the pieces open and the announcement is sent, or until you ask us to delete them, and in any case no longer than two years. Visit counts are aggregated.",
+   "hash": "465882df91ef",
+   "files": {
+    "samantha": "samantha/text.25w4ty.m4a",
+    "daniel": "daniel/text.25w4ty.m4a",
+    "bella": "bella/text.25w4ty.m4a",
+    "emma": "emma/text.25w4ty.m4a"
+   }
+  },
+  "text.1ktmeud": {
+   "text": "Your rights",
+   "hash": "206dab7f7e8e",
+   "files": {
+    "samantha": "samantha/text.1ktmeud.m4a",
+    "daniel": "daniel/text.1ktmeud.m4a",
+    "bella": "bella/text.1ktmeud.m4a",
+    "emma": "emma/text.1ktmeud.m4a"
+   }
+  },
+  "text.cvq2bi": {
+   "text": "Under the GDPR you can ask for access, correction, deletion, restriction, portability, or object to processing, and withdraw consent, by writing to trescarla@gmail.com. You can also complain to the Spanish Data Protection Agency (AEPD, aepd.es).",
+   "hash": "ed6984e98d0f",
+   "files": {
+    "samantha": "samantha/text.cvq2bi.m4a",
+    "daniel": "daniel/text.cvq2bi.m4a",
+    "bella": "bella/text.cvq2bi.m4a",
+    "emma": "emma/text.cvq2bi.m4a"
+   }
+  },
+  "text.5e43kz": {
+   "text": "Last updated 14 October 2026. Privacy · Terms · Licence",
+   "hash": "6b1785e843f6",
+   "files": {
+    "samantha": "samantha/text.5e43kz.m4a",
+    "daniel": "daniel/text.5e43kz.m4a",
+    "bella": "bella/text.5e43kz.m4a",
+    "emma": "emma/text.5e43kz.m4a"
+   }
+  },
+  "text.15eqa9y": {
+   "text": "Terms of use",
+   "hash": "92ef4381a8b7",
+   "files": {
+    "samantha": "samantha/text.15eqa9y.m4a",
+    "daniel": "daniel/text.15eqa9y.m4a",
+    "bella": "bella/text.15eqa9y.m4a",
+    "emma": "emma/text.15eqa9y.m4a"
+   }
+  },
+  "text.1l4n6hh": {
+   "text": "The rules for using this website.",
+   "hash": "d5a955b25503",
+   "files": {
+    "samantha": "samantha/text.1l4n6hh.m4a",
+    "daniel": "daniel/text.1l4n6hh.m4a",
+    "bella": "bella/text.1l4n6hh.m4a",
+    "emma": "emma/text.1l4n6hh.m4a"
+   }
+  },
+  "text.1dgad6z": {
+   "text": "Who we are",
+   "hash": "82d078d1883e",
+   "files": {
+    "samantha": "samantha/text.1dgad6z.m4a",
+    "daniel": "daniel/text.1dgad6z.m4a",
+    "bella": "bella/text.1dgad6z.m4a",
+    "emma": "emma/text.1dgad6z.m4a"
+   }
+  },
+  "text.eutmk4": {
+   "text": "This website is run by Carla Tres García (NIF 39934017Z), a sole trader. Address: Avenida Duque de Loulé 91, Lisboa, Portugal. Contact: trescarla@gmail.com.",
+   "hash": "bf713e5d4ec3",
+   "files": {
+    "samantha": "samantha/text.eutmk4.m4a",
+    "daniel": "daniel/text.eutmk4.m4a",
+    "bella": "bella/text.eutmk4.m4a",
+    "emma": "emma/text.eutmk4.m4a"
+   }
+  },
+  "text.1fx404v": {
+   "text": "Using the site",
+   "hash": "c4bd08bcee35",
+   "files": {
+    "samantha": "samantha/text.1fx404v.m4a",
+    "daniel": "daniel/text.1fx404v.m4a",
+    "bella": "bella/text.1fx404v.m4a",
+    "emma": "emma/text.1fx404v.m4a"
+   }
+  },
+  "text.7zondg": {
+   "text": "You may browse the site, try the previews, and use Studio and the guide Orb for your own personal or professional exploration. Please do not misuse it: no attempts to break, overload or scrape it, and no unlawful or abusive use of the guide Orb.",
+   "hash": "593132bc6d03",
+   "files": {
+    "samantha": "samantha/text.7zondg.m4a",
+    "daniel": "daniel/text.7zondg.m4a",
+    "bella": "bella/text.7zondg.m4a",
+    "emma": "emma/text.7zondg.m4a"
+   }
+  },
+  "text.1t9fp21": {
+   "text": "The guide Orb",
+   "hash": "070abb8ccdb6",
+   "files": {
+    "samantha": "samantha/text.1t9fp21.m4a",
+    "daniel": "daniel/text.1t9fp21.m4a",
+    "bella": "bella/text.1t9fp21.m4a",
+    "emma": "emma/text.1t9fp21.m4a"
+   }
+  },
+  "text.16c60w0": {
+   "text": "The Orb's replies are generated automatically and may be incomplete or wrong. They are not professional advice and do not bind us; prices and terms are only those shown on the site.",
+   "hash": "ecfd5e534912",
+   "files": {
+    "samantha": "samantha/text.16c60w0.m4a",
+    "daniel": "daniel/text.16c60w0.m4a",
+    "bella": "bella/text.16c60w0.m4a",
+    "emma": "emma/text.16c60w0.m4a"
+   }
+  },
+  "text.1cw36cq": {
+   "text": "Content and pieces",
+   "hash": "7f162ffda4a0",
+   "files": {
+    "samantha": "samantha/text.1cw36cq.m4a",
+    "daniel": "daniel/text.1cw36cq.m4a",
+    "bella": "bella/text.1cw36cq.m4a",
+    "emma": "emma/text.1cw36cq.m4a"
+   }
+  },
+  "text.9odpru": {
+   "text": "The design, text, images, sounds and code of this site belong to Carla Tres García unless stated otherwise. Using the free Orb and any piece you obtain is governed by the licence.",
+   "hash": "d98c5abd1bc5",
+   "files": {
+    "samantha": "samantha/text.9odpru.m4a",
+    "daniel": "daniel/text.9odpru.m4a",
+    "bella": "bella/text.9odpru.m4a",
+    "emma": "emma/text.9odpru.m4a"
+   }
+  },
+  "text.1kgiogz": {
+   "text": "Purchases",
+   "hash": "2974fb31ad84",
+   "files": {
+    "samantha": "samantha/text.1kgiogz.m4a",
+    "daniel": "daniel/text.1kgiogz.m4a",
+    "bella": "bella/text.1kgiogz.m4a",
+    "emma": "emma/text.1kgiogz.m4a"
+   }
+  },
+  "text.pwl7hb": {
+   "text": "The site is in early access: everything is free and nothing is sold. Purchasing and membership are not open yet. When they open, the price, what you receive and the conditions of each sale — including your rights as a consumer — will be shown before you pay.",
+   "hash": "35b0d728c56d",
+   "files": {
+    "samantha": "samantha/text.pwl7hb.m4a",
+    "daniel": "daniel/text.pwl7hb.m4a",
+    "bella": "bella/text.pwl7hb.m4a",
+    "emma": "emma/text.pwl7hb.m4a"
+   }
+  },
+  "text.19ahf3s": {
+   "text": "Availability and liability",
+   "hash": "526d6d8154ab",
+   "files": {
+    "samantha": "samantha/text.19ahf3s.m4a",
+    "daniel": "daniel/text.19ahf3s.m4a",
+    "bella": "bella/text.19ahf3s.m4a",
+    "emma": "emma/text.19ahf3s.m4a"
+   }
+  },
+  "text.4azc98": {
+   "text": "The site is offered as it is and may change or be unavailable at times. We are not liable for indirect losses arising from its use, except where the law does not allow this to be limited. Nothing here limits your rights as a consumer.",
+   "hash": "d8dcfad87133",
+   "files": {
+    "samantha": "samantha/text.4azc98.m4a",
+    "daniel": "daniel/text.4azc98.m4a",
+    "bella": "bella/text.4azc98.m4a",
+    "emma": "emma/text.4azc98.m4a"
+   }
+  },
+  "text.1dd6ap7": {
+   "text": "Law",
+   "hash": "145b3bd7b8f1",
+   "files": {
+    "samantha": "samantha/text.1dd6ap7.m4a",
+    "daniel": "daniel/text.1dd6ap7.m4a",
+    "bella": "bella/text.1dd6ap7.m4a",
+    "emma": "emma/text.1dd6ap7.m4a"
+   }
+  },
+  "text.1xrhwu9": {
+   "text": "These terms are governed by Spanish law. If you are a consumer, you keep the protection of the law and the courts of your place of residence.",
+   "hash": "7115a6f5c13a",
+   "files": {
+    "samantha": "samantha/text.1xrhwu9.m4a",
+    "daniel": "daniel/text.1xrhwu9.m4a",
+    "bella": "bella/text.1xrhwu9.m4a",
+    "emma": "emma/text.1xrhwu9.m4a"
+   }
+  },
+  "text.b4gjec": {
+   "text": "licence",
+   "hash": "8555cabe8e2a",
+   "files": {
+    "samantha": "samantha/text.b4gjec.m4a",
+    "daniel": "daniel/text.b4gjec.m4a",
+    "bella": "bella/text.b4gjec.m4a",
+    "emma": "emma/text.b4gjec.m4a"
+   }
+  },
+  "text.928a8u": {
+   "text": "What you can do with the free Orb and with the pieces when they open.",
+   "hash": "be739ce01c67",
+   "files": {
+    "samantha": "samantha/text.928a8u.m4a",
+    "daniel": "daniel/text.928a8u.m4a",
+    "bella": "bella/text.928a8u.m4a",
+    "emma": "emma/text.928a8u.m4a"
+   }
+  },
+  "text.1gztyzb": {
+   "text": "The free Orb (Original version)",
+   "hash": "320d195acd58",
+   "files": {
+    "samantha": "samantha/text.1gztyzb.m4a",
+    "daniel": "daniel/text.1gztyzb.m4a",
+    "bella": "bella/text.1gztyzb.m4a",
+    "emma": "emma/text.1gztyzb.m4a"
+   }
+  },
+  "text.8i709l": {
+   "text": "Free for personal and commercial use: websites, apps, client work, products. Attribution (\"Orb by The Light Orb\") is appreciated, not required. You may not resell or redistribute the code itself as a product, template or asset pack, or present it as your own. It includes Three.js (MIT licence).",
+   "hash": "15dff7065a82",
+   "files": {
+    "samantha": "samantha/text.8i709l.m4a",
+    "daniel": "daniel/text.8i709l.m4a",
+    "bella": "bella/text.8i709l.m4a",
+    "emma": "emma/text.8i709l.m4a"
+   }
+  },
+  "text.1v3ewry": {
+   "text": "Early access",
+   "hash": "b7744aa4ae8f",
+   "files": {
+    "samantha": "samantha/text.1v3ewry.m4a",
+    "daniel": "daniel/text.1v3ewry.m4a",
+    "bella": "bella/text.1v3ewry.m4a",
+    "emma": "emma/text.1v3ewry.m4a"
+   }
+  },
+  "text.657yfl": {
+   "text": "During early access everything on the site is free, including every version of the Orb and Studio. Anything you obtain during early access stays free to use under the licence that applies to it, also after paid plans open.",
+   "hash": "469b424ba14b",
+   "files": {
+    "samantha": "samantha/text.657yfl.m4a",
+    "daniel": "daniel/text.657yfl.m4a",
+    "bella": "bella/text.657yfl.m4a",
+    "emma": "emma/text.657yfl.m4a"
+   }
+  },
+  "text.16mgpjm": {
+   "text": "Paid pieces — personal",
+   "hash": "f1850640b8d2",
+   "files": {
+    "samantha": "samantha/text.16mgpjm.m4a",
+    "daniel": "daniel/text.16mgpjm.m4a",
+    "bella": "bella/text.16mgpjm.m4a",
+    "emma": "emma/text.16mgpjm.m4a"
+   }
+  },
+  "text.1vivede": {
+   "text": "For your own projects, personal or commercial, by one person. Use the piece in as many of your own projects as you like.",
+   "hash": "a11cf872632f",
+   "files": {
+    "samantha": "samantha/text.1vivede.m4a",
+    "daniel": "daniel/text.1vivede.m4a",
+    "bella": "bella/text.1vivede.m4a",
+    "emma": "emma/text.1vivede.m4a"
+   }
+  },
+  "text.11amp78": {
+   "text": "Paid pieces — commercial",
+   "hash": "5997ffc0b902",
+   "files": {
+    "samantha": "samantha/text.11amp78.m4a",
+    "daniel": "daniel/text.11amp78.m4a",
+    "bella": "bella/text.11amp78.m4a",
+    "emma": "emma/text.11amp78.m4a"
+   }
+  },
+  "text.2yv0ma": {
+   "text": "For one person's client and commercial work: you may build the piece into work you deliver to clients or sell, as long as it is part of a larger work and not offered on its own.",
+   "hash": "b5aa864ec9f2",
+   "files": {
+    "samantha": "samantha/text.2yv0ma.m4a",
+    "daniel": "daniel/text.2yv0ma.m4a",
+    "bella": "bella/text.2yv0ma.m4a",
+    "emma": "emma/text.2yv0ma.m4a"
+   }
+  },
+  "text.fttnj3": {
+   "text": "Team licence",
+   "hash": "0c7ac5b23dc5",
+   "files": {
+    "samantha": "samantha/text.fttnj3.m4a",
+    "daniel": "daniel/text.fttnj3.m4a",
+    "bella": "bella/text.fttnj3.m4a",
+    "emma": "emma/text.fttnj3.m4a"
+   }
+  },
+  "text.7gqmmt": {
+   "text": "Everyone in one team or company may use the pieces under the commercial terms above.",
+   "hash": "e6dbfc52fb4c",
+   "files": {
+    "samantha": "samantha/text.7gqmmt.m4a",
+    "daniel": "daniel/text.7gqmmt.m4a",
+    "bella": "bella/text.7gqmmt.m4a",
+    "emma": "emma/text.7gqmmt.m4a"
+   }
+  },
+  "text.n02ta5": {
+   "text": "Never allowed",
+   "hash": "b605971c8067",
+   "files": {
+    "samantha": "samantha/text.n02ta5.m4a",
+    "daniel": "daniel/text.n02ta5.m4a",
+    "bella": "bella/text.n02ta5.m4a",
+    "emma": "emma/text.n02ta5.m4a"
+   }
+  },
+  "text.sanqp0": {
+   "text": "Reselling, sharing or redistributing the source files, alone or in a pack, template, library or marketplace, even modified or for free; or using them to build a product that competes with The Light Orb.",
+   "hash": "50e70eda31cd",
+   "files": {
+    "samantha": "samantha/text.sanqp0.m4a",
+    "daniel": "daniel/text.sanqp0.m4a",
+    "bella": "bella/text.sanqp0.m4a",
+    "emma": "emma/text.sanqp0.m4a"
+   }
+  },
+  "text.1f1a4su": {
+   "text": "No warranty",
+   "hash": "6f96935a3c22",
+   "files": {
+    "samantha": "samantha/text.1f1a4su.m4a",
+    "daniel": "daniel/text.1f1a4su.m4a",
+    "bella": "bella/text.1f1a4su.m4a",
+    "emma": "emma/text.1f1a4su.m4a"
+   }
+  },
+  "text.103mah9": {
+   "text": "Code is provided as it is. Questions about a use not covered here: trescarla@gmail.com.",
+   "hash": "4cb79bb97eb6",
+   "files": {
+    "samantha": "samantha/text.103mah9.m4a",
+    "daniel": "daniel/text.103mah9.m4a",
+    "bella": "bella/text.103mah9.m4a",
+    "emma": "emma/text.103mah9.m4a"
    }
   }
  }
