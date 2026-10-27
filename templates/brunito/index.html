@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="/">
+  <script>if(!location.hash){if(location.hostname==='carlatres3.github.io')location.replace('/light-orb/#/templates/brunito');else history.replaceState(null,'','/#/templates/brunito')}</script>
+  <title>BRUNITO · The Light Orb</title>
+  <link rel="modulepreload" href="./assets/intro-JOJDVKIJ.js">
+  <link rel="modulepreload" href="./assets/site-2V5TEJWO.js">
+  <link rel="modulepreload" href="./assets/chunk-LSRUEYVE.js">
+  <meta name="description" content="An interactive ecommerce experience featuring responsive layouts, customised product pages and a refined shopping interface.">
+  <link rel="canonical" href="https://thelightorb.com/templates/brunito">
+  <meta name="theme-color" content="#F3F3F1">
+  <!-- The wordmark O on a charcoal tile: reads on light and dark browser chrome and search results. -->
+  <link rel="icon" href="./icons/favicon-48.png" sizes="48x48" type="image/png">
+  <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="The Light Orb">
+  <meta property="og:title" content="BRUNITO · The Light Orb">
+  <meta property="og:description" content="An interactive ecommerce experience featuring responsive layouts, customised product pages and a refined shopping interface.">
+  <meta property="og:url" content="https://thelightorb.com/templates/brunito">
+  <meta property="og:image" content="https://thelightorb.com/icons/share.jpg">
+  <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A clear glass orb on pearl white beside the words The Light Orb">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BRUNITO · The Light Orb">
+  <meta name="twitter:description" content="An interactive ecommerce experience featuring responsive layouts, customised product pages and a refined shopping interface.">
+  <meta name="twitter:image" content="https://thelightorb.com/icons/share.jpg">
+  <!-- Theme before first paint (mirror of app/theme.js resolveTheme): light unless the visitor chose dark -->
+  <script>(function(){var t=new URLSearchParams(location.search).get('theme');if(t!=='light'&&t!=='dark')try{t=localStorage.getItem('lightorb:theme')}catch(e){}if(t!=='dark')t='light';document.documentElement.dataset.theme=t;document.querySelector('meta[name="theme-color"]').setAttribute('content',t==='dark'?'#141515':'#F3F3F1');})();</script>
+  <script>if(/[?&]warm\b/.test(location.search))document.documentElement.classList.add('warm');</script>
+  <style>
+    :root { --night: #080808; --ink: #141414; }
+    /* Monochrome intro: the eclipse, glass and light world in black and white,
+       matching the site. Every layer is already neutral at its source (intro.js
+       MONO, Safari-safe); this filter only adds the approved contrast.
+       ?warm restores the original rose-gold palette. */
+    html:not(.warm) .intro { filter: grayscale(1) contrast(1.06); }
+    html.warm { --night: #0a0806; --ink: #17120d; }
+    html, body { margin: 0; height: 100%; background: var(--night); overflow: hidden; }
+    .intro { position: fixed; inset: 0; touch-action: none; -webkit-user-select: none; user-select: none; }
+    .intro-env, .intro-world { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+    .intro-world { z-index: 0; }
+    .intro-env { z-index: 1; }
+    .light-orb-master { z-index: 3; }
+
+    /* 07 — the continue cue: one action, quiet, editorial (it waits). */
+    .cue { position: absolute; z-index: 4; margin: 0; left: 50%; top: calc(43vh + min(23vh, 15vw) + 9vh); transform: translate(-50%, 6px);
+      text-align: center; pointer-events: none; opacity: 0; transition: opacity .45s ease, transform .9s cubic-bezier(.2, .7, .1, 1); }
+    .cue-in { opacity: 1; transform: translate(-50%, 0); transition: opacity 1.1s ease, transform 1.4s cubic-bezier(.2, .7, .1, 1); }
+    /* Same voice as "slide to enter" and "Hello.": light, lowercase, natural spacing. */
+    .cue-main { display: block; font: 300 14px/1.2 "Helvetica Neue", "Inter", Arial, sans-serif; letter-spacing: .01em;
+      color: rgba(238, 238, 236, .6); }
+
+    /* 14–15 — the control. The glass is one WebGL object (.intro-glass,
+       intro/glass-control.js) beneath the master orb; .glass-cap is only its
+       invisible hit area. */
+    .intro-glass { position: absolute; z-index: 2; pointer-events: none; transition: opacity .45s ease; }
+    .intro-glass.done { opacity: 0; }
+    .glass-cap { position: absolute; z-index: 2; border-radius: 999px; pointer-events: auto; }
+    .glass-thumb { position: absolute; z-index: 4; border-radius: 50%; cursor: grab; touch-action: none; outline: none; }
+    /* The focus ring is for keyboard users only (the thumb is focused for them
+       programmatically; pointer users never see a ring around the orb). */
+    .keyboard .glass-thumb:focus-visible { box-shadow: 0 0 0 1px rgba(255, 255, 255, .4), 0 0 0 5px rgba(255, 255, 255, .06); }
+    /* Once entered, the hit area goes too: the site styles its own .glass cards. */
+    .glass-cap.glass-done, .glass-done ~ .glass-thumb { visibility: hidden; pointer-events: none; }
+    .glass-dragging .glass-thumb { cursor: grabbing; }
+
+    /* 18–20 — Hello: an invisible editorial grid over the light world. Two
+       regions, never drawn: the copy (left, in the sky above the horizon) and
+       the orb zone (right, standing on the horizon, partly beyond the edge).
+       The ground row matches the world's horizon (HORIZON = .27 in intro.js).
+       The orb's final place and range are measured from .hello-orb-zone. */
+    .hello { position: absolute; inset: 0; z-index: 6; pointer-events: none; color: var(--ink);
+      display: grid; grid-template-columns: [copy] minmax(0, 1fr) [orb] auto; grid-template-rows: [sky] 1fr [ground] 27vh;
+      padding-left: 10.5vw; }
+    .hello-copy { grid-column: copy; grid-row: sky; align-self: center; margin-bottom: 4vh; }
+    /* The orb's region: a short stretch of horizon near the right edge, fully
+       inside the frame. The orb rests toward its right end and may glide only
+       within it. */
+    .hello-orb-zone { --orb-d: clamp(64px, 6.2vw, 112px); grid-column: orb; grid-row: sky; align-self: end;
+      width: calc(var(--orb-d) * 2.2); height: var(--orb-d); margin-right: calc(var(--orb-d) * .45); }
+    .hello h1 { margin: 0; font: 200 clamp(88px, 10.4vw, 196px)/.92 "Helvetica Neue", "Inter", Arial, sans-serif;
+      letter-spacing: -.035em; opacity: 0; transition: opacity 1s ease; }
+    .hello p { margin: 2.4vw 0 0 .4vw; font: 300 clamp(16px, 1.5vw, 26px)/1.4 "Helvetica Neue", "Inter", Arial, sans-serif;
+      letter-spacing: .005em; color: #303030; opacity: 0; transition: opacity .9s ease .2s; }
+    /* The copy only fades in, in place: set text, never a moving element. */
+    .hello-in h1, .hello-in p { opacity: 1; }
+    /* The welcome after the intro is hosted by the Orb (dist/app/site.js);
+       this copy remains only for the static, no-WebGL page. */
+    body:not(.static) .hello-copy { display: none; }
+
+    .skip { position: fixed; z-index: 7; right: 20px; bottom: 16px; background: none; border: 0; padding: 6px;
+      font: 300 9px/1 "Helvetica Neue", Arial, sans-serif; letter-spacing: .32em; text-transform: uppercase;
+      color: rgba(184, 184, 182, .2); cursor: pointer; transition: opacity 1s ease, color .4s ease; }
+    .skip{min-width:44px;min-height:44px;bottom:max(12px,env(safe-area-inset-bottom,0px))}
+    .skip:hover, .skip:focus-visible { color: rgba(214, 214, 212, .5); outline: none; }
+    .complete .skip { opacity: 0; pointer-events: none; }
+    /* Sound: the glass speaker (Voice / Sounds), from the first frame, in the
+       corner opposite Skip, so a first-time visitor can silence it. */
+    .sound { position: fixed; z-index: 7; left: 16px; bottom: 12px; font: 300 13px/1 "Helvetica Neue", Arial, sans-serif; }
+
+    /* Before the intro's JavaScript arrives (slow networks): the loader's own
+       dark circle and a fine ring, in place, after 1.2 s, so the page is never
+       an empty black screen. Gone the moment intro.js runs. */
+    .boot { position: absolute; left: 50%; top: 43%; width: clamp(240px, min(46vh, 30vw), 470px); aspect-ratio: 1;
+      transform: translate(-50%, -50%); border-radius: 50%; background: rgba(3, 3, 3, .94);
+      box-shadow: inset 0 0 0 1px rgba(238, 238, 236, .16); opacity: 0; pointer-events: none;
+      animation: boot-in 1.2s ease 1.2s forwards, boot-breathe 2.4s ease-in-out 2.4s infinite alternate; }
+    @keyframes boot-in { to { opacity: 1; } }
+    @keyframes boot-breathe { from { opacity: 1; } to { opacity: .55; } }
+    @media (prefers-reduced-motion: reduce) { .boot { animation: boot-in .01s linear 1.2s forwards; } }
+    body[data-ready] .boot { display: none; }
+
+    /* Without WebGL 2: the destination only, over the light world's colour. */
+    .static { background: #F3F3F1; }
+    html[data-theme=dark] .static { background: #141515; }   /* pearl, as the site: never cream */
+    .static canvas, .static .cue, .static .skip, .static .sound { display: none; }
+  </style>
+  <script type="module" src="./assets/intro-JOJDVKIJ.js"></script>
+  <script type="module" src="./assets/site-2V5TEJWO.js"></script>
+</head>
+<body>
+  <main class="intro" aria-label="Light Orb">
+    <div class="boot" aria-hidden="true"></div>
+    <canvas class="intro-world" aria-hidden="true"></canvas>
+    <canvas class="intro-env" aria-hidden="true"></canvas>
+    <canvas class="intro-glass" aria-hidden="true"></canvas>
+    <p class="cue" aria-live="polite"><span class="cue-main">press space</span></p>
+    <div class="hello" aria-live="polite">
+      <section class="hello-copy" aria-hidden="true">
+        <h1>Welcome.</h1>
+        <p>A space for your next idea.</p>
+      </section>
+      <div class="hello-orb-zone" aria-hidden="true"></div>
+    </div>
+  </main>
+  <button class="skip" type="button">Skip</button>
+  <div class="sound"></div>
+</body>
+</html>

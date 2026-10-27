@@ -1,7 +1,7 @@
 {
   "name": "The Light Orb",
   "short_name": "Light Orb",
-  "description": "A space for creative possibilities.",
+  "description": "Interactive glass objects and website templates, ready for your site.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
