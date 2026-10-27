@@ -1083,6 +1083,7 @@ ${_} .cv-wave i:nth-child(-n+9){background:linear-gradient(90deg,#f1f1ee,#c9cbc8
 .wel-offer a:hover{color:var(--ink);background:rgba(38,40,39,.04)}
 .wel-offer a:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 .wel-offer span[aria-hidden]{padding:6px 0;opacity:.5}
+@keyframes wel-turn{0%{opacity:0;visibility:visible;transform:translateY(4px)}7%,27%{opacity:1;visibility:visible;transform:none}33.3%{opacity:0;visibility:visible;transform:translateY(-4px)}33.4%,100%{opacity:0;visibility:hidden}}
 
 /* \u2500\u2500 product facts: a calm two-column sheet \u2500\u2500 */
 .facts.ds-facts{display:grid;grid-template-columns:minmax(110px,auto) 1fr;gap:10px 18px;margin:22px 0 0;padding:18px 0 0;border-top:1px solid var(--hair);font-size:14px}
@@ -1149,6 +1150,13 @@ ${Xt} .gb[disabled],${Xt} .gb[aria-disabled=true]{box-shadow:inset 0 1px 0 rgba(
   .ptabs a{display:inline-flex;align-items:center;min-height:40px}
   .wm{padding:11px 0}
   .wel-offer{flex-direction:column;align-items:center;gap:0;margin-top:14px}.wel-offer span[aria-hidden]{display:none}.wel-offer a{padding:7px 12px}
+  /* the three offers share one line and take turns (owner 2026-10-27); a static list under reduced motion */
+  @media (prefers-reduced-motion:no-preference){
+    .wel-offer{display:grid;justify-items:center}
+    .wel-offer a{grid-area:1/1;white-space:nowrap;opacity:0;visibility:hidden;animation:wel-turn 9s linear infinite}
+    .wel-offer a:nth-of-type(2){animation-delay:3s}.wel-offer a:nth-of-type(3){animation-delay:6s}
+    .wel-offer:is(:hover,:focus-within) a{animation-play-state:paused}
+  }
   .tl{min-height:40px}
   .sx-ib{width:40px!important;height:40px!important}
   .sx-tb{min-height:36px}
