@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Leave the list · The Light Orb</title>
+<meta name="robots" content="noindex">
+<!-- Studio Membership list: leave. The link in every list email opens this page with
+     #e=<email>&t=<token> (a fragment: never sent to any server log). Nothing happens until
+     the button is pressed, so mail scanners that open links cannot unsubscribe anyone.
+     POST /studio-waitlist/leave on the orb-chat Worker; it answers the same either way. -->
+<style>
+:root{--ink:#262827;--muted:#616562;--line:rgba(38,40,39,.12);color-scheme:light}
+body{margin:0;min-height:100svh;display:grid;place-items:center;background:#f3f3f1;color:var(--ink);font:16px/1.55 -apple-system,"Helvetica Neue",Helvetica,Arial,sans-serif}
+main{width:min(440px,calc(100vw - 32px));padding:32px 0}
+.k{margin:0 0 10px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+h1{margin:0 0 12px;font-weight:250;font-size:30px;line-height:1.15;letter-spacing:-.015em}
+p{margin:0 0 18px;color:var(--muted)}
+b{color:var(--ink);font-weight:500}
+button{height:44px;padding:0 22px;border:0;border-radius:999px;font:inherit;font-size:15px;color:#f7f7f5;cursor:pointer;
+  background:linear-gradient(180deg,rgba(52,56,54,.86),rgba(20,22,21,.94));box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 0 0 .5px rgba(0,0,0,.4),0 9px 18px -10px rgba(23,26,25,.55)}
+button:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+button[disabled]{opacity:.5;cursor:default}
+a{color:var(--ink)}
+[hidden]{display:none}
+</style></head>
+<body><main>
+  <p class="k">Studio Membership list</p>
+  <section id="ask"><h1>Leave the list?</h1>
+    <p>You’ll get no more emails from the Studio Membership list at <b id="who">this address</b>.</p>
+    <button id="go" type="button">Leave the list</button>
+    <p id="msg" role="status" aria-live="polite" style="margin-top:14px"></p></section>
+  <section id="done" hidden tabindex="-1"><h1>You’ve left the list.</h1>
+    <p>Nothing more will be sent from it. You can rejoin from Studio at any time.</p>
+    <p><a href="/">Back to The Light Orb</a></p></section>
+  <section id="bad" hidden><h1>This link didn’t match.</h1>
+    <p>It may be incomplete or already used. Please use the link from your latest email, or write to <a href="mailto:trescarla@gmail.com">trescarla@gmail.com</a> and you’ll be removed by hand.</p></section>
+</main>
+<script>
+const URL_LEAVE = 'https://orb-chat.thelightorb.workers.dev/studio-waitlist/leave';
+const q = new URLSearchParams(location.hash.slice(1)), email = q.get('e') || '', token = q.get('t') || '';
+const $ = id => document.getElementById(id);
+if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !/^[0-9a-f]{32}$/.test(token)) { $('ask').hidden = true; $('bad').hidden = false; }
+else $('who').textContent = email;
+$('go').addEventListener('click', async () => {
+  $('go').disabled = true; $('msg').textContent = 'One moment…';
+  try {
+    const r = await fetch(URL_LEAVE, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ email, token }) });
+    const b = await r.json().catch(() => null);
+    if (!r.ok || !b?.ok) throw new Error(String(r.status));
+    if (!b.left) { $('ask').hidden = true; $('bad').hidden = false; return; }   // wrong or old link, or already left
+    $('ask').hidden = true; $('done').hidden = false; $('done').focus();
+  } catch { $('go').disabled = false; $('msg').textContent = 'That did not go through. Please try again, or write to trescarla@gmail.com.'; }
+});
+</script>
+</body></html>
