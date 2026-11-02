@@ -6,7 +6,7 @@
   <script>if(!location.hash){if(location.hostname==='carlatres3.github.io')location.replace('/light-orb/#/templates');else history.replaceState(null,'','/#/templates')}</script>
   <meta name="lo-entries" content="1">
   <title>Templates · The Light Orb</title>
-  <link rel="modulepreload" href="./assets/intro-KBOBRG6A.js">
+  <link rel="modulepreload" href="./assets/intro-2DIEELCE.js">
   <link rel="modulepreload" href="./assets/site-E4GD634W.js">
   <link rel="modulepreload" href="./assets/chunk-7QYMNMMH.js">
   <meta name="description" content="Complete compositions to start from.">
@@ -36,6 +36,8 @@
   <meta name="robots" content="max-image-preview:large">
   <!-- Theme before first paint (mirror of app/theme.js resolveTheme): light unless the visitor chose dark -->
   <script>(function(){var t=new URLSearchParams(location.search).get('theme');if(t!=='light'&&t!=='dark')try{t=localStorage.getItem('lightorb:theme')}catch(e){}if(t!=='dark')t='light';document.documentElement.dataset.theme=t;document.querySelector('meta[name="theme-color"]').setAttribute('content',t==='dark'?'#141515':'#F3F3F1');})();</script>
+  <!-- Skip works from the first frame: an early press is kept for intro.js, which takes over its own button when it runs. -->
+  <script>addEventListener('click',function(e){if(!document.body.dataset.ready&&e.target.closest&&e.target.closest('.skip')){window.__introEarlySkip=true;document.documentElement.classList.add('skip-early')}},true);</script>
   <script>if(/[?&]warm\b/.test(location.search))document.documentElement.classList.add('warm');</script>
   <style>
     :root { --night: #080808; --ink: #141414; }
@@ -46,6 +48,18 @@
     html:not(.warm) .intro { filter: grayscale(1) contrast(1.06); }
     html.warm { --night: #0a0806; --ink: #17120d; }
     html, body { margin: 0; height: 100%; background: var(--night); overflow: hidden; }
+    /* The crawlable summary (build.mjs) stays in the document for search engines and screen readers, off
+       the painted page, so the first frame is the intended dark one. It becomes a plain, styled page when
+       a link takes keyboard focus or the intro's script never ran (no data-ready 10 s after load began). */
+    #seo-entry { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    #seo-entry:focus-within, body:not([data-ready]) #seo-entry { animation: seo-show .01s linear 10s forwards; }
+    #seo-entry:focus-within { animation-delay: 0s; }
+    /* Skip pressed before the script arrived: the links open if it is still not here after 4 s. */
+    html.skip-early body:not([data-ready]) #seo-entry { animation-delay: 4s; }
+    html.skip-early .skip { opacity: .35; }
+    @keyframes seo-show { to { position: fixed; inset: 0; z-index: 20; width: auto; height: auto; overflow: auto; clip-path: none; white-space: normal; padding: 32px 24px;
+      background: var(--night); color: #d6d6d4; font: 16px/1.5 system-ui, sans-serif; } }
+    #seo-entry a { color: inherit; }
     .intro { position: fixed; inset: 0; touch-action: none; -webkit-user-select: none; user-select: none; }
     .intro-env, .intro-world { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
     .intro-world { z-index: 0; }
@@ -125,10 +139,13 @@
     html[data-theme=dark] .static { background: #141515; }   /* pearl, as the site: never cream */
     .static canvas, .static .cue, .static .skip, .static .sound { display: none; }
   </style>
-  <script type="module" src="./assets/intro-KBOBRG6A.js"></script>
+  <script type="module" src="./assets/intro-2DIEELCE.js"></script>
   <script type="module" src="./assets/site-E4GD634W.js"></script>
+  <!-- Without JavaScript the summary is the page: readable, with its real links. -->
+  <noscript><style>#seo-entry { position: fixed; inset: 0; z-index: 20; width: auto; height: auto; overflow: auto; clip-path: none; white-space: normal; padding: 32px 24px; background: var(--night); color: #d6d6d4; font: 16px/1.5 system-ui, sans-serif; } .intro, .skip, .sound { display: none; }</style></noscript>
 </head>
 <body>
+  <button class="skip" type="button">Skip</button>
 <section id="seo-entry" aria-label="Page summary"><h1>Templates</h1><p>Complete compositions to start from.</p><p>The Light Orb is a creative digital design studio creating interactive digital products, website templates and custom web experiences.</p><nav aria-label="Site"><ul><li><a href="/">Home</a></li><li><a href="/products">Products</a></li><li><a href="/templates">Templates</a></li><li><a href="/design">Web Design</a></li><li><a href="/about">About</a></li><li><a href="/studio">Studio</a></li><li><a href="/sound">Sound</a></li><li><a href="/changelog">What’s new</a></li><li><a href="/products/orb">The Orb</a></li><li><a href="/products/orb-slider">Orb Slider</a></li><li><a href="/products/crystal-controls">Crystal Controls</a></li><li><a href="/products/light-orb">Light Orb</a></li><li><a href="/products/voice-orb">Talking Orb</a></li><li><a href="/products/gel-press">Gel Press</a></li><li><a href="/products/interactive-lens">Interactive Lens</a></li><li><a href="/products/elastic-lettering">Elastic Lettering</a></li><li><a href="/products/magnetic-stack">Magnetic Stack</a></li><li><a href="/templates/the-light-orb">The Light Orb</a></li><li><a href="/templates/brunito">ecommerce</a></li></ul></nav></section>
   <main class="intro" aria-label="Light Orb">
     <div class="boot" aria-hidden="true"></div>
@@ -144,7 +161,6 @@
       <div class="hello-orb-zone" aria-hidden="true"></div>
     </div>
   </main>
-  <button class="skip" type="button">Skip</button>
   <div class="sound"></div>
 </body>
 </html>
