@@ -6,9 +6,12 @@
   <script>if(!location.hash){if(location.hostname==='carlatres3.github.io')location.replace('/light-orb/#/sound');else history.replaceState(null,'','/#/sound')}</script>
   <meta name="lo-entries" content="1">
   <title>Sound · The Light Orb</title>
-  <link rel="modulepreload" href="./assets/intro-2DIEELCE.js">
-  <link rel="modulepreload" href="./assets/site-E4GD634W.js">
-  <link rel="modulepreload" href="./assets/chunk-7QYMNMMH.js">
+  <link rel="modulepreload" href="./assets/intro-WF54S35J.js">
+  <link rel="modulepreload" href="./assets/site-DNQK74QK.js">
+  <link rel="modulepreload" href="./assets/chunk-RDL4VNU3.js">
+  <link rel="modulepreload" href="./assets/chunk-ZL4BVYWZ.js">
+  <link rel="modulepreload" href="./assets/chunk-OIL5RNA2.js">
+  <link rel="modulepreload" href="./assets/chunk-63YMMEBD.js">
   <meta name="description" content="Voices and the quiet sounds of glass.">
   <!-- Who the site is (search engines): the studio, not one material -->
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://thelightorb.com/#studio","name":"The Light Orb","url":"https://thelightorb.com/","logo":"https://thelightorb.com/icons/icon-512.png","image":"https://thelightorb.com/icons/share.jpg?v=2","description":"The Light Orb is a creative digital design studio creating interactive digital products, website templates and custom web experiences.","knowsAbout":["Digital design","Interactive experiences","Website templates","Web design and development","Creative tools","Motion","Sound"]},{"@type":"WebSite","@id":"https://thelightorb.com/#site","url":"https://thelightorb.com/","name":"The Light Orb","description":"The Light Orb is a creative digital design studio creating interactive digital products, website templates and custom web experiences.","publisher":{"@id":"https://thelightorb.com/#studio"},"inLanguage":"en"}]}</script>
@@ -37,6 +40,8 @@
   <!-- Theme before first paint (mirror of app/theme.js resolveTheme): light unless the visitor chose dark -->
   <script>(function(){var t=new URLSearchParams(location.search).get('theme');if(t!=='light'&&t!=='dark')try{t=localStorage.getItem('lightorb:theme')}catch(e){}if(t!=='dark')t='light';document.documentElement.dataset.theme=t;document.querySelector('meta[name="theme-color"]').setAttribute('content',t==='dark'?'#141515':'#F3F3F1');})();</script>
   <!-- Skip works from the first frame: an early press is kept for intro.js, which takes over its own button when it runs. -->
+  <script>try{if(localStorage.getItem('lo:intro-seen')&&!/[?&]replay\b/.test(location.search)){window.__introEarlySkip=true;document.documentElement.classList.add('skip-early')}}catch(e){}</script>
+  <script>/* Sector subdomains open their collection directly (catalog.js SECTORS). */if(location.hostname==='beauty.thelightorb.com'&&!/^#\/./.test(location.hash))history.replaceState(null,'','#/beauty');</script>
   <script>addEventListener('click',function(e){if(!document.body.dataset.ready&&e.target.closest&&e.target.closest('.skip')){window.__introEarlySkip=true;document.documentElement.classList.add('skip-early')}},true);</script>
   <script>if(/[?&]warm\b/.test(location.search))document.documentElement.classList.add('warm');</script>
   <style>
@@ -113,10 +118,12 @@
     body:not(.static) .hello-copy { display: none; }
 
     .skip { position: fixed; z-index: 7; right: 20px; bottom: 16px; background: none; border: 0; padding: 6px;
-      font: 300 9px/1 "Helvetica Neue", Arial, sans-serif; letter-spacing: .32em; text-transform: uppercase;
-      color: rgba(184, 184, 182, .2); cursor: pointer; transition: opacity 1s ease, color .4s ease; }
+      font: 400 12px/1 "Helvetica Neue", Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase;
+      color: rgba(214, 214, 212, .72); cursor: pointer; transition: opacity 1s ease, color .4s ease;
+      padding: 0 16px; border-radius: 999px; box-shadow: inset 0 0 0 1px rgba(214, 214, 212, .28); }
+    .skip::after { content: " intro"; }   /* launch 2026-11-06: legible, labelled exit from the intro */
     .skip{min-width:44px;min-height:44px;bottom:max(12px,env(safe-area-inset-bottom,0px))}
-    .skip:hover, .skip:focus-visible { color: rgba(214, 214, 212, .5); outline: none; }
+    .skip:hover, .skip:focus-visible { color: rgba(240, 240, 238, .95); box-shadow: inset 0 0 0 1px rgba(240, 240, 238, .6); outline: none; }
     .complete .skip { opacity: 0; pointer-events: none; }
     /* Sound: the glass speaker (Voice / Sounds), from the first frame, in the
        corner opposite Skip, so a first-time visitor can silence it. */
@@ -139,14 +146,14 @@
     html[data-theme=dark] .static { background: #141515; }   /* pearl, as the site: never cream */
     .static canvas, .static .cue, .static .skip, .static .sound { display: none; }
   </style>
-  <script type="module" src="./assets/intro-2DIEELCE.js"></script>
-  <script type="module" src="./assets/site-E4GD634W.js"></script>
+  <script type="module" src="./assets/intro-WF54S35J.js"></script>
+  <script type="module" src="./assets/site-DNQK74QK.js"></script>
   <!-- Without JavaScript the summary is the page: readable, with its real links. -->
   <noscript><style>#seo-entry { position: fixed; inset: 0; z-index: 20; width: auto; height: auto; overflow: auto; clip-path: none; white-space: normal; padding: 32px 24px; background: var(--night); color: #d6d6d4; font: 16px/1.5 system-ui, sans-serif; } .intro, .skip, .sound { display: none; }</style></noscript>
 </head>
 <body>
   <button class="skip" type="button">Skip</button>
-<section id="seo-entry" aria-label="Page summary"><h1>Sound</h1><p>Voices and the quiet sounds of glass.</p><p>The Light Orb is a creative digital design studio creating interactive digital products, website templates and custom web experiences.</p><nav aria-label="Site"><ul><li><a href="/">Home</a></li><li><a href="/products">Products</a></li><li><a href="/templates">Templates</a></li><li><a href="/design">Web Design</a></li><li><a href="/about">About</a></li><li><a href="/studio">Studio</a></li><li><a href="/sound">Sound</a></li><li><a href="/changelog">What’s new</a></li><li><a href="/products/orb">The Orb</a></li><li><a href="/products/orb-slider">Orb Slider</a></li><li><a href="/products/crystal-controls">Crystal Controls</a></li><li><a href="/products/light-orb">Light Orb</a></li><li><a href="/products/voice-orb">Talking Orb</a></li><li><a href="/products/gel-press">Gel Press</a></li><li><a href="/products/interactive-lens">Interactive Lens</a></li><li><a href="/products/elastic-lettering">Elastic Lettering</a></li><li><a href="/products/magnetic-stack">Magnetic Stack</a></li><li><a href="/templates/the-light-orb">The Light Orb</a></li><li><a href="/templates/brunito">ecommerce</a></li></ul></nav></section>
+<section id="seo-entry" aria-label="Page summary"><h1>Sound</h1><p>Voices and the quiet sounds of glass.</p><p>The Light Orb is a creative digital design studio creating interactive digital products, website templates and custom web experiences.</p><nav aria-label="Site"><ul><li><a href="/">Home</a></li><li><a href="/products">Products</a></li><li><a href="/templates">Templates</a></li><li><a href="/design">Web Design</a></li><li><a href="/about">About</a></li><li><a href="/studio">Studio</a></li><li><a href="/sound">Sound</a></li><li><a href="/changelog">What’s new</a></li><li><a href="/products/orb">The Orb</a></li><li><a href="/products/orb-slider">Orb Slider</a></li><li><a href="/products/crystal-controls">Crystal Controls</a></li><li><a href="/products/light-orb">Light Orb</a></li><li><a href="/products/voice-orb">Talking Orb</a></li><li><a href="/products/interactive-lens">Interactive Lens</a></li><li><a href="/products/elastic-lettering">Elastic Lettering</a></li><li><a href="/templates/beauty">beauty.thelightorb.com</a></li><li><a href="/templates/the-light-orb">The Light Orb</a></li><li><a href="/templates/brunito">ecommerce</a></li></ul></nav></section>
   <main class="intro" aria-label="Light Orb">
     <div class="boot" aria-hidden="true"></div>
     <canvas class="intro-world" aria-hidden="true"></canvas>

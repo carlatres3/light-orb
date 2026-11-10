@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Volta · An invented journal (Lens and Elastic Lettering example)</title><meta name="robots" content="noindex">
+<style>
+:root{--paper:#ffffff;--ink:#0c0c0d;--muted:#6f6f6c;--hair:rgba(12,12,13,.12);--hot:#2633ff}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.6 "Helvetica Neue",Inter,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+header{display:flex;align-items:baseline;gap:30px;padding:24px 4vw;border-bottom:1px solid var(--ink);font-size:13px}
+header b{font-weight:700;font-size:15px;letter-spacing:-.01em;margin-right:auto}header span{color:var(--muted)}
+.mast{position:relative;height:min(64vh,620px);min-height:380px;border-bottom:1px solid var(--ink)}
+.mast .cv{position:absolute;inset:0}
+.mast small{position:absolute;left:4vw;bottom:22px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+.mast small i{font-style:normal;color:var(--hot)}
+.issue{display:grid;grid-template-columns:repeat(12,1fr);gap:20px;padding:5vw 4vw;border-bottom:1px solid var(--hair)}
+.issue h1{grid-column:1/8;margin:0;font-weight:500;font-size:clamp(40px,5.4vw,88px);line-height:.95;letter-spacing:-.045em}
+.issue p{grid-column:9/13;margin:0;color:var(--muted);align-self:end}
+.read{display:grid;grid-template-columns:repeat(12,1fr);gap:20px;padding:5vw 4vw}
+.read aside{grid-column:1/4;font-size:13px;color:var(--muted)}.read aside b{display:block;color:var(--ink);font-weight:500;font-size:15px;margin-bottom:6px}
+.read aside em{display:inline-block;margin-top:16px;font-style:normal;color:var(--hot)}
+.read .lens{grid-column:4/13;position:relative;height:min(70vh,640px);min-height:420px;background:#f4f4f2;border-radius:4px;overflow:hidden}
+.read .lens .cv{position:absolute;inset:0}
+.idx{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink)}.idx>div{padding:26px 4vw 40px;border-right:1px solid var(--hair)}.idx>div:last-child{border:0}
+.idx small{display:block;color:var(--hot);font-size:12px;letter-spacing:.14em}.idx b{display:block;font-weight:500;font-size:clamp(20px,1.8vw,28px);letter-spacing:-.02em;margin-top:10px;line-height:1.15}
+footer{padding:30px 4vw 60px;font-size:12px;color:var(--muted);border-top:1px solid var(--hair)}
+:focus-visible{outline:2px solid var(--hot);outline-offset:3px}
+@media (max-width:760px){header span{display:none}.issue h1,.issue p,.read aside,.read .lens{grid-column:1/-1}.idx{grid-template-columns:1fr}.idx>div{border-right:0;border-bottom:1px solid var(--hair)}}
+</style></head><body>
+<header><b>Volta</b><span>A journal of material things</span><span>Issue 09 · Winter</span></header>
+<section class="mast" aria-label="The word Volta, pull a letter"><div class="cv" data-piece="type" data-word="Volta"></div><small>Pull a letter <i>·</i> it springs back</small></section>
+<section class="issue"><h1>On things that give a little.</h1><p>An invented journal about surfaces, made to show two pieces sharing one page: the masthead is Elastic Lettering, and the essay below sits under an Interactive Lens.</p></section>
+<section class="read"><aside><b>Essay</b>Move the lens across the page. It moves what is already there and adds nothing.<br><em>Drag it with a pointer or a finger</em></aside>
+  <div class="lens" aria-label="An essay under a movable lens"><div class="cv" data-piece="lens"></div></div></section>
+<section class="idx" aria-label="In this issue"><div><small>01</small><b>Glass that remembers a touch</b></div><div><small>02</small><b>Type with a spine of rubber</b></div><div><small>03</small><b>A short history of the lens</b></div></section>
+<footer>An invented website. Its pieces are The Light Orb’s Elastic Lettering and Interactive Lens; everything else is its own.</footer>
+<script type="module" src="./example-volta.js"></script></body></html>
