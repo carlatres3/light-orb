@@ -48,8 +48,8 @@
    }
   },
   "present.templates": {
-   "text": "Templates: a complete composition of light and glass to start from. Open it to see it move.",
-   "hash": "b322cc1cffea",
+   "text": "Templates: 3 complete compositions of light and glass to start from. Open one to see it move.",
+   "hash": "834dcf55498a",
    "files": {
     "samantha": "samantha/present.templates.m4a",
     "daniel": "daniel/present.templates.m4a",
@@ -58,8 +58,8 @@
    }
   },
   "already.present.templates": {
-   "text": "We are already here. Templates: a complete composition of light and glass to start from. Open it to see it move.",
-   "hash": "13d681e880b9",
+   "text": "We are already here. Templates: 3 complete compositions of light and glass to start from. Open one to see it move.",
+   "hash": "fb5e7eb16747",
    "files": {
     "samantha": "samantha/already.present.templates.m4a",
     "daniel": "daniel/already.present.templates.m4a",
@@ -67,24 +67,24 @@
     "emma": "emma/already.present.templates.m4a"
    }
   },
-  "present.studio": {
-   "text": "This is Studio, free while we build it. Drag me to turn me, move my light with the light tool, and shape my glass with the controls. Save your design when it feels right.",
-   "hash": "5b23076fa300",
+  "present.studio.soon": {
+   "text": "Studio is coming soon. Leave your email and we will let you know when it opens.",
+   "hash": "24743be68acd",
    "files": {
-    "samantha": "samantha/present.studio.m4a",
-    "daniel": "daniel/present.studio.m4a",
-    "bella": "bella/present.studio.m4a",
-    "emma": "emma/present.studio.m4a"
+    "samantha": "samantha/present.studio.soon.m4a",
+    "daniel": "daniel/present.studio.soon.m4a",
+    "bella": "bella/present.studio.soon.m4a",
+    "emma": "emma/present.studio.soon.m4a"
    }
   },
-  "already.present.studio": {
-   "text": "We are already here. This is Studio, free while we build it. Drag me to turn me, move my light with the light tool, and shape my glass with the controls. Save your design when it feels right.",
-   "hash": "6a75491c5d7f",
+  "already.present.studio.soon": {
+   "text": "We are already here. Studio is coming soon. Leave your email and we will let you know when it opens.",
+   "hash": "db9e72ceb457",
    "files": {
-    "samantha": "samantha/already.present.studio.m4a",
-    "daniel": "daniel/already.present.studio.m4a",
-    "bella": "bella/already.present.studio.m4a",
-    "emma": "emma/already.present.studio.m4a"
+    "samantha": "samantha/already.present.studio.soon.m4a",
+    "daniel": "daniel/already.present.studio.soon.m4a",
+    "bella": "bella/already.present.studio.soon.m4a",
+    "emma": "emma/already.present.studio.soon.m4a"
    }
   },
   "present.sound": {
@@ -247,6 +247,26 @@
     "emma": "emma/already.present.product.crystal-controls.m4a"
    }
   },
+  "present.template.beauty": {
+   "text": "You are looking at the template Beauty. Complete websites for skincare, cosmetics and beauty brands. First in the collection: Berries.",
+   "hash": "61be5c09e9eb",
+   "files": {
+    "samantha": "samantha/present.template.beauty.m4a",
+    "daniel": "daniel/present.template.beauty.m4a",
+    "bella": "bella/present.template.beauty.m4a",
+    "emma": "emma/present.template.beauty.m4a"
+   }
+  },
+  "already.present.template.beauty": {
+   "text": "We are already here. You are looking at the template Beauty. Complete websites for skincare, cosmetics and beauty brands. First in the collection: Berries.",
+   "hash": "07e7843fbcbb",
+   "files": {
+    "samantha": "samantha/already.present.template.beauty.m4a",
+    "daniel": "daniel/already.present.template.beauty.m4a",
+    "bella": "bella/already.present.template.beauty.m4a",
+    "emma": "emma/already.present.template.beauty.m4a"
+   }
+  },
   "present.template.the-light-orb": {
    "text": "You are looking at the template The Light Orb. This website’s own beginning: the Orb as host, a quiet greeting, the quotation and the four destinations.",
    "hash": "bfceea875172",
@@ -265,6 +285,26 @@
     "daniel": "daniel/already.present.template.the-light-orb.m4a",
     "bella": "bella/already.present.template.the-light-orb.m4a",
     "emma": "emma/already.present.template.the-light-orb.m4a"
+   }
+  },
+  "present.template.brunito": {
+   "text": "You are looking at the template BRUNITO. An interactive ecommerce experience featuring responsive layouts, customised product pages and a refined shopping interface.",
+   "hash": "64f75759c6f2",
+   "files": {
+    "samantha": "samantha/present.template.brunito.m4a",
+    "daniel": "daniel/present.template.brunito.m4a",
+    "bella": "bella/present.template.brunito.m4a",
+    "emma": "emma/present.template.brunito.m4a"
+   }
+  },
+  "already.present.template.brunito": {
+   "text": "We are already here. You are looking at the template BRUNITO. An interactive ecommerce experience featuring responsive layouts, customised product pages and a refined shopping interface.",
+   "hash": "5c0b2a23a22c",
+   "files": {
+    "samantha": "samantha/already.present.template.brunito.m4a",
+    "daniel": "daniel/already.present.template.brunito.m4a",
+    "bella": "bella/already.present.template.brunito.m4a",
+    "emma": "emma/already.present.template.brunito.m4a"
    }
   },
   "present.account.profile": {
@@ -467,6 +507,16 @@
     "emma": "emma/piece.crystal-controls.m4a"
    }
   },
+  "open.beauty": {
+   "text": "Opening Beauty.",
+   "hash": "0fe646913b34",
+   "files": {
+    "samantha": "samantha/open.beauty.m4a",
+    "daniel": "daniel/open.beauty.m4a",
+    "bella": "bella/open.beauty.m4a",
+    "emma": "emma/open.beauty.m4a"
+   }
+  },
   "open.the-light-orb": {
    "text": "Opening The Light Orb.",
    "hash": "8f13ff1394f7",
@@ -475,6 +525,16 @@
     "daniel": "daniel/open.the-light-orb.m4a",
     "bella": "bella/open.the-light-orb.m4a",
     "emma": "emma/open.the-light-orb.m4a"
+   }
+  },
+  "open.brunito": {
+   "text": "Opening BRUNITO.",
+   "hash": "4a240d44cf06",
+   "files": {
+    "samantha": "samantha/open.brunito.m4a",
+    "daniel": "daniel/open.brunito.m4a",
+    "bella": "bella/open.brunito.m4a",
+    "emma": "emma/open.brunito.m4a"
    }
   },
   "text.19tgf7j": {
