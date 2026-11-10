@@ -1,14 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <base href="/">
   <script>if(!location.hash){if(location.hostname==='carlatres3.github.io')location.replace('/light-orb/#/products/orb-slider');else history.replaceState(null,'','/#/products/orb-slider')}</script>
   <meta name="lo-entries" content="1">
+  <script>/* No page zoom (owner 2026-11-10): Safari ignores user-scalable, so pinch and double-tap are stopped here. */document.addEventListener("gesturestart",function(e){e.preventDefault()},{passive:false});document.addEventListener("gesturechange",function(e){e.preventDefault()},{passive:false});</script>
   <title>Orb Slider · The Light Orb</title>
-  <link rel="modulepreload" href="./assets/intro-WF54S35J.js">
-  <link rel="modulepreload" href="./assets/site-TND26LFS.js">
-  <link rel="modulepreload" href="./assets/chunk-RDL4VNU3.js">
+  <link rel="modulepreload" href="./assets/intro-LQ5XRQOH.js">
+  <link rel="modulepreload" href="./assets/site-3Z3UGPY6.js">
+  <link rel="modulepreload" href="./assets/chunk-SSEBXT2N.js">
   <link rel="modulepreload" href="./assets/chunk-ZL4BVYWZ.js">
   <link rel="modulepreload" href="./assets/chunk-OIL5RNA2.js">
   <link rel="modulepreload" href="./assets/chunk-63YMMEBD.js">
@@ -117,17 +118,24 @@
        this copy remains only for the static, no-WebGL page. */
     body:not(.static) .hello-copy { display: none; }
 
-    .skip { position: fixed; z-index: 7; right: 20px; bottom: 16px; background: none; border: 0; padding: 6px;
-      font: 400 12px/1 "Helvetica Neue", Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase;
-      color: rgba(214, 214, 212, .72); cursor: pointer; transition: opacity 1s ease, color .4s ease;
-      padding: 0 16px; border-radius: 999px; box-shadow: inset 0 0 0 1px rgba(214, 214, 212, .28); }
-    .skip::after { content: " intro"; }   /* launch 2026-11-06: legible, labelled exit from the intro */
-    .skip{min-width:44px;min-height:44px;bottom:max(12px,env(safe-area-inset-bottom,0px))}
-    .skip:hover, .skip:focus-visible { color: rgba(240, 240, 238, .95); box-shadow: inset 0 0 0 1px rgba(240, 240, 238, .6); outline: none; }
+    /* Skip intro (owner 2026-11-10): the site's dark glass capsule, paired with the sound button. */
+    .skip { position: fixed; z-index: 7; right: max(16px, env(safe-area-inset-right, 0px)); bottom: max(16px, calc(env(safe-area-inset-bottom, 0px) + 8px));
+      display: inline-flex; align-items: center; gap: 10px; height: 44px; min-width: 44px; padding: 0 8px 0 18px; border: 0; border-radius: 999px; cursor: pointer;
+      font: 400 13.5px/1 "Helvetica Neue", "Inter", Arial, sans-serif; letter-spacing: .015em; text-transform: none; color: rgba(236, 237, 234, .82);
+      background: linear-gradient(180deg, rgba(255, 255, 255, .11), rgba(255, 255, 255, .025));
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, .22), inset 0 0 0 1px rgba(255, 255, 255, .1), 0 10px 24px -14px rgba(0, 0, 0, .8);
+      -webkit-backdrop-filter: blur(12px) saturate(1.2); backdrop-filter: blur(12px) saturate(1.2);
+      transition: opacity 1s ease, color .3s ease, background .3s ease, transform .15s ease; }
+    .skip::after { content: ""; width: 28px; height: 28px; border-radius: 50%; flex: none;
+      background: rgba(255, 255, 255, .1) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ecedea' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 7l5 5-5 5'/%3E%3C/svg%3E") center/14px no-repeat;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .12); }
+    .skip:hover, .skip:focus-visible { color: #f4f4f2; background: linear-gradient(180deg, rgba(255, 255, 255, .16), rgba(255, 255, 255, .04)); outline: none; }
+    .skip:focus-visible { box-shadow: inset 0 1px 1px rgba(255, 255, 255, .22), 0 0 0 2px rgba(236, 237, 234, .7); }
+    .skip:active { transform: translateY(1px) scale(.98); }
     .complete .skip { opacity: 0; pointer-events: none; }
     /* Sound: the glass speaker (Voice / Sounds), from the first frame, in the
        corner opposite Skip, so a first-time visitor can silence it. */
-    .sound { position: fixed; z-index: 7; left: 16px; bottom: 12px; font: 300 13px/1 "Helvetica Neue", Arial, sans-serif; }
+    .sound { position: fixed; z-index: 7; left: max(16px, env(safe-area-inset-left, 0px)); bottom: max(16px, calc(env(safe-area-inset-bottom, 0px) + 8px)); font: 300 13px/1 "Helvetica Neue", Arial, sans-serif; }
 
     /* Before the intro's JavaScript arrives (slow networks): the loader's own
        dark circle and a fine ring, in place, after 1.2 s, so the page is never
@@ -146,13 +154,13 @@
     html[data-theme=dark] .static { background: #141515; }   /* pearl, as the site: never cream */
     .static canvas, .static .cue, .static .skip, .static .sound { display: none; }
   </style>
-  <script type="module" src="./assets/intro-WF54S35J.js"></script>
-  <script type="module" src="./assets/site-TND26LFS.js"></script>
+  <script type="module" src="./assets/intro-LQ5XRQOH.js"></script>
+  <script type="module" src="./assets/site-3Z3UGPY6.js"></script>
   <!-- Without JavaScript the summary is the page: readable, with its real links. -->
   <noscript><style>#seo-entry { position: fixed; inset: 0; z-index: 20; width: auto; height: auto; overflow: auto; clip-path: none; white-space: normal; padding: 32px 24px; background: var(--night); color: #d6d6d4; font: 16px/1.5 system-ui, sans-serif; } .intro, .skip, .sound { display: none; }</style></noscript>
 </head>
 <body>
-  <button class="skip" type="button">Skip</button>
+  <button class="skip" type="button">Skip intro</button>
 <section id="seo-entry" aria-label="Page summary"><h1>Orb Slider</h1><p>A glass capsule whose thumb is a small orb. Slide it to enter; a spring brings it home.</p><p>The Light Orb is a creative digital design studio creating interactive digital products, website templates and custom web experiences.</p><nav aria-label="Site"><ul><li><a href="/">Home</a></li><li><a href="/products">Products</a></li><li><a href="/templates">Templates</a></li><li><a href="/design">Web Design</a></li><li><a href="/about">About</a></li><li><a href="/studio">Studio</a></li><li><a href="/sound">Sound</a></li><li><a href="/changelog">What’s new</a></li><li><a href="/products/orb">The Orb</a></li><li><a href="/products/orb-slider">Orb Slider</a></li><li><a href="/products/crystal-controls">Crystal Controls</a></li><li><a href="/products/light-orb">Light Orb</a></li><li><a href="/products/voice-orb">Talking Orb</a></li><li><a href="/products/interactive-lens">Interactive Lens</a></li><li><a href="/products/elastic-lettering">Elastic Lettering</a></li><li><a href="/templates/beauty">beauty.thelightorb.com</a></li><li><a href="/templates/the-light-orb">The Light Orb</a></li><li><a href="/templates/brunito">ecommerce</a></li></ul></nav></section>
   <main class="intro" aria-label="Light Orb">
     <div class="boot" aria-hidden="true"></div>
