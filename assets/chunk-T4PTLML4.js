@@ -661,11 +661,11 @@ if (orbWobble > 0.0) transformed = normalize(position) * (1.0 + orbDisp(normaliz
   --snd-edge:rgba(18,18,18,.08);--snd-hi:#fff;--snd-shadow:rgba(38,40,39,.3);--snd-pane:rgba(255,255,255,.7);
   --snd-track:rgba(18,18,18,.14);--snd-on:#262827;--snd-knob:#fff;--snd-focus:#262827}
 .lo-on .sndc-intro{display:none}
-.sndc-intro .sndc-b{width:44px;height:44px;border-radius:50%;border:0;padding:0;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;
+.sndc-intro .sndc-b{width:40px;height:40px;opacity:.72;border-radius:50%;border:0;padding:0;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;
   color:var(--snd-ink);background:linear-gradient(180deg,var(--snd-glass-top),var(--snd-glass-bot));
   box-shadow:inset 0 1px 1px var(--snd-hi),inset 0 0 0 1px var(--snd-edge),0 10px 24px -14px var(--snd-shadow);
   -webkit-backdrop-filter:blur(12px) saturate(1.2);backdrop-filter:blur(12px) saturate(1.2);transition:color .3s ease,transform .15s ease}
-.sndc-intro .sndc-b:active{transform:translateY(1px) scale(.97)}
+.sndc-intro .sndc-b:hover{opacity:1}.sndc-intro .sndc-b:active{transform:translateY(1px) scale(.97)}
 .sndc-b svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .sndc-b:focus-visible,.sndc-t:focus-visible{outline:2px solid var(--snd-focus);outline-offset:3px}
 .sndc-p{position:absolute;z-index:30;top:calc(100% + 10px);right:0;min-width:178px;padding:8px;display:grid;gap:4px;border-radius:18px;

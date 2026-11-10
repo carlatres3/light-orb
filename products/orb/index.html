@@ -7,9 +7,9 @@
   <meta name="lo-entries" content="1">
   <script>/* No page zoom (owner 2026-11-10): Safari ignores user-scalable, so pinch and double-tap are stopped here. */document.addEventListener("gesturestart",function(e){e.preventDefault()},{passive:false});document.addEventListener("gesturechange",function(e){e.preventDefault()},{passive:false});</script>
   <title>The Orb · The Light Orb</title>
-  <link rel="modulepreload" href="./assets/intro-LQ5XRQOH.js">
-  <link rel="modulepreload" href="./assets/site-XXQ2TPGB.js">
-  <link rel="modulepreload" href="./assets/chunk-SSEBXT2N.js">
+  <link rel="modulepreload" href="./assets/intro-XGSIWOB3.js">
+  <link rel="modulepreload" href="./assets/site-B7SIRDN7.js">
+  <link rel="modulepreload" href="./assets/chunk-T4PTLML4.js">
   <link rel="modulepreload" href="./assets/chunk-ZL4BVYWZ.js">
   <link rel="modulepreload" href="./assets/chunk-OIL5RNA2.js">
   <link rel="modulepreload" href="./assets/chunk-63YMMEBD.js">
@@ -118,20 +118,17 @@
        this copy remains only for the static, no-WebGL page. */
     body:not(.static) .hello-copy { display: none; }
 
-    /* Skip intro (owner 2026-11-10): the site's dark glass capsule, paired with the sound button. */
+    /* Skip (owner 2026-11-10): a quiet "next" icon only — the label stays for screen readers. Paired with the sound button. */
     .skip { position: fixed; z-index: 7; right: max(16px, env(safe-area-inset-right, 0px)); bottom: max(16px, calc(env(safe-area-inset-bottom, 0px) + 8px));
-      display: inline-flex; align-items: center; gap: 10px; height: 44px; min-width: 44px; padding: 0 8px 0 18px; border: 0; border-radius: 999px; cursor: pointer;
-      font: 400 13.5px/1 "Helvetica Neue", "Inter", Arial, sans-serif; letter-spacing: .015em; text-transform: none; color: rgba(236, 237, 234, .82);
-      background: linear-gradient(180deg, rgba(255, 255, 255, .11), rgba(255, 255, 255, .025));
-      box-shadow: inset 0 1px 1px rgba(255, 255, 255, .22), inset 0 0 0 1px rgba(255, 255, 255, .1), 0 10px 24px -14px rgba(0, 0, 0, .8);
-      -webkit-backdrop-filter: blur(12px) saturate(1.2); backdrop-filter: blur(12px) saturate(1.2);
-      transition: opacity 1s ease, color .3s ease, background .3s ease, transform .15s ease; }
-    .skip::after { content: ""; width: 28px; height: 28px; border-radius: 50%; flex: none;
-      background: rgba(255, 255, 255, .1) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ecedea' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 7l5 5-5 5'/%3E%3C/svg%3E") center/14px no-repeat;
-      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .12); }
-    .skip:hover, .skip:focus-visible { color: #f4f4f2; background: linear-gradient(180deg, rgba(255, 255, 255, .16), rgba(255, 255, 255, .04)); outline: none; }
-    .skip:focus-visible { box-shadow: inset 0 1px 1px rgba(255, 255, 255, .22), 0 0 0 2px rgba(236, 237, 234, .7); }
-    .skip:active { transform: translateY(1px) scale(.98); }
+      display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; min-width: 40px; min-height: 40px; padding: 0; border: 0; border-radius: 50%;
+      font-size: 0; color: transparent; cursor: pointer; opacity: .72;
+      background: rgba(255, 255, 255, .06); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .1);
+      -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); transition: opacity .4s ease, background .3s ease, transform .15s ease; }
+    .skip::after { content: ""; width: 16px; height: 16px;
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ecedea' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 6.5l8 5.5-8 5.5z'/%3E%3Cpath d='M18 6.5v11'/%3E%3C/svg%3E") center/16px no-repeat; }
+    .skip:hover, .skip:focus-visible { opacity: 1; background: rgba(255, 255, 255, .1); outline: none; }
+    .skip:focus-visible { box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .1), 0 0 0 2px rgba(236, 237, 234, .7); }
+    .skip:active { transform: scale(.96); }
     .complete .skip { opacity: 0; pointer-events: none; }
     /* Sound: the glass speaker (Voice / Sounds), from the first frame, in the
        corner opposite Skip, so a first-time visitor can silence it. */
@@ -154,8 +151,8 @@
     html[data-theme=dark] .static { background: #141515; }   /* pearl, as the site: never cream */
     .static canvas, .static .cue, .static .skip, .static .sound { display: none; }
   </style>
-  <script type="module" src="./assets/intro-LQ5XRQOH.js"></script>
-  <script type="module" src="./assets/site-XXQ2TPGB.js"></script>
+  <script type="module" src="./assets/intro-XGSIWOB3.js"></script>
+  <script type="module" src="./assets/site-B7SIRDN7.js"></script>
   <!-- Without JavaScript the summary is the page: readable, with its real links. -->
   <noscript><style>#seo-entry { position: fixed; inset: 0; z-index: 20; width: auto; height: auto; overflow: auto; clip-path: none; white-space: normal; padding: 32px 24px; background: var(--night); color: #d6d6d4; font: 16px/1.5 system-ui, sans-serif; } .intro, .skip, .sound { display: none; }</style></noscript>
 </head>
