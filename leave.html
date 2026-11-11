@@ -31,7 +31,7 @@ a{color:var(--ink)}
     <p>Nothing more will be sent from it. You can rejoin from Studio at any time.</p>
     <p><a href="/">Back to The Light Orb</a></p></section>
   <section id="bad" hidden><h1>This link didn’t match.</h1>
-    <p>It may be incomplete or already used. Please use the link from your latest email, or write to <a href="mailto:trescarla@gmail.com">trescarla@gmail.com</a> and you’ll be removed by hand.</p></section>
+    <p>It may be incomplete or already used. Please use the link from your latest email, or write to <a href="mailto:hello@thelightorb.com">hello@thelightorb.com</a> and you’ll be removed by hand.</p></section>
 </main>
 <script>
 const URL_LEAVE = 'https://orb-chat.thelightorb.workers.dev/studio-waitlist/leave';
@@ -48,7 +48,7 @@ $('go').addEventListener('click', async () => {
     if (!b.left) { $('ask').hidden = true; $('bad').hidden = false; return; }   // wrong or old link, or already left
     try { localStorage.removeItem('lo:studio-list'); localStorage.setItem('lo:studio-list-left', '1'); } catch { /* none */ }   // the site shows the form again
     $('ask').hidden = true; $('done').hidden = false; $('done').focus();
-  } catch { $('go').disabled = false; $('msg').textContent = 'That did not go through. Please try again, or write to trescarla@gmail.com.'; }
+  } catch { $('go').disabled = false; $('msg').textContent = 'That did not go through. Please try again, or write to hello@thelightorb.com.'; }
 });
 </script>
 </body></html>
