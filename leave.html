@@ -46,6 +46,7 @@ $('go').addEventListener('click', async () => {
     const b = await r.json().catch(() => null);
     if (!r.ok || !b?.ok) throw new Error(String(r.status));
     if (!b.left) { $('ask').hidden = true; $('bad').hidden = false; return; }   // wrong or old link, or already left
+    try { localStorage.removeItem('lo:studio-list'); localStorage.setItem('lo:studio-list-left', '1'); } catch { /* none */ }   // the site shows the form again
     $('ask').hidden = true; $('done').hidden = false; $('done').focus();
   } catch { $('go').disabled = false; $('msg').textContent = 'That did not go through. Please try again, or write to trescarla@gmail.com.'; }
 });

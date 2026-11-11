@@ -7,12 +7,15 @@
   <meta name="lo-entries" content="1">
   <script>/* No page zoom (owner 2026-11-10): Safari ignores user-scalable, so pinch and double-tap are stopped here. */document.addEventListener("gesturestart",function(e){e.preventDefault()},{passive:false});document.addEventListener("gesturechange",function(e){e.preventDefault()},{passive:false});</script>
   <title>Talking Orb · The Light Orb</title>
-  <link rel="modulepreload" href="./assets/intro-XGSIWOB3.js">
-  <link rel="modulepreload" href="./assets/site-B7SIRDN7.js">
-  <link rel="modulepreload" href="./assets/chunk-T4PTLML4.js">
+  <link rel="modulepreload" href="./assets/intro-4SCJRRJA.js">
+  <link rel="modulepreload" href="./assets/site-QSOXPWVA.js">
+  <link rel="modulepreload" href="./assets/chunk-5I5HOOPQ.js">
   <link rel="modulepreload" href="./assets/chunk-ZL4BVYWZ.js">
   <link rel="modulepreload" href="./assets/chunk-OIL5RNA2.js">
   <link rel="modulepreload" href="./assets/chunk-63YMMEBD.js">
+  <link rel="modulepreload" href="./assets/chunk-BJFFZ3IO.js">
+  <link rel="modulepreload" href="./assets/chunk-VXECTW5A.js">
+  <link rel="modulepreload" href="./assets/chunk-APXO5IRD.js">
   <meta name="description" content="An Orb that answers your voice, live, after you turn the microphone on.">
   <!-- Who the site is (search engines): the studio, not one material -->
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://thelightorb.com/#studio","name":"The Light Orb","url":"https://thelightorb.com/","logo":"https://thelightorb.com/icons/icon-512.png","image":"https://thelightorb.com/icons/share.jpg?v=2","description":"The Light Orb is a creative digital design studio creating interactive digital products, website templates and custom web experiences.","knowsAbout":["Digital design","Interactive experiences","Website templates","Web design and development","Creative tools","Motion","Sound"]},{"@type":"WebSite","@id":"https://thelightorb.com/#site","url":"https://thelightorb.com/","name":"The Light Orb","description":"The Light Orb is a creative digital design studio creating interactive digital products, website templates and custom web experiences.","publisher":{"@id":"https://thelightorb.com/#studio"},"inLanguage":"en"}]}</script>
@@ -38,8 +41,8 @@
   <meta name="twitter:description" content="An Orb that answers your voice, live, after you turn the microphone on.">
   <meta name="twitter:image" content="https://thelightorb.com/icons/share.jpg?v=2">
   <meta name="robots" content="max-image-preview:large">
-  <!-- Theme before first paint (mirror of app/theme.js resolveTheme): light unless the visitor chose dark -->
-  <script>(function(){var t=new URLSearchParams(location.search).get('theme');if(t!=='light'&&t!=='dark')try{t=localStorage.getItem('lightorb:theme')}catch(e){}if(t!=='dark')t='light';document.documentElement.dataset.theme=t;document.querySelector('meta[name="theme-color"]').setAttribute('content',t==='dark'?'#141515':'#F3F3F1');})();</script>
+  <!-- Theme before first paint (mirror of app/theme.js resolveTheme): preview link, else the visitor's choice, else the device's light/dark setting -->
+  <script>(function(){var t=new URLSearchParams(location.search).get('theme');if(t!=='light'&&t!=='dark')try{t=localStorage.getItem('lightorb:theme')}catch(e){}if(t!=='light'&&t!=='dark')try{t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}catch(e){}if(t!=='dark')t='light';document.documentElement.dataset.theme=t;document.querySelector('meta[name="theme-color"]').setAttribute('content',t==='dark'?'#141515':'#F3F3F1');})();</script>
   <!-- Skip works from the first frame: an early press is kept for intro.js, which takes over its own button when it runs. -->
   <script>try{if(localStorage.getItem('lo:intro-seen')&&!/[?&]replay\b/.test(location.search)){window.__introEarlySkip=true;document.documentElement.classList.add('skip-early')}}catch(e){}</script>
   <script>/* Sector subdomains open their collection directly (catalog.js SECTORS). */if(location.hostname==='beauty.thelightorb.com'&&!/^#\/./.test(location.hash))history.replaceState(null,'','#/beauty');</script>
@@ -151,8 +154,8 @@
     html[data-theme=dark] .static { background: #141515; }   /* pearl, as the site: never cream */
     .static canvas, .static .cue, .static .skip, .static .sound { display: none; }
   </style>
-  <script type="module" src="./assets/intro-XGSIWOB3.js"></script>
-  <script type="module" src="./assets/site-B7SIRDN7.js"></script>
+  <script type="module" src="./assets/intro-4SCJRRJA.js"></script>
+  <script type="module" src="./assets/site-QSOXPWVA.js"></script>
   <!-- Without JavaScript the summary is the page: readable, with its real links. -->
   <noscript><style>#seo-entry { position: fixed; inset: 0; z-index: 20; width: auto; height: auto; overflow: auto; clip-path: none; white-space: normal; padding: 32px 24px; background: var(--night); color: #d6d6d4; font: 16px/1.5 system-ui, sans-serif; } .intro, .skip, .sound { display: none; }</style></noscript>
 </head>
