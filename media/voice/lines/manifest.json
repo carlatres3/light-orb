@@ -8,8 +8,8 @@
  },
  "lines": {
   "present.home": {
-   "text": "This is The Light Orb: objects of light and glass. Below, choose where to begin: Products, Templates, Studio or Sound. Tap me again to stop, or ask me anything.",
-   "hash": "ff90a299cd8b",
+   "text": "This is The Light Orb: digital pieces, website templates and custom web design. Below, choose where to begin: Products, Templates, Studio or Sound. Tap me again to stop, or ask me anything.",
+   "hash": "68f1b9eba99c",
    "files": {
     "samantha": "samantha/present.home.m4a",
     "daniel": "daniel/present.home.m4a",
@@ -18,8 +18,8 @@
    }
   },
   "already.present.home": {
-   "text": "We are already here. This is The Light Orb: objects of light and glass. Below, choose where to begin: Products, Templates, Studio or Sound. Tap me again to stop, or ask me anything.",
-   "hash": "0bd0df411bd9",
+   "text": "We are already here. This is The Light Orb: digital pieces, website templates and custom web design. Below, choose where to begin: Products, Templates, Studio or Sound. Tap me again to stop, or ask me anything.",
+   "hash": "e3de790314c9",
    "files": {
     "samantha": "samantha/already.present.home.m4a",
     "daniel": "daniel/already.present.home.m4a",
@@ -108,8 +108,8 @@
    }
   },
   "present.membership": {
-   "text": "This is Membership. Everything is free for now; leave your email to hear first when plans open.",
-   "hash": "4e040c80ef6e",
+   "text": "This is Membership. Create a free account, or choose a plan.",
+   "hash": "4e0d1987f11e",
    "files": {
     "samantha": "samantha/present.membership.m4a",
     "daniel": "daniel/present.membership.m4a",
@@ -118,8 +118,8 @@
    }
   },
   "already.present.membership": {
-   "text": "We are already here. This is Membership. Everything is free for now; leave your email to hear first when plans open.",
-   "hash": "a54cfed83e6d",
+   "text": "We are already here. This is Membership. Create a free account, or choose a plan.",
+   "hash": "6fb909dca703",
    "files": {
     "samantha": "samantha/already.present.membership.m4a",
     "daniel": "daniel/already.present.membership.m4a",
@@ -148,8 +148,8 @@
    }
   },
   "present.signin": {
-   "text": "Use the email you joined with to link this device to your early access.",
-   "hash": "7affb24b82e7",
+   "text": "Sign in with your email and password.",
+   "hash": "df4faec2ec7d",
    "files": {
     "samantha": "samantha/present.signin.m4a",
     "daniel": "daniel/present.signin.m4a",
@@ -158,8 +158,8 @@
    }
   },
   "already.present.signin": {
-   "text": "We are already here. Use the email you joined with to link this device to your early access.",
-   "hash": "bec104e246e3",
+   "text": "We are already here. Sign in with your email and password.",
+   "hash": "7b338e044a07",
    "files": {
     "samantha": "samantha/already.present.signin.m4a",
     "daniel": "daniel/already.present.signin.m4a",
@@ -168,8 +168,8 @@
    }
   },
   "present.signup": {
-   "text": "Join early access with your email. Everything is free while we build it, and you will hear first when new pieces open.",
-   "hash": "9e3c86c68838",
+   "text": "Create your free account with your email and a password. We send one email to confirm it.",
+   "hash": "7d29d628b5b0",
    "files": {
     "samantha": "samantha/present.signup.m4a",
     "daniel": "daniel/present.signup.m4a",
@@ -178,8 +178,8 @@
    }
   },
   "already.present.signup": {
-   "text": "We are already here. Join early access with your email. Everything is free while we build it, and you will hear first when new pieces open.",
-   "hash": "d395b64c9ecd",
+   "text": "We are already here. Create your free account with your email and a password. We send one email to confirm it.",
+   "hash": "cead59bad7df",
    "files": {
     "samantha": "samantha/already.present.signup.m4a",
     "daniel": "daniel/already.present.signup.m4a",
