@@ -6,6 +6,31 @@
   "trailingSlash": false,
   "headers": [
     {
+      "source": "/((?!embed/).*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://gc.zgo.at https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://thelightorb.goatcounter.com; font-src 'self' data:; media-src 'self' data: blob:; connect-src 'self' blob: data: https://orb-chat.thelightorb.workers.dev https://yxvmcpibfrcqwbcznycu.supabase.co https://thelightorb.goatcounter.com https://huggingface.co https://*.huggingface.co https://*.hf.co https://cdn.jsdelivr.net; worker-src 'self' blob:; frame-src 'self' https://*.thelightorb.com https://carlatres3.github.io; frame-ancestors 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "microphone=(self), camera=(), geolocation=(), payment=(), usb=()"
+        }
+      ]
+    },
+    {
       "source": "/assets/(.*)\\.js",
       "headers": [
         {
