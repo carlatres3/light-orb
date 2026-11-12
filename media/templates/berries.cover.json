@@ -1,6 +1,6 @@
 {
   "template": "berries",
-  "source": "https://beauty.thelightorb.com/ → cover (published Berries site, build 20261108-film2)",
+  "source": "https://cosmetics.thelightorb.com/ → cover (published Berries site, build 20261108-film2)",
   "viewport": "1440×900",
   "captured": "2026-11-09",
   "tool": "headless Chrome over scripts/cdp.mjs"
