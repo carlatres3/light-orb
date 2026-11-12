@@ -248,8 +248,8 @@
    }
   },
   "present.template.beauty": {
-   "text": "You are looking at the template Beauty. Complete websites for skincare, cosmetics and beauty brands. First in the collection: Berries.",
-   "hash": "61be5c09e9eb",
+   "text": "You are looking at the template Beauty. Complete websites for skincare, cosmetics and beauty brands. First in the collection: Cosmetics, with Berries as its example brand.",
+   "hash": "f5367069e255",
    "files": {
     "samantha": "samantha/present.template.beauty.m4a",
     "daniel": "daniel/present.template.beauty.m4a",
@@ -258,8 +258,8 @@
    }
   },
   "already.present.template.beauty": {
-   "text": "We are already here. You are looking at the template Beauty. Complete websites for skincare, cosmetics and beauty brands. First in the collection: Berries.",
-   "hash": "07e7843fbcbb",
+   "text": "We are already here. You are looking at the template Beauty. Complete websites for skincare, cosmetics and beauty brands. First in the collection: Cosmetics, with Berries as its example brand.",
+   "hash": "0044e903efe1",
    "files": {
     "samantha": "samantha/already.present.template.beauty.m4a",
     "daniel": "daniel/already.present.template.beauty.m4a",
