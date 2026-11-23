@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Form &amp; Feel — The Light Orb</title>
+<meta name="description" content="Form & Feel — a creative agency website template by The Light Orb for events, pop-ups, brand experiences and creative direction. Everything starts with an idea.">
+<meta name="theme-color" content="#F3ECDF">
+<link rel="icon" href="../../favicon.ico">
+<link rel="preload" href="./assets/caveat.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./assets/manrope.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"FF Hand";src:url(./assets/caveat.woff2) format("woff2");font-weight:500;font-display:block}
+@font-face{font-family:"FF Sans";src:url(./assets/manrope.woff2) format("woff2");font-weight:200 800;font-display:swap}
+
+:root{
+  --ivory:#F3ECDF; --cream:#EAE0CF; --beige:#D6C4A8; --taupe:#A39383;
+  --burgundy:#6A2A2E; --choco:#4A3328; --charcoal:#2F2B28; --graphite:#6E655C;
+  --pencil:rgba(74,60,50,.72); --hair:rgba(74,51,40,.22);
+  --gutter:clamp(18px,4.2vw,64px);
+  --ease:cubic-bezier(.22,.7,.18,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--ivory);-webkit-text-size-adjust:100%}
+body{background:var(--ivory);color:var(--charcoal);font-family:"FF Sans",system-ui,sans-serif;font-size:13px;line-height:1.5;letter-spacing:.005em;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+::selection{background:var(--beige);color:var(--choco)}
+
+/* paper: fine grain + a slow warm light from the upper left */
+.paper{position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(120% 90% at 18% 8%, rgba(255,246,226,.55), transparent 55%),
+    radial-gradient(90% 70% at 92% 100%, rgba(168,140,110,.16), transparent 60%),
+    var(--ivory)}
+.grain{position:fixed;inset:-50%;pointer-events:none;z-index:60;opacity:.32;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .33  0 0 0 0 .26  0 0 0 0 .2  0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* ---------- stage ---------- */
+.scene{position:relative;height:100vh;height:100svh;z-index:1;overflow:hidden}
+.stage{position:absolute;inset:0}
+
+/* ---------- top bar (composed during Design) ---------- */
+.bar{position:absolute;left:var(--gutter);right:var(--gutter);top:clamp(18px,3.2vh,34px);display:flex;align-items:center;justify-content:space-between;z-index:20}
+.mark{display:flex;align-items:baseline;gap:.6em;color:var(--choco);text-decoration:none;font-weight:600;font-size:12px;letter-spacing:.14em;text-transform:lowercase}
+.mark i{font-style:normal;font-weight:400;letter-spacing:.02em;color:var(--graphite);text-transform:none}
+.nav{display:flex;gap:clamp(14px,2.4vw,36px);list-style:none}
+.nav a{position:relative;color:var(--charcoal);text-decoration:none;font-size:12px;letter-spacing:.02em}
+.nav a::after{content:"";position:absolute;left:0;right:0;bottom:-3px;height:1px;background:var(--burgundy);transform:scaleX(0);transform-origin:right;transition:transform .5s var(--ease)}
+.nav a:hover::after,.nav a:focus-visible::after{transform:scaleX(1);transform-origin:left}
+.nav .ph{display:block;height:1px;background:var(--pencil);position:absolute;left:0;right:0;top:55%}
+
+/* ---------- grid guides ---------- */
+.guides{position:absolute;inset:0 var(--gutter);display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(10px,1.6vw,24px);pointer-events:none;z-index:2;opacity:0}
+.guides span{background:linear-gradient(to bottom,transparent,rgba(106,42,46,.055) 12%,rgba(106,42,46,.055) 88%,transparent);border-left:1px solid rgba(106,42,46,.08);border-right:1px solid rgba(106,42,46,.08)}
+
+/* ---------- the idea (handwritten) ---------- */
+.idea{position:absolute;left:50%;top:47%;transform:translate(-50%,-50%);z-index:12;white-space:nowrap;
+  font-family:"FF Hand",cursive;font-weight:500;color:var(--choco);font-size:clamp(34px,5.4vw,78px);line-height:1;letter-spacing:.005em}
+.idea .w{display:inline-block;position:relative}
+.idea .c{display:inline-block;will-change:clip-path}
+.idea .sp{display:inline-block;width:.24em}
+.underline{position:absolute;left:-2%;width:105%;bottom:-.34em;height:.36em;overflow:visible}
+.underline path,.circle path,.sketch path,.ann path{fill:none;stroke-linecap:round;stroke-linejoin:round}
+.underline path{stroke:var(--burgundy);stroke-width:2.2;vector-effect:non-scaling-stroke}
+.circle{visibility:hidden;position:absolute;left:-14%;top:-24%;width:128%;height:150%;overflow:visible;pointer-events:none}
+.circle path{stroke:var(--pencil);stroke-width:.9}
+
+/* ---------- annotations ---------- */
+.ann{position:absolute;z-index:11;font-family:"FF Hand",cursive;color:var(--graphite);font-size:clamp(15px,1.45vw,21px);line-height:1.1;white-space:nowrap;pointer-events:none}
+.ann svg{position:absolute;overflow:visible}
+.ann path{stroke:var(--pencil);stroke-width:1;vector-effect:non-scaling-stroke}
+.ann small{display:block;font-family:"FF Sans";font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--taupe);margin-bottom:.35em}
+.ann--a{left:calc(50% + clamp(120px,18vw,300px));top:calc(47% - clamp(110px,15vh,170px))}
+.ann--b{left:calc(50% - clamp(170px,27vw,430px));top:calc(47% + clamp(70px,11vh,120px))}
+.ann--c{left:calc(50% - clamp(150px,22vw,330px));top:calc(47% - clamp(130px,19vh,200px));font-size:clamp(13px,1.2vw,17px)}
+.ann--d{right:var(--gutter);bottom:clamp(70px,13vh,130px);text-align:right}
+.ann--a svg{left:-62px;top:28px;width:70px;height:60px}
+.ann--b svg{left:62%;top:-48px;width:80px;height:46px}
+.ann--d svg{left:-12%;top:-26%;width:124%;height:160%}
+
+/* pencil margins */
+.marks{position:absolute;inset:0;pointer-events:none;z-index:3}
+.marks svg{position:absolute;overflow:visible}
+.marks path{fill:none;stroke:var(--pencil);stroke-width:.8;vector-effect:non-scaling-stroke;stroke-linecap:round}
+.measure{position:absolute;left:var(--gutter);right:var(--gutter);top:clamp(56px,9vh,84px);height:12px}
+.measure-label{position:absolute;top:clamp(46px,8vh,72px);left:50%;transform:translateX(-50%);font-family:"FF Hand";color:var(--taupe);font-size:14px;background:var(--ivory);padding:0 .5em}
+
+/* ---------- design layer ---------- */
+.headline{position:absolute;left:var(--gutter);top:31%;z-index:13;max-width:min(34ch,46vw);
+  font-weight:300;font-size:clamp(22px,2.55vw,38px);line-height:1.12;letter-spacing:-.022em;color:var(--choco)}
+.headline .t{display:inline-block}
+.headline em{font-style:normal;color:var(--burgundy);font-weight:400}
+.headline sup{font-size:.32em;letter-spacing:.12em;vertical-align:top;position:relative;top:.5em;margin-left:.6em;color:var(--taupe);font-weight:500}
+.divider{position:absolute;left:var(--gutter);right:calc(var(--gutter) + 52%);height:1px;background:var(--choco);opacity:.55;z-index:13;transform-origin:left center}
+.intro{position:absolute;left:var(--gutter);z-index:13;width:min(30ch,38vw);color:var(--graphite);font-size:12.5px;line-height:1.6}
+.intro p+p{margin-top:.8em}
+.eyebrow{display:block;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--taupe);margin-bottom:1.2em}
+.disciplines{list-style:none;display:flex;flex-wrap:wrap;gap:.4em 1.4em;margin-top:1.4em;color:var(--choco);font-size:11.5px}
+.disciplines li{display:flex;gap:.5em;align-items:baseline}
+.disciplines li span{font-size:9px;color:var(--taupe);letter-spacing:.08em}
+
+.cta{position:absolute;z-index:14;display:inline-flex;align-items:center;gap:.9em;padding:.95em 1.5em;color:var(--choco);text-decoration:none;font-size:12px;letter-spacing:.02em;border-radius:999px;transition:color .5s var(--ease)}
+.cta svg.edge{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.cta svg.edge rect{fill:transparent;stroke:var(--choco);stroke-width:1;vector-effect:non-scaling-stroke;transition:fill .5s var(--ease)}
+.cta .arr{display:inline-block;transition:transform .5s var(--ease)}
+.cta:hover,.cta:focus-visible{color:var(--ivory);outline:none}
+.cta:hover svg.edge rect,.cta:focus-visible svg.edge rect{fill:var(--burgundy);stroke:var(--burgundy)}
+.cta:hover .arr{transform:translateX(4px)}
+.cta>*:not(svg){position:relative}
+
+/* frames → image proofs */
+.frame{position:absolute;z-index:8}
+.frame .sketch{position:absolute;inset:-6px;width:calc(100% + 12px);height:calc(100% + 12px);overflow:visible;z-index:3;pointer-events:none}
+.sketch path{stroke:var(--pencil);stroke-width:1;vector-effect:non-scaling-stroke}
+.sketch .x{stroke-width:.7;opacity:.6}
+.proof{position:absolute;inset:0;overflow:hidden;border-radius:2px;opacity:0;box-shadow:0 30px 60px -30px rgba(74,51,40,.45),0 2px 6px rgba(74,51,40,.08)}
+.proof::after{content:"";position:absolute;inset:0;background:radial-gradient(130% 100% at 50% 0%,transparent 40%,rgba(47,33,26,.38));mix-blend-mode:multiply}
+.cap{position:absolute;left:0;top:calc(100% + 10px);display:flex;gap:1em;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--taupe);white-space:nowrap}
+.cap b{font-weight:500;color:var(--choco)}
+.label{position:absolute;font-family:"FF Hand";color:var(--graphite);font-size:clamp(14px,1.3vw,19px);z-index:4;white-space:nowrap}
+
+/* atmospheric proofs: warm architectural light, drawn not photographed (photography lands in “Make it real”) */
+.f1{left:50%;top:19%;width:36%;height:52%}
+.f2{left:38.5%;top:62%;width:10.5%;height:23%}
+.f3{left:calc(100% - var(--gutter));top:64%;width:clamp(90px,13vw,200px);height:20%;margin-left:calc(-1 * clamp(90px,13vw,200px))}
+.f1 .proof{background:
+  radial-gradient(38% 30% at 62% 26%, rgba(255,214,160,.85), transparent 70%),
+  radial-gradient(70% 50% at 60% 30%, rgba(214,158,104,.55), transparent 75%),
+  linear-gradient(to bottom, #6E4B38 0%, #4A3328 46%, #3B2922 47%, #5A3E31 100%)}
+.f1 .proof i{position:absolute;bottom:0;width:18%;height:58%;border-radius:999px 999px 0 0;background:linear-gradient(to bottom,rgba(255,222,176,.75),rgba(196,140,92,.25) 70%,transparent);filter:blur(1px)}
+.f1 .proof i:nth-child(1){left:12%}.f1 .proof i:nth-child(2){left:41%;height:66%}.f1 .proof i:nth-child(3){left:70%}
+.f1 .proof b{position:absolute;left:8%;right:8%;bottom:10%;height:3%;background:rgba(36,25,20,.55);filter:blur(3px);border-radius:50%}
+.f2 .proof{background:
+  radial-gradient(60% 40% at 30% 20%, rgba(255,220,170,.7), transparent 70%),
+  linear-gradient(160deg,#8A5A45,#6A2A2E 60%,#3E2224)}
+.f3 .proof{background:
+  radial-gradient(90% 60% at 80% 10%, rgba(255,232,196,.8), transparent 60%),
+  linear-gradient(to bottom,#D9C4A4,#A88B6C 55%,#7A5E48)}
+
+.index{position:absolute;left:var(--gutter);bottom:clamp(18px,3.4vh,32px);z-index:20;display:flex;gap:1.4em;align-items:center;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--taupe)}
+.index .stp{position:relative;height:1.4em;overflow:hidden;min-width:9em;color:var(--choco)}
+.index .stp span{position:absolute;left:0;top:0}
+.index .track{width:clamp(60px,9vw,120px);height:1px;background:var(--hair);position:relative}
+.index .track i{position:absolute;inset:0;background:var(--burgundy);transform-origin:left;transform:scaleX(0)}
+.cue{position:absolute;left:50%;bottom:clamp(18px,3.4vh,32px);transform:translateX(-50%);z-index:20;font-family:"FF Hand";color:var(--graphite);font-size:17px;display:flex;flex-direction:column;align-items:center;gap:4px;opacity:0}
+body.scrolled .cue{visibility:hidden!important}
+.cue svg{width:12px;height:30px;overflow:visible}
+.cue path{fill:none;stroke:var(--pencil);stroke-width:1;stroke-linecap:round}
+
+.after{position:relative;z-index:1;height:70vh;display:flex;align-items:center;padding:0 var(--gutter)}
+.after p{font-family:"FF Hand";color:var(--taupe);font-size:clamp(18px,1.8vw,24px)}
+.after p span{font-family:"FF Sans";font-size:10px;letter-spacing:.2em;text-transform:uppercase;margin-right:1.2em;color:var(--taupe)}
+
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- small screens: same story, re-composed ---------- */
+@media (max-width:760px){
+  body{font-size:12.5px}
+  .nav{display:none}
+  .idea{font-size:min(8.1vw,46px);top:44%}
+  .ann--a{left:auto;right:var(--gutter);top:calc(44% - 120px)}
+  .ann--a svg{left:-30px;top:30px;width:40px;height:46px}
+  .ann--b{left:var(--gutter);top:calc(44% + 64px)}
+  .ann--c{left:var(--gutter);top:calc(44% - 150px)}
+  .ann--d{bottom:92px}
+  .headline{top:12.5%;max-width:none;right:var(--gutter);font-size:clamp(21px,6.2vw,28px)}
+  .divider{right:var(--gutter)}
+  .intro{width:auto;right:42%;font-size:12px}
+  .intro p+p{display:none}
+  .f1{left:var(--gutter);right:var(--gutter);width:auto;top:49%;height:28%}
+  .f2{left:auto;right:var(--gutter);width:34%;top:33%;height:9.5%}
+  .f3{display:none}
+  .guides{grid-template-columns:repeat(4,1fr)}
+  .guides span:nth-child(n+5){display:none}
+  .index .stp{min-width:10.5em}
+  .cue{display:none}
+}
+@media (max-height:560px) and (min-width:761px){ .intro p+p{display:none} }
+</style>
+</head>
+<body>
+<div class="paper" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<main>
+<section class="scene" id="scene" aria-label="Form &amp; Feel — opening">
+  <h1 class="sr">Everything starts with an idea. Form &amp; Feel designs events, pop-ups and brand experiences.</h1>
+  <div class="stage" id="stage">
+
+    <div class="guides" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+    <!-- pencil margins (Imagine) -->
+    <div class="marks" aria-hidden="true">
+      <svg class="measure" viewBox="0 0 100 12" preserveAspectRatio="none"><path d="M0.2 1 L0.2 11 M0.2 6 L99.8 6.3 M99.8 1 L99.8 11"/></svg>
+      <span class="measure-label">1440 — breathe</span>
+    </div>
+
+    <!-- top bar -->
+    <header class="bar">
+      <a class="mark" href="#" aria-label="Form &amp; Feel, home"><span>form &amp; feel</span><i>studio</i></a>
+      <nav aria-label="Primary"><ul class="nav">
+        <li><a href="#">Work<span class="ph" aria-hidden="true"></span></a></li>
+        <li><a href="#">Experiences<span class="ph" aria-hidden="true"></span></a></li>
+        <li><a href="#">Studio<span class="ph" aria-hidden="true"></span></a></li>
+        <li><a href="#">Journal<span class="ph" aria-hidden="true"></span></a></li>
+        <li><a href="#">Contact<span class="ph" aria-hidden="true"></span></a></li>
+      </ul></nav>
+    </header>
+
+    <!-- frames: sketched boxes that become image proofs -->
+    <figure class="frame f1" aria-hidden="true">
+      <div class="proof"><i></i><i></i><i></i><b></b></div>
+      <svg class="sketch" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
+      <span class="label" style="left:6%;top:8%">hero — the room, at dusk</span>
+      <figcaption class="cap"><b>Fig. 01</b><span>Atelier pop-up, Milan</span></figcaption>
+    </figure>
+    <figure class="frame f2" aria-hidden="true">
+      <div class="proof"></div>
+      <svg class="sketch" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
+      <span class="label" style="left:8%;top:-1.6em">detail</span>
+      <figcaption class="cap"><b>02</b><span>Velvet, oak</span></figcaption>
+    </figure>
+    <figure class="frame f3" aria-hidden="true">
+      <div class="proof"></div>
+      <svg class="sketch" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
+      <span class="label" style="right:4%;top:-1.6em">light study</span>
+      <figcaption class="cap"><b>03</b><span>Morning set</span></figcaption>
+    </figure>
+
+    <!-- the idea -->
+    <p class="idea" id="idea" aria-hidden="true"></p>
+
+    <!-- annotations -->
+    <div class="ann ann--a" aria-hidden="true">
+      events<br>&nbsp;&nbsp;pop-ups<br>brand moments?
+      <svg viewBox="0 0 70 60"><path d="M66 4 C48 6 30 18 14 46 M14 46 L13 35 M14 46 L24 41"/></svg>
+    </div>
+    <div class="ann ann--b" aria-hidden="true">
+      <small>note</small>warm light. real people.<br>never loud.
+      <svg viewBox="0 0 80 46"><path d="M2 40 C26 38 50 26 74 4 M74 4 L63 6 M74 4 L72 15"/></svg>
+    </div>
+    <div class="ann ann--c" aria-hidden="true">small type — lots of air ↘</div>
+    <div class="ann ann--d" id="annD" aria-hidden="true">
+      let's make it →
+      <svg viewBox="0 0 100 50" preserveAspectRatio="none"><path d="M8 26 C6 8 40 2 70 5 C96 8 100 30 86 40 C66 52 20 50 9 38 C4 32 8 22 20 16"/></svg>
+    </div>
+
+    <!-- design layer -->
+    <h2 class="headline" id="headline" aria-hidden="true">
+      <span class="t">Everything</span> <span class="t">starts</span> <span class="t">with</span> <span class="t">an</span> <em class="t">idea.</em><sup class="t">FF—26</sup>
+    </h2>
+    <span class="divider" id="divider" aria-hidden="true"></span>
+    <div class="intro" id="intro">
+      <span class="eyebrow">Creative direction &amp; experiences</span>
+      <p>We are a small studio shaping events, pop-ups and brand experiences — rooms people remember, made with warm light and careful hands.</p>
+      <p>From the first sketch to the last guest leaving.</p>
+      <ul class="disciplines">
+        <li><span>01</span>Events</li><li><span>02</span>Pop-ups</li><li><span>03</span>Brand experiences</li><li><span>04</span>Direction</li>
+      </ul>
+    </div>
+    <a class="cta" id="cta" href="#">
+      <svg class="edge" aria-hidden="true"><rect x="0.5" y="0.5" width="99%" height="96%" rx="999" ry="999"/></svg>
+      <span>Start a project</span><span class="arr" aria-hidden="true">→</span>
+    </a>
+
+    <div class="index" aria-hidden="true">
+      <div class="stp"><span id="stA">01 — Imagine</span><span id="stB" style="transform:translateY(110%)">02 — Design</span></div>
+      <div class="track"><i id="track"></i></div>
+    </div>
+    <div class="cue" id="cue" aria-hidden="true">scroll
+      <svg viewBox="0 0 12 30"><path d="M6 1 C5 10 7 18 6 28 M2 23 L6 28 L10 23"/></svg>
+    </div>
+  </div>
+</section>
+<section class="after" aria-label="Next">
+  <p><span>03</span>make it real — coming next</p>
+</section>
+</main>
+
+<script src="./assets/gsap.min.js"></script>
+<script src="./assets/ScrollTrigger.min.js"></script>
+<script>
+(() => {
+  const PHRASE = "Everything starts with an idea.";
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+  const hasGsap = !!(window.gsap && window.ScrollTrigger);
+
+  // seeded randomness: the same “hand” on every visit
+  let seed = 7; const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
+  const jit = (a) => (rnd() - .5) * 2 * a;
+
+  /* ---------- build the handwritten phrase ---------- */
+  const idea = $("#idea");
+  const chars = [];
+  PHRASE.split(" ").forEach((word, wi, arr) => {
+    const w = document.createElement("span"); w.className = "w";
+    [...word].forEach(ch => {
+      const c = document.createElement("span"); c.className = "c"; c.textContent = ch;
+      // tiny imperfections: baseline drift, lean, size
+      c.style.transform = `translate(0,${jit(.035).toFixed(3)}em) rotate(${jit(1.6).toFixed(2)}deg) scale(${(1 + jit(.025)).toFixed(3)})`;
+      w.appendChild(c); chars.push(c);
+    });
+    if (word === "idea.") {
+      w.id = "ideaWord";
+      w.insertAdjacentHTML("beforeend", `<svg class="circle" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M58 8 C26 4 2 22 4 52 C6 84 46 96 74 90 C98 84 100 46 88 26 C78 10 54 2 30 10"/></svg>`);
+    }
+    idea.appendChild(w);
+    if (wi < arr.length - 1) { const s = document.createElement("span"); s.className = "sp"; idea.appendChild(s); }
+  });
+  idea.insertAdjacentHTML("beforeend",
+    `<svg class="underline" viewBox="0 0 100 10" preserveAspectRatio="none" aria-hidden="true"><path d="M1 6.2 C18 4.4 36 5.6 52 4.8 C68 4 84 3.6 99 5.2"/></svg>`);
+
+  /* ---------- rough sketched rectangles ---------- */
+  const roughRect = () => {
+    const o = () => jit(1.2), e = 2.2;
+    const p1 = `M${-e + o()} ${o()} L${100 + e + o()} ${o()} M${100 + o()} ${-e + o()} L${100 + o()} ${100 + e + o()} M${100 + e + o()} ${100 + o()} L${-e + o()} ${100 + o()} M${o()} ${100 + e + o()} L${o()} ${-e + o()}`;
+    return `<path class="r" d="${p1}"/><path class="x" d="M0 0 L100 100 M100 0 L0 100"/>`;
+  };
+  $$(".sketch").forEach(s => s.innerHTML = roughRect());
+
+  /* every stroke draws with a normalized length */
+  const strokes = $$(".circle path,.ann path,.sketch path,.marks path,.cue path");
+  strokes.forEach(p => p.setAttribute("pathLength", "1"));
+
+  /* ---------- place design-layer pieces relative to the headline ---------- */
+  const headline = $("#headline"), divider = $("#divider"), intro = $("#intro"), cta = $("#cta");
+  const layout = () => {
+    const h = headline.getBoundingClientRect();
+    const small = innerWidth <= 760;
+    const gap = Math.max(18, innerHeight * .03);
+    divider.style.top = (h.bottom + gap) + "px";
+    intro.style.top = (h.bottom + gap * 2.2) + "px";
+    const ib = intro.getBoundingClientRect();
+    cta.style.top = small ? "" : Math.min(ib.bottom + gap * 1.6, innerHeight - 120) + "px";
+    cta.style.bottom = small ? "62px" : "";
+    cta.style.left = small ? "auto" : "var(--gutter)";
+    cta.style.right = small ? "var(--gutter)" : "";
+  };
+  const fontsReady = (document.fonts && document.fonts.ready) || Promise.resolve();
+
+  if (!hasGsap) { fontsReady.then(layout); return; }
+  gsap.registerPlugin(ScrollTrigger);
+
+  fontsReady.then(() => {
+    layout();
+    // ----- initial (blank canvas) state -----
+    gsap.set(strokes, { strokeDasharray: 1, strokeDashoffset: 1 });
+    gsap.set(".underline", { clipPath: "inset(-50% 100% -50% 0)" });
+    gsap.set(chars, { clipPath: "inset(-30% 100% -40% -12%)" });
+    gsap.set([".ann", ".measure-label"], { autoAlpha: 0 });
+    gsap.set(".label", { autoAlpha: 0 });
+    gsap.set(".bar", { autoAlpha: 0 });
+    gsap.set(".headline .t", { autoAlpha: 0, yPercent: 40 });
+    gsap.set(divider, { scaleX: 0 });
+    gsap.set(intro, { autoAlpha: 0 });
+    gsap.set("#intro > *", { autoAlpha: 0, y: 10 });
+    gsap.set(cta, { autoAlpha: 0 });
+    gsap.set(".cta rect", { attr: { pathLength: 1 }, strokeDasharray: 1, strokeDashoffset: 1 });
+    gsap.set(".cta > span", { autoAlpha: 0 });
+    gsap.set(".frame", { autoAlpha: 0 });
+    document.body.classList.add("ready");
+
+    /* ---------- 1 · the phrase writes itself ---------- */
+    const write = gsap.timeline({ delay: reduce ? 0 : .9 });
+    if (reduce) {
+      write.set(chars, { clipPath: "inset(-30% -20% -40% -12%)" })
+           .set(".underline", { clipPath: "inset(-50% 0% -50% 0)" });
+    } else {
+      let t = 0;
+      chars.forEach((c, i) => {
+        const w = c.getBoundingClientRect().width;
+        const dur = .055 + w / 330 + jit(.02);              // wider glyphs take longer
+        write.to(c, { clipPath: "inset(-30% -20% -40% -12%)", duration: dur, ease: "power1.inOut" }, t);
+        const next = c.nextSibling ? 0 : 1;                  // end of word → lift the pen
+        let pause = .012 + Math.abs(jit(.03));
+        if (next) pause += .16 + Math.abs(jit(.08));
+        if (next && c.parentNode.textContent === "an") pause += .35; // a hesitation before “idea.”
+        t += dur * .82 + pause;
+      });
+      write.to(".underline", { clipPath: "inset(-50% 0% -50% 0)", duration: .9, ease: "power2.inOut" }, t + .25);
+    }
+    write.add("written");
+    write.to("#cue", { autoAlpha: 1, duration: .8 }, reduce ? 0 : "written+=.3")
+         .to("#cue path", { strokeDashoffset: 0, duration: .9, ease: "power2.out" }, "<");
+
+    /* ---------- 2 · scroll: Imagine → Design ---------- */
+    const mm = gsap.matchMedia();
+    const wpos = () => headline.getBoundingClientRect();
+
+    // move the handwritten phrase to where the set headline lives
+    const toHeadline = (axis) => () => {
+      const iw = idea.offsetWidth, ih = idea.offsetHeight;
+      const icx = idea.offsetLeft, icy = idea.offsetTop;           // CSS centre (translate -50%)
+      const sc = Math.min(1, headline.offsetWidth / iw * .98);
+      if (axis === "s") return sc;
+      const tx = headline.offsetLeft + iw * sc / 2, ty = headline.offsetTop + ih * sc / 2;
+      return axis === "x" ? tx - icx : ty - icy;
+    };
+
+    const frameImagine = [
+      { x: () => -innerWidth * .06, y: () => innerHeight * .1, rotation: -2.5, scale: .78 },
+      { x: () => -innerWidth * .2,  y: () => -innerHeight * .44, rotation: 4, scale: 1.25 },
+      { x: () => innerWidth * .02,  y: () => -innerHeight * .1, rotation: -3, scale: .9 }
+    ];
+
+    const build = (motion) => {
+      const tl = gsap.timeline({
+        defaults: { ease: "power2.inOut" },
+        scrollTrigger: {
+          trigger: "#scene", start: "top top", end: () => "+=" + innerHeight * (motion ? 2.6 : 1.6),
+          pin: true, scrub: motion ? 1.1 : true, invalidateOnRefresh: true,
+          onUpdate: self => { gsap.set("#track", { scaleX: self.progress }); document.body.classList.toggle("scrolled", self.progress > .01); }
+        }
+      });
+
+      /* IMAGINE — annotations, pencil marks, sketched frames */
+      tl.to(".measure-label", { autoAlpha: 1, duration: .4 }, .05)
+        .to(".marks path", { strokeDashoffset: 0, duration: .8 }, .05)
+        .fromTo(".circle", { autoAlpha: 0 }, { autoAlpha: 1, duration: .05 }, .1).to(".circle path", { strokeDashoffset: 0, duration: .7 }, .1);
+      [".ann--c", ".ann--a", ".ann--b", ".ann--d"].forEach((s, i) => {
+        tl.to(s, { autoAlpha: 1, duration: .35, ease: "none" }, .15 + i * .22)
+          .fromTo(s, { clipPath: "inset(-40% 100% -40% -20%)" }, { clipPath: "inset(-40% -30% -40% -20%)", duration: .5, ease: "power1.inOut" }, "<")
+          .to(`${s} path`, { strokeDashoffset: 0, duration: .5 }, "<+.2");
+      });
+      $$(".frame").forEach((f, i) => {
+        if (motion) tl.set(f, frameImagine[i], 0);
+        tl.to(f, { autoAlpha: 1, duration: .2, ease: "none" }, .35 + i * .2)
+          .to(f.querySelectorAll(".sketch path"), { strokeDashoffset: 0, duration: .7, stagger: .15 }, "<")
+          .to(f.querySelector(".label"), { autoAlpha: 1, duration: .3 }, "<+.4");
+      });
+      tl.add("imagined", 1.6);
+
+      /* DESIGN — the stage label turns over */
+      tl.to("#stA", { yPercent: -110, duration: .4 }, "imagined")
+        .to("#stB", { y: 0, duration: .4 }, "imagined");
+
+      // grid guides arrive to measure everything against
+      tl.to(".guides", { autoAlpha: 1, duration: .5 }, "imagined");
+
+      // loose thoughts are tidied away
+      tl.to([".ann--a", ".ann--b", ".ann--c", ".measure-label"], { autoAlpha: 0, y: motion ? -8 : 0, duration: .5, stagger: .06 }, "imagined+=.2")
+        .to(".marks path", { strokeDashoffset: -1, duration: .5 }, "imagined+=.2")
+        .to(".circle path", { strokeDashoffset: -1, duration: .45 }, "imagined+=.25");
+
+      // the sentence moves into the layout and becomes type
+      if (motion) {
+        tl.to(idea, { x: toHeadline("x"), y: toHeadline("y"), scale: toHeadline("s"), duration: 1.1, ease: "power3.inOut" }, "imagined+=.3");
+      }
+      tl.to(".idea .c", { autoAlpha: 0, duration: .45, stagger: { each: .012, from: "start" }, ease: "none" }, "imagined+=1.05")
+        .to(".headline .t", { autoAlpha: 1, yPercent: 0, duration: .55, stagger: .06, ease: "power3.out" }, "imagined+=1.0");
+
+      // the hand-drawn underline straightens into the divider
+      tl.to(".underline path", { autoAlpha: 0, duration: .3 }, "imagined+=1.15")
+        .to(divider, { scaleX: 1, duration: .9, ease: "power3.inOut" }, "imagined+=1.15");
+
+      // copy is set
+      tl.set(intro, { autoAlpha: 1 }, "imagined+=1.4")
+        .to("#intro > *", { autoAlpha: 1, y: 0, duration: .5, stagger: .1, ease: "power2.out" }, "imagined+=1.45");
+
+      // frames settle onto the grid and receive their image proofs
+      $$(".frame").forEach((f, i) => {
+        const at = `imagined+=${.5 + i * .14}`;
+        if (motion) tl.to(f, { x: 0, y: 0, rotation: 0, scale: 1, duration: 1.2, ease: "power3.inOut" }, at);
+        tl.to(f.querySelector(".label"), { autoAlpha: 0, duration: .3 }, `imagined+=${1.5 + i * .1}`)
+          .fromTo(f.querySelector(".proof"), { autoAlpha: 0, clipPath: "inset(0 0 100% 0)" }, { autoAlpha: 1, clipPath: "inset(0 0 0% 0)", duration: .8, ease: "power2.inOut" }, `imagined+=${1.6 + i * .12}`)
+          .to(f.querySelectorAll(".sketch path"), { autoAlpha: 0, duration: .4 }, `imagined+=${2.1 + i * .1}`)
+          .fromTo(f.querySelector(".cap"), { autoAlpha: 0, y: 6 }, { autoAlpha: 1, y: 0, duration: .4 }, `imagined+=${2.15 + i * .1}`);
+      });
+
+      // the scribbled note becomes the button
+      const toCta = (axis) => () => {
+        const a = $("#annD").getBoundingClientRect(), b = cta.getBoundingClientRect();
+        return axis === "x" ? (b.left + b.width / 2) - (a.left + a.width / 2) : (b.top + b.height / 2) - (a.top + a.height / 2);
+      };
+      if (motion) tl.to("#annD", { x: toCta("x"), y: toCta("y"), duration: 1, ease: "power3.inOut" }, "imagined+=1.2");
+      tl.set(cta, { autoAlpha: 1 }, "imagined+=1.9")
+        .to("#annD", { autoAlpha: 0, duration: .35 }, "imagined+=2.0")
+        .to(".cta rect", { strokeDashoffset: 0, duration: .6, ease: "power2.inOut" }, "imagined+=1.95")
+        .to(".cta > span", { autoAlpha: 1, duration: .4, stagger: .08 }, "imagined+=2.25");
+
+      // navigation: pencil placeholders, then real links
+      tl.to(".bar", { autoAlpha: 1, duration: .4 }, "imagined+=.6")
+        .fromTo(".nav a", { color: "rgba(47,43,40,0)" }, { color: "#2F2B28", duration: .4, stagger: .06 }, "imagined+=1.6")
+        .to(".nav .ph", { scaleX: 0, transformOrigin: "right", duration: .4, stagger: .06 }, "imagined+=1.6");
+
+      // the grid steps back once the composition holds
+      tl.to(".guides", { autoAlpha: 0, duration: .5 }, "imagined+=2.5");
+      tl.to({}, { duration: .3 });
+      return tl;
+    };
+
+    mm.add({ motion: "(prefers-reduced-motion: no-preference)", still: "(prefers-reduced-motion: reduce)" }, ctx => {
+      build(ctx.conditions.motion);
+    });
+
+    let rw = innerWidth;
+    addEventListener("resize", () => { layout(); if (Math.abs(innerWidth - rw) > 40) { rw = innerWidth; ScrollTrigger.refresh(); } });
+  });
+})();
+</script>
+</body>
+</html>
