@@ -126,5 +126,17 @@
     }
   ],
   "buildCommand": "",
-  "installCommand": ""
+  "installCommand": "",
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "creative.thelightorb.com"
+        }
+      ],
+      "destination": "/creative/index.html"
+    }
+  ]
 }
